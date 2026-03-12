@@ -4,23 +4,11 @@ import React, { useState } from 'react';
 import { ShoppingCart, CheckCircle, XCircle, Star, Sparkles, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+import productData from '@/data/product.json';
+
 export default function Home() {
   const [loading, setLoading] = useState(false);
-
-  // 샘플 데이터 (실제로는 API에서 가져오게 됨)
-  const product: any = {
-    title: "M3 MacBook Pro 14: 상상 그 이상의 퍼포먼스",
-    subtitle: "프로를 위한 가장 완벽한 랩탑의 재정의",
-    summary: "강력한 M3 칩셋을 탑재하여 영상 편집, 3D 렌더링 등 무거운 작업에서도 압도적인 속도를 자랑합니다. 120Hz Liquid Retina XDR 디스플레이는 시각적인 한계를 뛰어넘습니다.",
-    pros: ["전성비 최고의 M3 칩 성능", "압도적인 배터리 타임 (최대 22시간)", "업계 표준의 디스플레이 품질"],
-    cons: ["여전히 높은 가격 진입장벽", "최소 램 용량에 대한 아쉬움"],
-    detailedReview: "실제로 2주간 사용해본 결과, M3 MacBook Pro는 단순한 업그레이드 이상의 가치를 제공합니다. 특히 이동 중에도 데스크탑 급의 성능을 낼 수 있다는 점이 가장 큰 장점이었습니다...",
-    targetAudience: "고성능 작업이 필수적인 크리에이티브 전문가 및 개발자",
-    conclusion: "가격은 비싸지만, 그 성능과 효율을 생각하면 단연코 최고의 투자입니다.",
-    price: "₩2,390,000",
-    image: "/macbook.png",
-    searchKeyword: "MacBook Pro M3 14"
-  };
+  const product: any = productData;
 
   // 쿠팡 파트너스 링크 생성 (제목 대신 핵심 키워드로 검색하여 정확도 향상)
   const buyLink = product.afLink || `https://www.coupang.com/np/search?q=${encodeURIComponent(product.searchKeyword || product.title)}`;
@@ -161,22 +149,17 @@ export default function Home() {
           상세 스펙 시트
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="space-y-1">
-            <p className="text-gray-500 text-xs uppercase tracking-tighter">칩셋</p>
-            <p className="text-white font-medium">Apple M3 (8코어 CPU)</p>
-          </div>
-          <div className="space-y-1">
-            <p className="text-gray-500 text-xs uppercase tracking-tighter">메모리</p>
-            <p className="text-white font-medium">8GB / 16GB / 24GB</p>
-          </div>
-          <div className="space-y-1">
-            <p className="text-gray-500 text-xs uppercase tracking-tighter">디스플레이</p>
-            <p className="text-white font-medium">14.2인치 XDR (120Hz)</p>
-          </div>
-          <div className="space-y-1">
-            <p className="text-gray-500 text-xs uppercase tracking-tighter">배터리</p>
-            <p className="text-white font-medium">최대 22시간 재생</p>
-          </div>
+          {(product.specs || [
+            { label: "칩셋", value: "Apple M3 (8코어 CPU)" },
+            { label: "메모리", value: "8GB / 16GB / 24GB" },
+            { label: "디스플레이", value: "14.2인치 XDR (120Hz)" },
+            { label: "배터리", value: "최대 22시간 재생" }
+          ]).map((spec: any, idx: number) => (
+            <div key={idx} className="space-y-1">
+              <p className="text-gray-500 text-xs uppercase tracking-tighter">{spec.label}</p>
+              <p className="text-white font-medium">{spec.value}</p>
+            </div>
+          ))}
         </div>
       </section>
 
