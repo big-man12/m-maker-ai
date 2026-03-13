@@ -4,7 +4,10 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const productFilePath = path.join(__dirname, '../src/data/product.json');
 const promoFilePath = path.join(__dirname, '../src/data/promo.txt');
+
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
 
 async function generateDailyPost() {
   console.log("🚀 AI 일일 포스팅 및 홍보글 생성 시작...");
