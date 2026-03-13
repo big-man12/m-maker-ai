@@ -14,10 +14,17 @@ const geistMono = Geist_Mono({
 
 import productData from '@/data/product.json';
 
+const dynamicKeywords = [
+  "AI 리뷰", "제품 추천", "IT 가전", "쿠팡 파트너스",
+  productData.title,
+  ...(productData.searchKeyword?.split(' ') || []),
+  productData.title.split(':')[0].trim() // "갤럭시 S24 울트라" 같이 핵심 모델명만 추출
+];
+
 export const metadata: Metadata = {
   title: `${productData.title} | Money Maker AI`,
   description: productData.subtitle || "AI가 분석한 가장 신뢰도 높은 프리미엄 제품 리뷰 솔루션.",
-  keywords: ["AI 리뷰", "제품 추천", "IT 가전", "쿠팡 파트너스", productData.title],
+  keywords: dynamicKeywords,
   openGraph: {
     title: productData.title,
     description: productData.subtitle,
