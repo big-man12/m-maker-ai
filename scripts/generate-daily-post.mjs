@@ -35,8 +35,8 @@ async function generateDailyPost() {
   console.log("🚀 AI 일일 포스팅 및 홍보글 생성 시작...");
   
   try {
-    // 진단 로그 결과를 바탕으로 사용자 키가 접근 가능한 모델들로 교체
-    const modelsToTry = ["gemini-2.0-flash", "gemini-flash-latest"];
+    // 무료 티어가 확실한 gemini-flash-latest 모델을 사용합니다.
+    const modelsToTry = ["gemini-flash-latest", "gemini-pro-latest"];
     let model;
   let success = false;
 
