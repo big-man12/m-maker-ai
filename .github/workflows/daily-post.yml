@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 파일 쓰기 권한 명시적 부여
     steps:
       - uses: actions/checkout@v4
         with:
