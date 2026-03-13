@@ -10,9 +10,14 @@ const promoFilePath = path.join(__dirname, '../src/data/promo.txt');
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
 
 async function generateDailyPost() {
+  if (!process.env.GOOGLE_API_KEY) {
+    console.error("❌ GOOGLE_API_KEY가 설정되지 않았습니다. GitHub Secrets를 확인해 주세요.");
+    process.exit(1);
+  }
+  
   console.log("🚀 AI 일일 포스팅 및 홍보글 생성 시작...");
 
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
   const prompt = `
     당신은 대한민국 최고의 IT/가전 전문 리뷰어이자 SNS 마케팅 전문가입니다. 
