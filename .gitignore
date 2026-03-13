@@ -27,6 +27,10 @@
 # Local history
 history.txt
 
+# Sub-apps (Exclude from deployment to prevent build conflicts)
+social-maker-ai/
+social-maker/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
