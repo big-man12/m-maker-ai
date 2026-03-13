@@ -35,8 +35,8 @@ async function generateDailyPost() {
   console.log("🚀 AI 일일 포스팅 및 홍보글 생성 시작...");
   
   try {
-    // 무료 티어가 확실한 gemini-flash-latest 모델을 사용합니다.
-    const modelsToTry = ["gemini-flash-latest", "gemini-pro-latest"];
+    // 100% 무료 티어가 제공되는 Flash 계열 모델만 사용합니다.
+    const modelsToTry = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-flash-latest"];
     let model;
   let success = false;
 
@@ -49,7 +49,11 @@ async function generateDailyPost() {
         당신은 대한민국 최고의 IT/가전 전문 리뷰어이자 SNS 마케팅 전문가입니다. 
         오늘의 추천 제품 하나를 선정하여 아래 JSON 형식으로 상세 리뷰를 작성하고, 
         해당 제품을 홍보하기 위한 SNS 문구들을 함께 작성해 주세요.
-        최신 트렌드(삼성, LG, 애플, 다이슨, 소니 등)를 반영해 주세요.
+
+        [작성 가이드라인 - 필독]
+        1. AI가 쓴 티가 나지 않도록 자연스러운 구어체와 담백한 어조를 사용하세요.
+        2. 이모지(특수 이미지), 과도한 특수 기호(★, ■ 등) 사용을 엄격히 자제하세요. 
+        3. 사람이 직접 제품을 써보고 지인에게 추천하는 듯한 진정성 있는 문체로 작성하세요.
 
         [필수 포함 항목 및 형식]
         {
