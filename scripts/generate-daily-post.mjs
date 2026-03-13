@@ -19,7 +19,8 @@ async function generateDailyPost() {
   
   console.log("🚀 AI 일일 포스팅 및 홍보글 생성 시작...");
   
-  // 1.5-flash 시도, 실패 시 1.5-pro로 자동 폴백 시도하는 구조
+  try {
+    // 1.5-flash 시도, 실패 시 1.5-pro로 자동 폴백 시도하는 구조
   const modelsToTry = ["gemini-1.5-flash", "gemini-1.5-pro"];
   let model;
   let success = false;
