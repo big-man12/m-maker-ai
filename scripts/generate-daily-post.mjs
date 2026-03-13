@@ -7,17 +7,17 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const productFilePath = path.join(__dirname, '../src/data/product.json');
 const promoFilePath = path.join(__dirname, '../src/data/promo.txt');
 
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
-
 async function generateDailyPost() {
-  if (!process.env.GOOGLE_API_KEY) {
+  const apiKey = process.env.GOOGLE_API_KEY;
+  if (!apiKey) {
     console.error("❌ GOOGLE_API_KEY가 설정되지 않았습니다. GitHub Secrets를 확인해 주세요.");
     process.exit(1);
   }
   
+  const genAI = new GoogleGenerativeAI(apiKey);
   console.log("🚀 AI 일일 포스팅 및 홍보글 생성 시작...");
 
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
+  const model = genAI.getGenerativeModel({ model: "models/gemini-1.5-flash" });
 
   const prompt = `
     당신은 대한민국 최고의 IT/가전 전문 리뷰어이자 SNS 마케팅 전문가입니다. 
