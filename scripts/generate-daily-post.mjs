@@ -17,6 +17,21 @@ async function generateDailyPost() {
   console.log(`🔑 API Key Length: ${apiKey.length}`);
   const genAI = new GoogleGenerativeAI(apiKey);
   
+  // [강력 진단] 사용 가능한 모든 모델 리스트 출력
+  try {
+    console.log("🔍 가용한 모델 목록 확인 중...");
+    // node-fetch나 내장 fetch를 사용하여 직접 목록 조회 시도 (SDK 버전 이슈 대비)
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
+    const data = await response.json();
+    if (data.models) {
+      console.log("✅ 가용 모델 목록:", data.models.map(m => m.name).join(", "));
+    } else {
+      console.log("⚠️ 모델 목록을 가져올 수 없습니다. 응답:", JSON.stringify(data));
+    }
+  } catch (diagError) {
+    console.log("⚠️ 진단 중 오류 발생:", diagError.message);
+  }
+
   console.log("🚀 AI 일일 포스팅 및 홍보글 생성 시작...");
   
   try {
