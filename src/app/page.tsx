@@ -3,12 +3,19 @@
 import React, { useState } from 'react';
 import { ShoppingCart, CheckCircle, XCircle, Star, Sparkles, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { getHitStats, incrementHit } from '@/lib/counter-store';
 
 import productData from '@/data/product.json';
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
+  const [stats, setStats] = useState({ total: 0, today: 0 });
   const product: any = productData;
+
+  React.useEffect(() => {
+    incrementHit();
+    setStats(getHitStats());
+  }, []);
 
   // 쿠팡 파트너스 링크 생성 (제목 대신 핵심 키워드로 검색하여 정확도 향상)
   const buyLink = product.afLink || `https://www.coupang.com/np/search?q=${encodeURIComponent(product.searchKeyword || product.title)}`;
@@ -63,6 +70,28 @@ export default function Home() {
             alt={product.title}
             className="relative w-full aspect-video object-cover rounded-[32px] border border-white/10 shadow-2xl animate-float"
           />
+        </motion.div>
+
+        {/* Stats Dashboard */}
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.4 }}
+          className="flex flex-wrap justify-center gap-4 mt-8"
+        >
+          <div className="glass-card px-8 py-4 text-left min-w-[200px] border-blue-500/20">
+            <p className="text-blue-400 text-xs font-bold uppercase tracking-widest mb-1">Total Hits</p>
+            <div className="text-3xl font-black text-white flex items-baseline gap-1">
+              <span>{stats.total.toLocaleString()}</span>
+              <span className="text-xs text-blue-500/50">+</span>
+            </div>
+          </div>
+          <div className="glass-card px-8 py-4 text-left min-w-[200px] border-purple-500/20">
+            <p className="text-purple-400 text-xs font-bold uppercase tracking-widest mb-1">Today's Magic</p>
+            <div className="text-3xl font-black text-white">
+              <span>{stats.today.toLocaleString()}</span>
+            </div>
+          </div>
         </motion.div>
       </section>
 
