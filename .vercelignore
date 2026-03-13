@@ -1,0 +1,7 @@
+# Exclude sub-apps to prevent build conflicts during CLI deployment
+social-maker-ai
+social-maker
+history.txt
+.git
+node_modules
+.next

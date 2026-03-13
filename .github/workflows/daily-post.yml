@@ -26,10 +26,23 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: node scripts/generate-daily-post.mjs
 
+      - name: Send Daily Promo Email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "[Money-Maker AI] 오늘의 홍보글 보고서 도착! 🚀"
+          to: royalstatesi1@gmail.com
+          from: AI Marketing Team
+          body: file://src/data/promo.txt
+          convert_markdown: true
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add src/data/product.json
-          git commit -m "Automated daily post: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git add src/data/product.json src/data/promo.txt
+          git commit -m "Automated daily post and promo: $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
