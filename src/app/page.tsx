@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { ShoppingCart, CheckCircle, XCircle, Star, Sparkles, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { getHitStats, incrementHit } from '@/lib/counter-store';
+import { getHitStats, incrementHit } from '../lib/counter-store';
 
 import productData from '@/data/product.json';
 
