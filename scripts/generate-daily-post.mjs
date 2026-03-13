@@ -14,10 +14,11 @@ async function generateDailyPost() {
     process.exit(1);
   }
   
+  console.log(`🔑 API Key Length: ${apiKey.length}`);
   const genAI = new GoogleGenerativeAI(apiKey);
   console.log("🚀 AI 일일 포스팅 및 홍보글 생성 시작...");
 
-  const model = genAI.getGenerativeModel({ model: "models/gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   const prompt = `
     당신은 대한민국 최고의 IT/가전 전문 리뷰어이자 SNS 마케팅 전문가입니다. 
