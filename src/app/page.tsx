@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { ShoppingCart, CheckCircle, XCircle, Star, Sparkles, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { getHitStats, incrementHit } from '../lib/counter-store';
 
