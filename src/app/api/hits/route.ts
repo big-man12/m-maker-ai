@@ -1,5 +1,6 @@
 import { sql } from '@/lib/db';
 import { NextResponse } from 'next/server';
+import { sendDiscordNotification } from '@/lib/notifier';
 
 export const dynamic = 'force-dynamic';
 
@@ -109,6 +110,11 @@ export async function POST(request: Request) {
                 END,
         last_visit = CURRENT_DATE;
     `;
+
+    // 실시간 알림 발송 (성공 여부와 관계없이 프로세스 진행)
+    if (productId === 'global') {
+      sendDiscordNotification(`🚀 새로운 방문자가 사이트에 접속했습니다! (현재 총 조회수: ${GLOBAL_BASE + 1})`).catch(e => console.error("Notification async error:", e));
+    }
 
     const { rows } = await sql`
       SELECT total, today FROM product_hits WHERE product_id = ${productId}
