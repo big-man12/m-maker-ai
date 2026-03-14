@@ -87,37 +87,31 @@ export default function ArchivePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {recommendations.map((rec, idx) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 * idx }}
-                className="glass-card group overflow-hidden flex flex-col"
-              >
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img 
-                    src={rec.image} 
-                    alt={rec.title}
-                    className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-                  />
-                </div>
-                <div className="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                  <h3 className="text-lg font-bold group-hover:text-blue-400 transition-colors uppercase tracking-tight">
-                    {rec.title}
-                  </h3>
-                  <div className="flex items-center justify-between mt-4">
-                    <span className="text-xl font-bold">{rec.price}</span>
-                    <a 
-                      href={`https://www.coupang.com/np/search?q=${encodeURIComponent(rec.searchKeyword)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition"
-                    >
-                      <ShoppingCart size={18} />
-                    </a>
+                <Link
+                  href={`https://www.coupang.com/np/search?q=${encodeURIComponent(rec.searchKeyword)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="glass-card group overflow-hidden flex flex-col hover:border-blue-500/50 transition-colors"
+                >
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img 
+                      src={rec.image} 
+                      alt={rec.title}
+                      className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
+                    />
                   </div>
-                </div>
-              </motion.div>
+                  <div className="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <h3 className="text-lg font-bold group-hover:text-blue-400 transition-colors uppercase tracking-tight">
+                      {rec.title}
+                    </h3>
+                    <div className="flex items-center justify-between mt-4">
+                      <span className="text-xl font-bold">{rec.price}</span>
+                      <div className="p-3 rounded-full bg-white/5 group-hover:bg-blue-500/20 text-gray-400 group-hover:text-blue-400 transition">
+                        <ShoppingCart size={18} />
+                      </div>
+                    </div>
+                  </div>
+                </Link>
             ))}
           </div>
         </section>
