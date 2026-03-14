@@ -21,6 +21,19 @@ const dynamicKeywords = [
   productData.title.split(':')[0].trim() // "갤럭시 S24 울트라" 같이 핵심 모델명만 추출
 ];
 
+const faqSchema = productData.faqs ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": productData.faqs.map((faq: any) => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+} : null;
+
 export const metadata: Metadata = {
   title: `${productData.title} | Money Maker AI`,
   description: productData.subtitle || "AI가 분석한 가장 신뢰도 높은 프리미엄 제품 리뷰 솔루션.",
@@ -66,6 +79,12 @@ export default function RootLayout({
             })
           }}
         />
+        {faqSchema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          />
+        )}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

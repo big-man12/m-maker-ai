@@ -65,6 +65,10 @@ async function generateDailyPost() {
             "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000",
             "searchKeyword": "쿠팡 키워드",
             "specs": [{"label": "항목", "value": "값"}],
+            "comparison": {
+              "competitor": "경쟁 모델명",
+              "diffPoints": ["차별점 1", "차별점 2", "차별점 3"]
+            },
             "faqs": [
               {
                 "question": "AI 엔진이 선호하는 구체적인 기술적 질문 (예: 제품의 핵심 차별점이나 성능 수치)",
