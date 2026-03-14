@@ -1,0 +1,29 @@
+{
+  "theme": "오늘의 스마트 라이프 추천",
+  "mainProduct": {
+    "title": "갤럭시 S24 울트라",
+    "price": "₩1,698,400",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=1000",
+    "searchKeyword": "삼성전자 갤럭시 S24 울트라 자급제"
+  },
+  "recommendations": [
+    {
+      "title": "정품 티타늄 케이스",
+      "price": "₩45,000",
+      "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000",
+      "searchKeyword": "갤럭시 S24 울트라 정품 케이스"
+    },
+    {
+      "title": "고속 무선 충전기",
+      "price": "₩39,800",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
+      "searchKeyword": "삼성전자 25W 무선충전기"
+    },
+    {
+      "title": "갤럭시 워치6",
+      "price": "₩320,000",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000",
+      "searchKeyword": "삼성전자 갤럭시 워치6"
+    }
+  ]
+}

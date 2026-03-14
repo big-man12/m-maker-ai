@@ -28,18 +28,16 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: node scripts/generate-daily-post.mjs
 
-      - name: Send Daily Promo Email
-        uses: dawidd6/action-send-mail@v3
+      - name: Send Discord Notification
+        uses: appleboy/discord-action@master
         with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: "[Money-Maker AI] 오늘의 홍보글 보고서 도착! 🚀"
-          to: royalstatesi1@gmail.com
-          from: AI Marketing Team
-          body: file://src/data/promo.txt
-          convert_markdown: true
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          message: |
+            [Money-Maker AI] 오늘의 홍보글 리포트
+            새로운 수익성 상품 분석 데이터입니다. 아래 내용을 확인하세요.
+            
+            $(cat src/data/promo.txt)
 
       - name: Commit and push changes
         run: |
