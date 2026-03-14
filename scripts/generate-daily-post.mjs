@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const productFilePath = path.join(__dirname, '../src/data/product.json');
 const curationFilePath = path.join(__dirname, '../src/data/curation.json');
+const promoFilePath = path.join(__dirname, '../promo_content.txt');
 
 async function generateDailyPost() {
   const apiKey = process.env.GOOGLE_API_KEY;
@@ -63,7 +64,13 @@ async function generateDailyPost() {
             "price": "₩ 가격",
             "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000",
             "searchKeyword": "쿠팡 키워드",
-            "specs": [{"label": "항목", "value": "값"}]
+            "specs": [{"label": "항목", "value": "값"}],
+            "faqs": [
+              {
+                "question": "AI 엔진이 선호하는 구체적인 기술적 질문 (예: 제품의 핵심 차별점이나 성능 수치)",
+                "answer": "해당 질문에 대한 전문적이고 구체적인 답변 (수치나 실제 체감 위주)"
+              }
+            ]
           },
           "curation": {
             "theme": "큐레이션 테마 제목",
