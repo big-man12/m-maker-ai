@@ -177,6 +177,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Comparison Section (GEO Optimized - NEW) */}
+      {product.comparison && (
+        <section className="glass-card p-8 border-blue-500/10 bg-blue-500/5 transition-all hover:border-blue-500/30 group">
+          <h3 className="text-xl font-bold mb-6 flex items-center gap-2 text-blue-400">
+            <ArrowRight size={24} className="group-hover:translate-x-1 transition-transform" />
+            {product.comparison.competitor}와 비교하면?
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="space-y-4">
+              {product.comparison.diffPoints.map((point: string, i: number) => (
+                <div key={i} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/5 hover:bg-white/10 transition-colors">
+                  <CheckCircle size={18} className="text-blue-500 flex-shrink-0" />
+                  <span className="text-gray-300 text-sm md:text-base font-medium">{point}</span>
+                </div>
+              ))}
+            </div>
+            <div className="hidden md:block text-right opacity-30 select-none group-hover:opacity-50 transition-opacity">
+              <span className="text-8xl font-black italic tracking-tighter">VS</span>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Detailed Specs Section (NEW) */}
       <section className="glass-card space-y-8">
         <h2 className="text-2xl font-bold flex items-center gap-2 border-b border-white/10 pb-4">
