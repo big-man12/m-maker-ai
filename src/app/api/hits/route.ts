@@ -38,6 +38,12 @@ export async function GET(request: Request) {
     return NextResponse.json({
       total: (productId === 'global' ? GLOBAL_BASE : 0) + stats.total,
       today: todayCount
+    }, {
+      headers: {
+        'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0',
+      }
     });
   } catch (error) {
     console.error("Postgres GET Error:", error);
@@ -48,15 +54,16 @@ export async function GET(request: Request) {
 export async function POST(request: Request) {
   let productId = 'global';
   try {
-    const body = await request.json().catch(() => ({}));
-    productId = body.productId || 'global';
+    const text = await request.text();
+    if (text) {
+      const body = JSON.parse(text);
+      productId = body.productId || 'global';
+    }
   } catch (e) {
-    // 상품 ID 파싱 실패 시 기본값 유지
+    console.error("Postgres POST Body Parse Error:", e);
   }
 
   try {
-    const todayStr = new Date().toISOString().split('T')[0];
-    
     // UPSERT 형식으로 업데이트
     await sql`
       INSERT INTO product_hits (product_id, total, today, last_visit)
@@ -78,6 +85,10 @@ export async function POST(request: Request) {
     return NextResponse.json({
       total: (productId === 'global' ? GLOBAL_BASE : 0) + result.total,
       today: result.today
+    }, {
+      headers: {
+        'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+      }
     });
   } catch (error) {
     console.error("Postgres POST Error:", error);
