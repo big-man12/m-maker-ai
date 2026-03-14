@@ -212,12 +212,12 @@ export default function Home() {
             <h2 className="text-3xl font-black text-white">함께 보면 좋은 추천 아이템</h2>
             <p className="text-gray-500 mt-2">AI가 분석한 가장 연관성 높은 보조 기기 및 대안 상품들입니다.</p>
           </div>
-          <div 
-            onClick={() => alert("나만의 큐레이션 보관함 기능은 곧 업데이트될 예정입니다! 현재는 오늘의 추천 아이템을 즐겨보세요.")}
+          <Link 
+            href="/archive"
             className="text-blue-400 text-sm font-bold uppercase tracking-widest cursor-pointer hover:underline flex items-center gap-1 group"
           >
             전체 보기 <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-          </div>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

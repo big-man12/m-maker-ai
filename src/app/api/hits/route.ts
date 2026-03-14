@@ -1,6 +1,8 @@
 import { sql } from '@/lib/db';
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 const GLOBAL_BASE = 12400;
 
 export async function GET(request: Request) {
@@ -44,7 +46,13 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
-  const { productId = 'global' } = await request.json();
+  let productId = 'global';
+  try {
+    const body = await request.json().catch(() => ({}));
+    productId = body.productId || 'global';
+  } catch (e) {
+    // 상품 ID 파싱 실패 시 기본값 유지
+  }
 
   try {
     const todayStr = new Date().toISOString().split('T')[0];
