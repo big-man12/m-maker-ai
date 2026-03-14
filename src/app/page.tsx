@@ -198,6 +198,27 @@ export default function Home() {
         </div>
       </section>
 
+      {/* AI Q&A Section (GEO Optimized - NEW) */}
+      <section className="glass-card space-y-8 border-purple-500/20">
+        <h2 className="text-2xl font-bold flex items-center gap-2 border-b border-white/10 pb-4">
+          <Sparkles className="text-purple-400" />
+          AI가 답해주는 궁금한 점
+        </h2>
+        <div className="space-y-6">
+          {(product.faqs || []).map((faq: any, idx: number) => (
+            <div key={idx} className="space-y-2 group">
+              <h3 className="text-lg font-bold text-white group-hover:text-purple-400 transition-colors flex items-start gap-2">
+                <span className="text-purple-500/50">Q.</span>
+                {faq.question}
+              </h3>
+              <p className="text-gray-400 leading-relaxed pl-7 border-l-2 border-white/5">
+                {faq.answer}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Detailed Review Text */}
       <section className="space-y-6 max-w-3xl mx-auto py-12">
         <h3 className="text-2xl font-bold italic">"단순한 성능 향상을 넘어선 가치"</h3>
