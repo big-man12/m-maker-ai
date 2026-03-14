@@ -1,19 +1,23 @@
-import Database from 'better-sqlite3';
-import path from 'path';
+import { sql } from '@vercel/postgres';
 
-const DB_PATH = path.join(process.cwd(), 'hit.sqlite');
-const db = new Database(DB_PATH);
+export const initDb = async () => {
+  try {
+    // 상품별 카운트와 날짜별 방문자를 관리하는 테이블 생성
+    await sql`
+      CREATE TABLE IF NOT EXISTS product_hits (
+        id SERIAL PRIMARY KEY,
+        product_id TEXT UNIQUE NOT NULL,
+        total INTEGER DEFAULT 0,
+        today INTEGER DEFAULT 0,
+        last_visit DATE DEFAULT CURRENT_DATE
+      );
+    `;
+    
+    // 글로벌 기본값을 위한 초기 데이터 (필요 시)
+    console.log("✅ Vercel Postgres initialized");
+  } catch (error) {
+    console.error("❌ DB Initialization Error:", error);
+  }
+};
 
-// 테이블 초기화
-db.exec(`
-  CREATE TABLE IF NOT EXISTS hits (
-    id INTEGER PRIMARY KEY DEFAULT 1,
-    total INTEGER DEFAULT 0,
-    today INTEGER DEFAULT 0,
-    last_visit TEXT DEFAULT ''
-  );
-  
-  INSERT OR IGNORE INTO hits (id, total, today, last_visit) VALUES (1, 12400, 0, '');
-`);
-
-export default db;
+export { sql };
