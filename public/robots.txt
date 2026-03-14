@@ -1,4 +1,23 @@
 User-agent: *
 Allow: /
 
+# AI 크롤러 명시적 허용 (GEO 최적화)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
 Sitemap: https://m-maker-ai.vercel.app/sitemap.xml

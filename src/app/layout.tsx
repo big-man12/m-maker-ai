@@ -47,7 +47,44 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Money Maker AI",
+              "url": "https://m-maker-ai.vercel.app",
+              "description": metadata.description,
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://m-maker-ai.vercel.app/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Social-Maker AI",
+              "applicationCategory": "BusinessApplication",
+              "operatingSystem": "Web",
+              "description": "AI 기반 소셜 미디어 콘텐츠 자동 생성 솔루션",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "KRW"
+              }
+            })
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
