@@ -193,8 +193,11 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <div className="hidden md:block text-right opacity-30 select-none group-hover:opacity-50 transition-opacity">
+            <div className="hidden md:flex flex-col items-end justify-center opacity-30 select-none group-hover:opacity-50 transition-opacity">
               <span className="text-8xl font-black italic tracking-tighter">VS</span>
+              <span className="text-2xl font-bold mt-2 text-right leading-tight max-w-[200px]">
+                {product.comparison.competitor}
+              </span>
             </div>
           </div>
         </section>
