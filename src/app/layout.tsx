@@ -108,16 +108,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Google AdSense (Placeholder ID) */}
+        {/* Google AdSense (Live ID) */}
         <Script
           id="adsbygoogle-init"
           strategy="afterInteractive"
           crossOrigin="anonymous"
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0000000000000000`}
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5627765286514181`}
         />
         {children}
       </body>
     </html>
   );
 }
+
 
