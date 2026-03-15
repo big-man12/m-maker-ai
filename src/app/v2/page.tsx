@@ -122,29 +122,71 @@ export default function Home() {
 
   return (
     <main className="min-h-screen p-4 md:p-12 max-w-5xl mx-auto space-y-12 pb-24">
+      {/* Hero Section */}
       <section className="text-center space-y-6 pt-12">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-sm font-medium"
+          className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-medium"
         >
           <Sparkles size={16} />
-          <span>Social-Maker AI: 소셜 미디어의 새로운 미래</span>
+          <span>Money-Maker AI: Viral Content Engine v2.0</span>
         </motion.div>
         
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="text-5xl md:text-8xl font-black tracking-tight leading-tight bg-gradient-to-r from-purple-400 via-pink-500 to-orange-500 bg-clip-text text-transparent"
+          className="text-5xl md:text-8xl font-black tracking-tight leading-tight gradient-text"
         >
           콘텐츠를 마법처럼<br />자동으로 생성하세요
         </motion.h1>
+
+        {/* Stats Dashboard (v1 style) */}
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.4 }}
+          className="flex flex-wrap justify-center gap-4 mt-8"
+        >
+          <div className="glass-card px-8 py-4 text-left min-w-[200px] border-blue-500/20">
+            <p className="text-blue-400 text-xs font-bold uppercase tracking-widest mb-1">Global Viral Hits</p>
+            <div className="text-3xl font-black text-white flex items-baseline gap-1">
+              <span>{stats.total.toLocaleString()}</span>
+              <span className="text-xs text-blue-500/50">+</span>
+            </div>
+          </div>
+          <div className="glass-card px-8 py-4 text-left min-w-[200px] border-purple-500/20">
+            <p className="text-purple-400 text-xs font-bold uppercase tracking-widest mb-1">Today's Content</p>
+            <div className="text-3xl font-black text-white">
+              <span>{stats.today.toLocaleString()}</span>
+            </div>
+          </div>
+        </motion.div>
       </section>
 
+      {/* Category Selector */}
+      <section className="flex flex-wrap justify-center gap-3">
+        {categories.map((cat) => (
+          <button
+            key={cat.id}
+            onClick={() => setSelectedCategory(cat.id)}
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl border transition-all ${
+              selectedCategory === cat.id 
+                ? 'bg-blue-600 border-blue-500 text-white shadow-lg shadow-blue-500/20' 
+                : 'bg-white/5 border-white/10 text-gray-400 hover:border-white/20'
+            }`}
+          >
+            <cat.icon size={16} />
+            <span className="text-sm font-bold">{cat.name}</span>
+          </button>
+        ))}
+      </section>
+
+      {/* Input Section */}
       <section className="max-w-2xl mx-auto">
         <form onSubmit={handleSubmit} className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+          <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
           <div className="relative glass-card p-2 flex items-center gap-2">
             <input 
               type="text" 
@@ -156,7 +198,7 @@ export default function Home() {
             <button 
               type="submit"
               disabled={loading}
-              className="bg-purple-600 hover:bg-purple-500 text-white p-4 rounded-2xl transition-all disabled:opacity-50"
+              className="bg-blue-600 hover:bg-blue-500 text-white p-4 rounded-2xl transition-all disabled:opacity-50"
             >
               {loading ? <Loader2 className="animate-spin" /> : <Send />}
             </button>
@@ -206,11 +248,6 @@ export default function Home() {
                   {instagramLoading ? <Loader2 size={18} className="animate-spin" /> : <Share2 size={18} />}
                   <span>인스타그램에 즉시 포스팅</span>
                 </motion.button>
-              )}
-              {!productImage && !instagramLoading && (
-                <p className="text-[10px] text-gray-500 text-center italic">
-                  * 실제 상품 이미지를 찾을 수 없어 기본 이미지로 게시됩니다.
-                </p>
               )}
             </div>
 
@@ -263,8 +300,22 @@ export default function Home() {
         )}
       </AnimatePresence>
 
-      <footer className="text-center text-gray-600 text-sm pt-24 border-t border-white/5">
-        &copy; 2026 Social-Maker AI. Created for your financial freedom.
+      {/* Footer (v1 style) */}
+      <footer className="text-center py-20 border-t border-white/5 space-y-8">
+        <div className="inline-flex flex-col items-center gap-4">
+          <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-600 p-[1px]">
+            <div className="w-full h-full rounded-2xl bg-black flex items-center justify-center">
+              <Sparkles className="text-blue-400" size={24} />
+            </div>
+          </div>
+          <p className="text-gray-300 font-medium">당신의 현명한 수익화를 돕는 AI, Money-Maker AI</p>
+        </div>
+        <div className="flex justify-center gap-4">
+          <span className="text-6xl md:text-8xl font-black opacity-5 select-none tracking-tighter uppercase text-white">Money Maker AI</span>
+        </div>
+        <div className="text-gray-600 text-xs pt-12">
+          &copy; 2026 Money-Maker AI. Created for your financial freedom.
+        </div>
       </footer>
     </main>
   );
