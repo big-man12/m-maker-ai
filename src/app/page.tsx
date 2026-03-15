@@ -71,11 +71,13 @@ export default function Home() {
            className="relative group mt-12"
         >
           <div className="absolute inset-0 bg-blue-600/20 blur-[100px] rounded-full group-hover:bg-blue-600/30 transition-all"></div>
-          <img 
-            src={product.image} 
-            alt={product.title}
-            className="relative w-full aspect-video object-cover rounded-[32px] border border-white/10 shadow-2xl animate-float"
-          />
+          <div className="relative aspect-video w-full rounded-[32px] border border-white/10 shadow-2xl bg-white/5 overflow-hidden flex items-center justify-center animate-float">
+            <img 
+              src={product.image} 
+              alt={product.title}
+              className="relative w-full h-full object-contain p-8"
+            />
+          </div>
         </motion.div>
 
         {/* Stats Dashboard */}
