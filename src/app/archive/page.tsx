@@ -7,7 +7,8 @@ import Link from 'next/link';
 import curationData from '@/data/curation.json';
 
 export default function ArchivePage() {
-  const { theme, mainProduct, recommendations } = curationData;
+  const { featured: mainProduct, recommendations } = curationData;
+  const theme = "AI 엄선 프리미엄 상품";
 
   return (
     <main className="min-h-screen bg-[#050505] text-gray-100 selection:bg-blue-500/30">
@@ -66,12 +67,12 @@ export default function ArchivePage() {
               <h2 className="text-3xl md:text-4xl font-black">{mainProduct.title}</h2>
               <div className="text-3xl font-bold text-white mb-6">{mainProduct.price}</div>
               <a 
-                href={`https://www.coupang.com/np/search?q=${encodeURIComponent(mainProduct.searchKeyword)}`}
+                href={mainProduct.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 w-full md:w-auto px-8 py-4 bg-white text-black font-black hover:bg-blue-500 hover:text-white transition-all duration-300 rounded-2xl group"
               >
-                검색하고 쇼핑하기
+                상세보기 및 구매하기
                 <ExternalLink size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
@@ -88,7 +89,7 @@ export default function ArchivePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {recommendations.map((rec, idx) => (
                 <Link
-                  href={`https://www.coupang.com/np/search?q=${encodeURIComponent(rec.searchKeyword)}`}
+                  href={rec.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="glass-card group overflow-hidden flex flex-col hover:border-blue-500/50 transition-colors"

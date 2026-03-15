@@ -1,4 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -33,7 +34,7 @@ async function generateDailyPost() {
   console.log("🚀 AI 일일 포스팅 및 큐레이션 데이터 생성 시작...");
   
   try {
-    const modelsToTry = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-flash-latest"];
+    const modelsToTry = ["gemini-1.5-flash-8b", "gemini-1.5-flash", "gemini-1.5-flash-latest", "gemini-pro"];
     let success = false;
 
   for (const modelId of modelsToTry) {
@@ -149,6 +150,44 @@ async function generateDailyPost() {
       
       fs.writeFileSync(promoFilePath, promoText);
       console.log(`✅ 생성 및 큐레이션 완료 (${modelId}): ${fullData.product.title}`);
+
+      // [추가] 인스타그램 자동 포스팅 실행
+      try {
+        console.log("📸 인스타그램 자동 포스팅 시도 중...");
+        const businessId = process.env.INSTAGRAM_BUSINESS_ID;
+        const accessToken = process.env.INSTAGRAM_ACCESS_TOKEN;
+
+        if (businessId && accessToken) {
+          const imageUrl = fullData.product.image;
+          const caption = `${fullData.promo.instagram}\n\n👉 상세 정보 및 최저가 확인: https://m-maker-ai.vercel.app\n#쿠팡파트너스 #가성비템 #추천템`;
+          
+          const containerRes = await fetch(
+            `https://graph.facebook.com/v19.0/${businessId}/media?image_url=${encodeURIComponent(imageUrl)}&caption=${encodeURIComponent(caption)}&access_token=${accessToken}`,
+            { method: 'POST' }
+          );
+          const containerData = await containerRes.json();
+          
+          if (containerData.id) {
+            const publishRes = await fetch(
+              `https://graph.facebook.com/v19.0/${businessId}/media_publish?creation_id=${containerData.id}&access_token=${accessToken}`,
+              { method: 'POST' }
+            );
+            const publishData = await publishRes.json();
+            if (publishData.id) {
+              console.log("✨ 인스타그램 자동 포스팅 성공! ID:", publishData.id);
+            } else {
+              console.error("❌ 인스타그램 게시 실패:", publishData.error?.message);
+            }
+          } else {
+            console.error("❌ 인스타그램 미디어 컨테이너 생성 실패:", containerData.error?.message);
+          }
+        } else {
+          console.warn("⚠️ 인스타그램 설정(ID/Token)이 없어 자동 포스팅을 건너뜁니다.");
+        }
+      } catch (igError) {
+        console.error("❌ 인스타그램 자동화 과정 중 오류 발생:", igError.message);
+      }
+
       success = true;
       break;
     } catch (err) {
