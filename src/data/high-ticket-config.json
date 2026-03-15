@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "id": "saas",
+      "name": "SaaS/소프트웨어",
+      "targets": ["HubSpot", "Shopify"],
+      "commission_type": "recurring",
+      "rate": "20-30%",
+      "description": "한 건당 $150-$500 또는 정기 구독료 배분"
+    },
+    {
+      "id": "hosting",
+      "name": "호스팅",
+      "targets": ["WP Engine", "Bluehost"],
+      "commission_type": "fixed",
+      "rate": "$200-$350",
+      "description": "신규 가입 건당 고액 지급"
+    },
+    {
+      "id": "ai_tools",
+      "name": "AI 도구",
+      "targets": ["Jasper", "Speechify"],
+      "commission_type": "recurring",
+      "rate": "30-50%",
+      "description": "AI 서비스 구독료 높은 비율 배분"
+    },
+    {
+      "id": "finance",
+      "name": "금융/보험",
+      "targets": ["증권사", "대출"],
+      "commission_type": "cpa",
+      "rate": "high-fixed",
+      "description": "가입 또는 실거래 시 건당 고액 지급"
+    }
+  ],
+  "current_target": null
+}
