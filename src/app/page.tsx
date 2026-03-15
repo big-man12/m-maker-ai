@@ -71,11 +71,11 @@ export default function Home() {
            className="relative group mt-12 max-w-5xl mx-auto"
         >
           <div className="absolute inset-0 bg-blue-600/20 blur-[100px] rounded-full group-hover:bg-blue-600/30 transition-all"></div>
-          <div className="relative aspect-square md:aspect-[16/10] w-full rounded-[32px] border border-white/10 shadow-2xl bg-white/5 overflow-hidden flex items-center justify-center animate-float">
+          <div className="relative aspect-square md:aspect-[16/10] w-full rounded-[32px] border border-white/10 shadow-[0_0_50px_rgba(255,255,255,0.1)] bg-white overflow-hidden flex items-center justify-center animate-float">
             <img 
               src={product.image} 
               alt={product.title}
-              className="relative w-full h-full object-contain p-4 md:p-8 transition duration-700 group-hover:scale-105"
+              className="relative w-full h-full object-contain p-4 md:p-12 transition duration-700 group-hover:scale-105 mix-blend-multiply"
             />
           </div>
         </motion.div>
