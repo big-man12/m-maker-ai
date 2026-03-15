@@ -68,14 +68,14 @@ export default function Home() {
            initial={{ opacity: 0, scale: 0.9 }}
            animate={{ opacity: 1, scale: 1 }}
            transition={{ delay: 0.3 }}
-           className="relative group mt-12"
+           className="relative group mt-12 max-w-5xl mx-auto"
         >
           <div className="absolute inset-0 bg-blue-600/20 blur-[100px] rounded-full group-hover:bg-blue-600/30 transition-all"></div>
-          <div className="relative aspect-video w-full rounded-[32px] border border-white/10 shadow-2xl bg-white/5 overflow-hidden flex items-center justify-center animate-float">
+          <div className="relative aspect-square md:aspect-[16/10] w-full rounded-[32px] border border-white/10 shadow-2xl bg-white/5 overflow-hidden flex items-center justify-center animate-float">
             <img 
               src={product.image} 
               alt={product.title}
-              className="relative w-full h-full object-contain p-8"
+              className="relative w-full h-full object-contain p-4 md:p-8 transition duration-700 group-hover:scale-105"
             />
           </div>
         </motion.div>
