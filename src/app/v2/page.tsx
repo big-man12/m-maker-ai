@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Sparkles, Instagram, Youtube, Send, Loader2, Share2, Copy } from 'lucide-react';
+import { Sparkles, Instagram, Youtube, Send, Loader2, Share2, Copy, ShoppingCart, CheckCircle, XCircle, Star, ArrowRight, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getHitStats, incrementHit } from '@/lib/counter-store';
+import v2ProductData from '@/data/v2-products.json';
 
 export default function Home() {
   const [input, setInput] = useState("");
@@ -120,6 +121,8 @@ export default function Home() {
     }
   };
 
+  const product = (v2ProductData as any)[selectedCategory] || v2ProductData.general;
+
   return (
     <main className="min-h-screen p-4 md:p-12 max-w-5xl mx-auto space-y-12 pb-24">
       {/* Hero Section */}
@@ -139,8 +142,36 @@ export default function Home() {
           transition={{ delay: 0.1 }}
           className="text-5xl md:text-8xl font-black tracking-tight leading-tight gradient-text"
         >
-          콘텐츠를 마법처럼<br />자동으로 생성하세요
+          {product.title.split(':').length > 1 ? (
+            <>
+              {product.title.split(':')[0]}<br />
+              <span className="text-3xl md:text-5xl opacity-80">{product.title.split(':')[1]}</span>
+            </>
+          ) : product.title}
         </motion.h1>
+
+        <motion.p 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="text-xl text-gray-400 max-w-2xl mx-auto"
+        >
+          {product.subtitle}
+        </motion.p>
+
+        <motion.div
+           initial={{ opacity: 0, scale: 0.9 }}
+           animate={{ opacity: 1, scale: 1 }}
+           transition={{ delay: 0.3 }}
+           className="relative group mt-12 max-w-4xl mx-auto"
+        >
+          <div className="absolute inset-0 bg-blue-600/20 blur-[100px] rounded-full group-hover:bg-blue-600/30 transition-all"></div>
+          <img 
+            src={product.image} 
+            alt={product.title}
+            className="relative w-full aspect-video object-cover rounded-[32px] border border-white/10 shadow-2xl animate-float"
+          />
+        </motion.div>
 
         {/* Stats Dashboard (v1 style) */}
         <motion.div 
@@ -183,9 +214,106 @@ export default function Home() {
         ))}
       </section>
 
-      {/* Input Section */}
-      <section className="max-w-2xl mx-auto">
-        <form onSubmit={handleSubmit} className="relative group">
+      {/* Product Detailed Information (v1 style) */}
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="md:col-span-2 glass-card space-y-4">
+          <h2 className="text-2xl font-bold flex items-center gap-2">
+            <Sparkles className="text-blue-400" />
+            AI 핵심 분석
+          </h2>
+          <div className="text-gray-300 leading-relaxed text-lg whitespace-pre-wrap">
+            {product.summary}
+          </div>
+          <div className="pt-4 flex flex-wrap gap-4 text-sm text-gray-400">
+            <div className="flex items-center gap-1">
+              <Star className="text-yellow-500 fill-yellow-500" size={16} />
+              <span>수익성 등급: S-Tier</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <CheckCircle className="text-green-500" size={16} />
+              <span>파트너십 검증 완료</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="glass-card flex flex-col justify-between items-center text-center py-10">
+          <div className="space-y-2">
+            <span className="text-gray-400 text-sm uppercase tracking-widest">수익 잠재력</span>
+            <div className="text-2xl md:text-3xl font-black text-white">{product.price}</div>
+          </div>
+          <a 
+            href={product.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="premium-button w-full mt-6"
+          >
+            <ShoppingCart size={20} />
+            파트너십 상세 보기
+            <ArrowRight size={18} />
+          </a>
+          <p className="text-[10px] text-gray-500 mt-4 leading-tight">
+            * 각 플랫폼의 정책에 따라 커미션 비율은 변동될 수 있습니다.
+          </p>
+        </div>
+      </section>
+
+      {/* Pros & Cons (v1 style) */}
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="glass-card p-8 border-green-500/20 hover:border-green-500/40">
+          <h3 className="text-xl font-bold mb-6 flex items-center gap-2 text-green-400">
+            <CheckCircle size={24} />
+            강력한 경쟁력
+          </h3>
+          <ul className="space-y-4">
+            {product.pros.map((pro: string, i: number) => (
+              <li key={i} className="flex items-start gap-3 text-gray-300">
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-green-500 flex-shrink-0" />
+                {pro}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="glass-card p-8 border-red-500/20 hover:border-red-500/40">
+          <h3 className="text-xl font-bold mb-6 flex items-center gap-2 text-red-400">
+            <XCircle size={24} />
+            Check point
+          </h3>
+          <ul className="space-y-4">
+            {product.cons.map((con: string, i: number) => (
+              <li key={i} className="flex items-start gap-3 text-gray-300">
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0" />
+                {con}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Detailed Specs Sheet (v1 style) */}
+      <section className="glass-card space-y-8">
+        <h2 className="text-2xl font-bold flex items-center gap-2 border-b border-white/10 pb-4">
+          <Star className="text-blue-400" />
+          비즈니스 스펙 시트
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          {product.specs.map((spec: any, idx: number) => (
+            <div key={idx} className="space-y-1">
+              <p className="text-gray-500 text-xs uppercase tracking-tighter">{spec.label}</p>
+              <p className="text-white font-medium">{spec.value}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* AI Engine Section */}
+      <section className="border-t border-white/5 pt-12 space-y-12">
+        <div className="text-center space-y-4">
+          <h2 className="text-3xl md:text-5xl font-black gradient-text">Viral Content Engine</h2>
+          <p className="text-gray-500 max-w-xl mx-auto">
+            위 상품의 가치를 극대화할 수 있는 마케팅 콘텐츠를 AI가 자동으로 생성합니다.
+          </p>
+        </div>
+        <form onSubmit={handleSubmit} className="relative group max-w-2xl mx-auto">
           <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
           <div className="relative glass-card p-2 flex items-center gap-2">
             <input 
