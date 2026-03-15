@@ -3,8 +3,8 @@
     "id": "galaxy-s24",
     "title": "삼성전자 갤럭시 S24 울트라",
     "price": "1,450,000",
-    "image": "https://img.danawa.com/prod_img/5000000/123/456/img/12345678_1.jpg",
-    "link": "https://link.coupang.com/a/galaxy-s24"
+    "image": "/images/v2_general_hero_1773608154461.png",
+    "link": "https://www.coupang.com/np/search?q=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+%EA%B0%A4%EB%9F%AD%EC%8B%9C+S24+%EC%9A%B8%ED%8A%B8%EB%9D%BC+%EC%9E%90%EA%B8%89%EC%A0%9C"
   },
   "recommendations": [
     {
@@ -12,14 +12,14 @@
       "title": "Apple 아이폰 15 프로",
       "price": "1,550,000",
       "image": "/images/v2_ai_tools_hero_1773608127600.png",
-      "link": "https://link.coupang.com/a/iphone-15"
+      "link": "https://www.coupang.com/np/search?q=Apple+%EC%95%84%EC%9D%B4%ED%8F%B0+15+%ED%94%84%EB%A1%9C"
     },
     {
       "id": "macbook-air",
       "title": "애플 2024 맥북에어 13 M3",
       "price": "1,390,000",
       "image": "/macbook.png",
-      "link": "https://link.coupang.com/a/macbook-m3"
+      "link": "https://www.coupang.com/np/search?q=%EC%95%A0%ED%94%8C+2024+%EB%A7%A5%EB%B6%81%EC%97%90%EC%96%B4+13+M3"
     }
   ]
 }
