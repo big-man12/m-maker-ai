@@ -13,7 +13,7 @@
       "기능이 방대하여 마스터하기까지의 학습 곡선 존재"
     ],
     "price": "커미션: 월 구독료의 20~30%",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000",
+    "image": "/images/v2_saas_hero_1773608041720.png",
     "link": "https://www.hubspot.com/",
     "specs": [
       { "label": "유형", "value": "SaaS (CRM & Marketing)" },
@@ -36,7 +36,7 @@
       "워드프레스 전용으로 다른 CMS 사용 불가"
     ],
     "price": "커미션: 신규 가입 건당 $200~$350",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=1000",
+    "image": "/images/v2_hosting_hero_1773608056685.png",
     "link": "https://wpengine.com/",
     "specs": [
       { "label": "유형", "value": "Managed Hosting" },
@@ -59,7 +59,7 @@
       "초기 설정(브랜드 보이스 등)을 위한 시간 투자 필요"
     ],
     "price": "커미션: 첫 해 구독료의 30-50%",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000",
+    "image": "/images/v2_ai_tools_hero_1773608127600.png",
     "link": "https://www.jasper.ai/",
     "specs": [
       { "label": "유형", "value": "AI Generative Tool" },
@@ -82,7 +82,7 @@
       "초보 투자자에게는 다소 어려울 수 있는 전문 인터페이스"
     ],
     "price": "커미션: 계좌 개설 및 예치 시 최대 $200",
-    "image": "https://images.unsplash.com/photo-1611974714658-958f4a2245b0?q=80&w=1000",
+    "image": "/images/v2_finance_hero_1773608141811.png",
     "link": "https://www.interactivebrokers.com/",
     "specs": [
       { "label": "유형", "value": "Finance / Trading" },
@@ -105,7 +105,7 @@
       "최적의 성과를 위한 초기 데이터 학습 과정 존재"
     ],
     "price": "자유로운 사용 및 고수익 파트너십",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000",
+    "image": "/images/v2_general_hero_1773608154461.png",
     "link": "https://m-maker-ai.vercel.app/",
     "specs": [
       { "label": "유형", "value": "AI Marketing SaaS" },
