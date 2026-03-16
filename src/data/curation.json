@@ -1,29 +1,29 @@
 {
   "theme": "완벽한 모바일 오피스 구축을 위한 필수 구성",
   "mainProduct": {
-    "title": "맥북 에어 M3 13",
+    "title": "맥북 에어 M3 13인치 (8GB/256GB)",
     "price": "₩ 1,390,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13 8GB 256GB"
+    "searchKeyword": "맥북에어 M3 13인치 A3113 8GB 256GB"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Anywhere 3S",
       "price": "₩ 77,880",
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Anywhere 3S"
+      "searchKeyword": "로지텍 MX Anywhere 3S 로켓직구"
     },
     {
-      "title": "사테치 USB-C 온더고 멀티허브",
-      "price": "₩ 179,000",
-      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=1000",
-      "searchKeyword": "사테치 USB-C 허브"
+      "title": "사테치 USB-C 7in1 멀티허브",
+      "price": "₩ 49,800",
+      "image": "https://images.unsplash.com/photo-1625750839106-54752218f422?q=80&w=1000",
+      "searchKeyword": "사테치 USB C타입 7in1 알루미늄 슬림 맥북 멀티 허브"
     },
     {
-      "title": "탐탁 A13 노트북 파우치",
-      "price": "₩ 44,000",
+      "title": "탐탁 A13 디펜더 노트북 파우치",
+      "price": "₩ 44,160",
       "image": "https://images.unsplash.com/photo-1606220838315-056192d5e927?q=80&w=1000",
-      "searchKeyword": "탐탁 A13 맥북 파우치"
+      "searchKeyword": "탐탁 A13 디펜더 랩탑 슬리브 맥북에어"
     }
   ]
 }
