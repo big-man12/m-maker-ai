@@ -1,29 +1,29 @@
 {
-  "theme": "맥북 생산성을 극대화하는 데스크테리어 조합",
+  "theme": "완벽한 모바일 오피스 구축을 위한 필수 구성",
   "mainProduct": {
-    "title": "맥북 에어 M3 13인치",
+    "title": "맥북 에어 M3 13",
     "price": "₩ 1,590,000",
-    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3"
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+    "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S",
-      "price": "₩ 139,000",
-      "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "title": "로지텍 MX Anywhere 3S",
+      "price": "₩ 99,000",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Anywhere 3S"
     },
     {
-      "title": "벨킨 7-in-1 USB-C 멀티포트 허브",
-      "price": "₩ 89,000",
-      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
-      "searchKeyword": "벨킨 USB-C 허브"
+      "title": "사테치 USB-C 온더고 멀티허브",
+      "price": "₩ 129,000",
+      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=1000",
+      "searchKeyword": "사테치 USB-C 허브"
     },
     {
-      "title": "삼성전자 스마트 모니터 M8",
-      "price": "₩ 550,000",
-      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000",
-      "searchKeyword": "삼성 스마트모니터 M8"
+      "title": "탐탁 A13 노트북 파우치",
+      "price": "₩ 32,000",
+      "image": "https://images.unsplash.com/photo-1625750839106-54752218f422?q=80&w=1000",
+      "searchKeyword": "탐탁 A13 맥북 파우치"
     }
   ]
 }

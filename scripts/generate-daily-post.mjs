@@ -50,6 +50,10 @@ async function generateDailyPost() {
         1. AI가 쓴 티가 나지 않도록 자연스러운 구어체와 담백한 어조를 사용하세요.
         2. 이모지(🔔, 🚀, ★ 등)와 과도한 수식어 사용을 엄격히 금지합니다.
         3. '오늘의 스마트 라이프 추천' 같은 테마를 정해 큐레이션 하세요.
+        4. **중요: 이미지 URL은 해당 제품의 카테고리에 맞는 고화질 Unsplash 이미지를 사용하세요.** 
+           - 예: 노트북이면 https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000
+           - 예: 스마트폰이면 https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1000
+           가이드라인의 URL을 그대로 복사하지 말고, 제품 종류(가전, 의류, IT 등)에 맞는 최적의 이미지를 선정하세요.
 
         [응답 JSON 형식]
         {
@@ -62,9 +66,9 @@ async function generateDailyPost() {
             "detailedReview": "200자 이상의 상세 후기",
             "targetAudience": "추천 대상",
             "conclusion": "최종 결론",
-            "price": "₩ 가격",
-            "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000",
-            "searchKeyword": "쿠팡 키워드",
+            "price": "₩ 1,234,000 (콤마 포함 정확한 가격)",
+            "image": "제품 카테고리에 최적화된 실제 Unsplash 이미지 URL",
+            "searchKeyword": "정확한 쿠팡 검색 키워드 (예: 맥북 에어 M3 13)",
             "specs": [{"label": "항목", "value": "값"}],
             "comparison": {
               "competitor": "경쟁 모델명",
@@ -72,8 +76,8 @@ async function generateDailyPost() {
             },
             "faqs": [
               {
-                "question": "AI 엔진이 선호하는 구체적인 기술적 질문 (예: 제품의 핵심 차별점이나 성능 수치)",
-                "answer": "해당 질문에 대한 전문적이고 구체적인 답변 (수치나 실제 체감 위주)"
+                "question": "구체적인 기술적 질문",
+                "answer": "전문적인 답변"
               }
             ]
           },
@@ -83,20 +87,20 @@ async function generateDailyPost() {
               {
                 "title": "추천 상품 1",
                 "price": "₩ 가격",
-                "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000",
-                "searchKeyword": "쿠팡 키워드 1"
+                "image": "해당 상품에 맞는 Unsplash 이미지 URL",
+                "searchKeyword": "정확한 쿠팡 검색 키워드"
               },
               {
                 "title": "추천 상품 2",
                 "price": "₩ 가격",
-                "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
-                "searchKeyword": "쿠팡 키워드 2"
+                "image": "해당 상품에 맞는 Unsplash 이미지 URL",
+                "searchKeyword": "정확한 쿠팡 검색 키워드"
               },
               {
                 "title": "추천 상품 3",
                 "price": "₩ 가격",
-                "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000",
-                "searchKeyword": "쿠팡 키워드 3"
+                "image": "해당 상품에 맞는 Unsplash 이미지 URL",
+                "searchKeyword": "정확한 쿠팡 검색 키워드"
               }
             ]
           },
@@ -107,7 +111,7 @@ async function generateDailyPost() {
           }
         }
 
-        JSON만 출력하세요.
+        반드시 JSON만 출력하세요. 모든 필드는 한글로 작성(영어 고유명사 제외)하세요.
       `;
 
       const result = await model.generateContent(prompt);
