@@ -1,4 +1,4 @@
-// Final sync for product data consistency and build trigger
+// Final data sync: Apple 2024 MacBook Air 13 M3 (8GB/256GB) at 1,390,000 KRW
 "use client";
 
 import React, { useState } from 'react';
