@@ -60,6 +60,10 @@ export default function ArchivePage() {
               <img 
                 src={mainProduct.image} 
                 alt={mainProduct.title}
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000";
+                }}
                 className="w-full h-full object-cover transition duration-700 hover:scale-110"
               />
             </div>
@@ -102,6 +106,10 @@ export default function ArchivePage() {
                     <img 
                       src={rec.image} 
                       alt={rec.title}
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = "https://images.unsplash.com/photo-1546938362-ec72f9be7626?q=80&w=1000";
+                      }}
                       className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
                     />
                   </div>
