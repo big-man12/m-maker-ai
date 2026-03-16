@@ -130,6 +130,7 @@ export default function Home() {
           <div className="space-y-2">
             <span className="text-gray-400 text-sm uppercase tracking-widest">최저가 확인</span>
             <div className="text-4xl font-black text-white">{product.price}</div>
+            <span className="text-[10px] text-blue-400/60 font-medium">쿠팡 실시간 최저가 기준</span>
           </div>
           <a 
             href={buyLink} 

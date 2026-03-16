@@ -68,7 +68,8 @@ export default function ArchivePage() {
                 MAIN RECOMMENDATION
               </div>
               <h2 className="text-3xl md:text-4xl font-black">{mainProduct.title}</h2>
-              <div className="text-3xl font-bold text-white mb-6">{mainProduct.price}</div>
+              <div className="text-3xl font-bold text-white">{mainProduct.price}</div>
+              <span className="text-xs text-blue-500/50 block mb-6">쿠팡 실시간 최저가 기준</span>
               <a 
                 href={getCoupangLink(mainProduct.searchKeyword)}
                 target="_blank"
