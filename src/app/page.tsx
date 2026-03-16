@@ -1,3 +1,4 @@
+// Final sync for product data consistency and build trigger
 "use client";
 
 import React, { useState } from 'react';
