@@ -34,7 +34,7 @@ async function generateDailyPost() {
   console.log("🚀 AI 일일 포스팅 및 큐레이션 데이터 생성 시작...");
   
   try {
-    const modelsToTry = ["gemini-1.5-flash-8b", "gemini-1.5-flash", "gemini-1.5-flash-latest", "gemini-pro"];
+    const modelsToTry = ["gemini-flash-latest", "gemini-pro-latest", "gemini-2.0-flash-exp"];
     let success = false;
 
   for (const modelId of modelsToTry) {
@@ -151,7 +151,26 @@ async function generateDailyPost() {
       fs.writeFileSync(promoFilePath, promoText);
       console.log(`✅ 생성 및 큐레이션 완료 (${modelId}): ${fullData.product.title}`);
 
-      // [추가] 인스타그램 자동 포스팅 실행
+      // [추가] 디스코드 알림 발송 - 인스타그램보다 먼저/항상 실행
+      try {
+        const discordUrl = process.env.DISCORD_WEBHOOK_URL;
+        if (discordUrl) {
+          console.log("🔔 디스코드 알림 발송 중...");
+          const discordContent = {
+            content: `🚀 **[Money-Maker AI] 오늘의 추천 상품 업데이트**\n\n**메인 상품:** ${fullData.product.title}\n**가격:** ${fullData.product.price}\n**테마:** ${fullData.curation.theme}\n\n[홍보 문구 요약]\n${fullData.promo.instagram.substring(0, 100)}...\n\n👉 사이트 확인: https://m-maker-ai.vercel.app`
+          };
+          await fetch(discordUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(discordContent)
+          });
+          console.log("✨ 디스코드 알림 성공!");
+        }
+      } catch (dsError) {
+        console.error("❌ 디스코드 알림 실패:", dsError.message);
+      }
+
+      // [기존] 인스타그램 자동 포스팅 실행
       try {
         console.log("📸 인스타그램 자동 포스팅 시도 중...");
         const businessId = process.env.INSTAGRAM_BUSINESS_ID;
@@ -192,7 +211,7 @@ async function generateDailyPost() {
       break;
     } catch (err) {
       console.error(`❌ ${modelId} 호출 실패:`, err.message || err);
-      if (modelId === modelsToTry[modelsToTry.length - 1]) throw err; // 마지막 모델까지 실패하면 에러 던짐
+      if (modelId === modelsToTry[modelsToTry.length - 1]) throw err;
     }
   }
   } catch (error) {

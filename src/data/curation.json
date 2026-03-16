@@ -1,25 +1,29 @@
 {
-  "featured": {
-    "id": "galaxy-s24",
-    "title": "삼성전자 Ai 갤럭시 S24 울트라 256GB 공기계 S급",
-    "price": "996,000원",
-    "image": "/images/galaxys24.png",
-    "link": "https://www.coupang.com/np/search?q=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+%EA%B0%A4%EB%9F%AD%EC%8B%9C+S24+%EC%9A%B8%ED%8A%B8%EB%9D%BC+%EC%9E%90%EA%B8%89%EC%A0%9C"
+  "theme": "맥북 생산성을 극대화하는 데스크테리어 조합",
+  "mainProduct": {
+    "title": "맥북 에어 M3 13인치",
+    "price": "₩ 1,590,000",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000",
+    "searchKeyword": "맥북 에어 M3"
   },
   "recommendations": [
     {
-      "id": "iphone-15",
-      "title": "Apple 아이폰 15 프로",
-      "price": "1,550,000",
-      "image": "/images/iphone15.png",
-      "link": "https://www.coupang.com/np/search?q=Apple+%EC%95%84%EC%9D%B4%ED%8F%B0+15+%ED%94%84%EB%A1%9C"
+      "title": "로지텍 MX Master 3S",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "id": "macbook-air",
-      "title": "애플 2024 맥북에어 13 M3",
-      "price": "1,390,000",
-      "image": "/macbook.png",
-      "link": "https://www.coupang.com/np/search?q=%EC%95%A0%ED%94%8C+2024+%EB%A7%A5%EB%B6%81%EC%97%90%EC%96%B4+13+M3"
+      "title": "벨킨 7-in-1 USB-C 멀티포트 허브",
+      "price": "₩ 89,000",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
+      "searchKeyword": "벨킨 USB-C 허브"
+    },
+    {
+      "title": "삼성전자 스마트 모니터 M8",
+      "price": "₩ 550,000",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000",
+      "searchKeyword": "삼성 스마트모니터 M8"
     }
   ]
 }
