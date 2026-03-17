@@ -9,11 +9,11 @@ const productFilePath = path.join(__dirname, '../src/data/product.json');
 const curationFilePath = path.join(__dirname, '../src/data/curation.json');
 const promoFilePath = path.join(__dirname, '../promo_content.txt');
 
-async function generateDailyPost() {
+export async function generateDailyPost() {
   const apiKey = process.env.GOOGLE_API_KEY;
   if (!apiKey) {
     console.error("❌ GOOGLE_API_KEY가 설정되지 않았습니다. GitHub Secrets를 확인해 주세요.");
-    process.exit(1);
+    return false;
   }
   
   console.log(`🔑 API Key Length: ${apiKey.length}`);
@@ -22,7 +22,10 @@ async function generateDailyPost() {
   // [강력 진단] 사용 가능한 모든 모델 리스트 출력
   try {
     console.log("🔍 가용한 모델 목록 확인 중...");
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`, { signal: controller.signal });
+    clearTimeout(timeoutId);
     const data = await response.json();
     if (data.models) {
       console.log("✅ 가용 모델 목록:", data.models.map(m => m.name).join(", "));
@@ -66,7 +69,9 @@ async function generateDailyPost() {
             "detailedReview": "200자 이상의 상세 후기",
             "targetAudience": "추천 대상",
             "conclusion": "최종 결론",
-            "price": "₩ 1,234,000 (콤마 포함 정확한 가격)",
+            "originalPrice": "₩ 정가 (할인 전 가격, 예: 1,390,000)",
+            "discountRate": "할인율 % (예: 35%)",
+            "price": "₩ 할인가 (할인 후 최종 가격, 예: 890,000)",
             "image": "제품 카테고리에 최적화된 실제 Unsplash 이미지 URL",
             "searchKeyword": "정확한 쿠팡 검색 키워드 (예: 맥북 에어 M3 13)",
             "specs": [{"label": "항목", "value": "값"}],
@@ -86,19 +91,25 @@ async function generateDailyPost() {
             "recommendations": [
               {
                 "title": "추천 상품 1",
-                "price": "₩ 가격",
+                "originalPrice": "₩ 정가",
+                "discountRate": "할인율 %",
+                "price": "₩ 할인가",
                 "image": "해당 상품에 맞는 Unsplash 이미지 URL",
                 "searchKeyword": "정확한 쿠팡 검색 키워드"
               },
               {
                 "title": "추천 상품 2",
-                "price": "₩ 가격",
+                "originalPrice": "₩ 정가",
+                "discountRate": "할인율 %",
+                "price": "₩ 할인가",
                 "image": "해당 상품에 맞는 Unsplash 이미지 URL",
                 "searchKeyword": "정확한 쿠팡 검색 키워드"
               },
               {
                 "title": "추천 상품 3",
-                "price": "₩ 가격",
+                "originalPrice": "₩ 정가",
+                "discountRate": "할인율 %",
+                "price": "₩ 할인가",
                 "image": "해당 상품에 맞는 Unsplash 이미지 URL",
                 "searchKeyword": "정확한 쿠팡 검색 키워드"
               }
@@ -129,6 +140,8 @@ async function generateDailyPost() {
         theme: fullData.curation.theme,
         mainProduct: {
           title: fullData.product.title,
+          originalPrice: fullData.product.originalPrice,
+          discountRate: fullData.product.discountRate,
           price: fullData.product.price,
           image: fullData.product.image,
           searchKeyword: fullData.product.searchKeyword
@@ -163,11 +176,15 @@ async function generateDailyPost() {
           const discordContent = {
             content: `🚀 **[Money-Maker AI] 오늘의 추천 상품 업데이트**\n\n**메인 상품:** ${fullData.product.title}\n**가격:** ${fullData.product.price}\n**테마:** ${fullData.curation.theme}\n\n[홍보 문구 요약]\n${fullData.promo.instagram.substring(0, 100)}...\n\n👉 사이트 확인: https://m-maker-ai.vercel.app`
           };
+          const controller = new AbortController();
+          const timeoutId = setTimeout(() => controller.abort(), 10000);
           await fetch(discordUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(discordContent)
+            body: JSON.stringify(discordContent),
+            signal: controller.signal
           });
+          clearTimeout(timeoutId);
           console.log("✨ 디스코드 알림 성공!");
         }
       } catch (dsError) {
@@ -184,24 +201,29 @@ async function generateDailyPost() {
           const imageUrl = fullData.product.image;
           const caption = `${fullData.promo.instagram}\n\n👉 상세 정보 및 최저가 확인: https://m-maker-ai.vercel.app\n#쿠팡파트너스 #가성비템 #추천템`;
           
+          const controller = new AbortController();
+          const timeoutId = setTimeout(() => controller.abort(), 20000); // 인스타그램은 조금 넉넉하게
+
           const containerRes = await fetch(
             `https://graph.facebook.com/v19.0/${businessId}/media?image_url=${encodeURIComponent(imageUrl)}&caption=${encodeURIComponent(caption)}&access_token=${accessToken}`,
-            { method: 'POST' }
+            { method: 'POST', signal: controller.signal }
           );
           const containerData = await containerRes.json();
           
           if (containerData.id) {
             const publishRes = await fetch(
               `https://graph.facebook.com/v19.0/${businessId}/media_publish?creation_id=${containerData.id}&access_token=${accessToken}`,
-              { method: 'POST' }
+              { method: 'POST', signal: controller.signal }
             );
             const publishData = await publishRes.json();
+            clearTimeout(timeoutId);
             if (publishData.id) {
               console.log("✨ 인스타그램 자동 포스팅 성공! ID:", publishData.id);
             } else {
               console.error("❌ 인스타그램 게시 실패:", publishData.error?.message);
             }
           } else {
+            clearTimeout(timeoutId);
             console.error("❌ 인스타그램 미디어 컨테이너 생성 실패:", containerData.error?.message);
           }
         } else {
@@ -212,7 +234,7 @@ async function generateDailyPost() {
       }
 
       success = true;
-      break;
+      return true;
     } catch (err) {
       console.error(`❌ ${modelId} 호출 실패:`, err.message || err);
       if (modelId === modelsToTry[modelsToTry.length - 1]) throw err;

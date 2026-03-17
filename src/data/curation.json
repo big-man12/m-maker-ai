@@ -1,29 +1,37 @@
 {
-  "theme": "생산성을 높여주는 미니멀 데스크테리어 큐레이션",
+  "theme": "생산성을 높여주는 맥북 에어 추천 조합",
   "mainProduct": {
-    "title": "애플 맥북 에어 13 M3",
-    "price": "₩ 1,590,000 (기본 모델 기준)",
+    "title": "애플 맥북 에어 M3 13",
+    "originalPrice": "₩ 1,590,000",
+    "discountRate": "10%",
+    "price": "₩ 1,431,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
     "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "price": "₩ 139,000",
+      "title": "로지텍 MX Master 3S 마우스",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "12%",
+      "price": "₩ 139,920",
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "사테치 알루미늄 USB-C 멀티 허브",
-      "price": "₩ 98,000",
-      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=1000",
-      "searchKeyword": "사테치 USB-C 허브"
+      "title": "델 UltraSharp 27 4K 모니터",
+      "originalPrice": "₩ 749,000",
+      "discountRate": "15%",
+      "price": "₩ 636,650",
+      "image": "https://images.unsplash.com/photo-1547119957-637f8679db1e?q=80&w=1000",
+      "searchKeyword": "델 U2723QE"
     },
     {
-      "title": "누구 노트북 파우치 13인치 슬리브",
-      "price": "₩ 35,000",
-      "image": "https://images.unsplash.com/photo-1625766763788-95dcce9bf5ac?q=80&w=1000",
-      "searchKeyword": "노트북 슬리브 13인치"
+      "title": "사테치 C타입 멀티 허브",
+      "originalPrice": "₩ 119,000",
+      "discountRate": "5%",
+      "price": "₩ 113,050",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "사테치 멀티 허브"
     }
   ]
 }

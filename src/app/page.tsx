@@ -133,7 +133,15 @@ export default function Home() {
         <div className="glass-card flex flex-col justify-between items-center text-center py-10">
           <div className="space-y-2">
             <span className="text-gray-400 text-sm uppercase tracking-widest">최저가 확인</span>
-            <div className="text-4xl font-black text-white">{product.price}</div>
+            {product.originalPrice && (
+              <div className="text-sm text-gray-500 line-through decoration-orange-500/50 decoration-2">{product.originalPrice}원</div>
+            )}
+            <div className="flex items-center gap-2">
+              {product.discountRate && (
+                <span className="text-2xl font-black text-orange-500 shrink-0">{product.discountRate}</span>
+              )}
+              <div className="text-4xl font-black text-white">{product.price}원</div>
+            </div>
             <span className="text-[10px] text-blue-400/60 font-medium">쿠팡 실시간 최저가 기준</span>
           </div>
           <a 
@@ -302,7 +310,17 @@ export default function Home() {
                   {rec.title}
                 </h3>
                 <div className="flex items-center justify-between">
-                  <span className="text-2xl font-black text-white">{rec.price}</span>
+                <div className="flex flex-col">
+                  {rec.originalPrice && (
+                    <span className="text-xs text-gray-500 line-through">{rec.originalPrice}원</span>
+                  )}
+                  <div className="flex items-center gap-2">
+                    {rec.discountRate && (
+                      <span className="text-lg font-bold text-orange-500">{rec.discountRate}</span>
+                    )}
+                    <span className="text-2xl font-black text-white">{rec.price}원</span>
+                  </div>
+                </div>
                   <a 
                     href={`https://www.coupang.com/np/search?q=${encodeURIComponent(rec.searchKeyword || rec.title)}`}
                     target="_blank"
