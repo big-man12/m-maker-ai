@@ -1,41 +1,41 @@
 {
-  "theme": "오직 쿠팡에서만! 지금 구매해야 할 실시간 최고 할인 BEST 4",
+  "theme": "오직 쿠팡에서만! 실시간 최저가 다이렉트 추천 BEST 4",
   "mainProduct": {
     "title": "Apple 2024 맥북 에어 13 M3 (16GB, 256GB)",
     "originalPrice": "₩ 1,790,000",
     "discountRate": "22%",
     "price": "₩ 1,390,000",
-    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/534d/5221644e99f018706336e4f16b2c219277f3e1f107c132049d9796853229.jpg",
-    "link": "https://www.coupang.com/vp/products/9069218383",
+    "image": "https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2024/11/04/16/9/6ba1bc1b-e90a-4b1d-8a37-6fb844114662.jpg",
+    "link": "https://www.coupang.com/vp/products/9069218383?itemId=26633927522&vendorItemId=93606720244",
     "searchKeyword": "맥북 에어 13 M3 16GB 256GB"
   },
   "recommendations": [
     {
       "title": "삼성전자 갤럭시탭 S9 FE WiFi 128GB",
       "originalPrice": "₩ 629,200",
-      "discountRate": "26%",
-      "price": "₩ 461,800",
-      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/764b/40ef67362a2202613ed8b6e6b66850c99a0ed80562e89693df9e40a252.png",
-      "link": "https://www.coupang.com/vp/products/7754366663",
+      "discountRate": "25%",
+      "price": "₩ 471,700",
+      "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/490x490ex/image/retail/images/2023/12/26/11/7/8c067885-3004-4573-8f0a-42c67426359c.jpg",
+      "link": "https://www.coupang.com/vp/products/8476336682?itemId=24529575020&vendorItemId=94847374271",
       "searchKeyword": "갤럭시탭 S9 FE"
     },
     {
       "title": "로지텍 MX KEYS MINI 블루투스 무선 키보드",
       "originalPrice": "₩ 129,000",
-      "discountRate": "16%",
-      "price": "₩ 108,100",
-      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/11/02/11/4/960a58a9-4b8c-4444-9642-882298758814.jpg",
-      "link": "https://www.coupang.com/vp/products/6150662751",
+      "discountRate": "12%",
+      "price": "₩ 112,600",
+      "image": "https://thumbnail10.coupangcdn.com/thumbnails/remote/490x490ex/image/retail/images/2021/11/15/16/0/9f48541c-b26a-4d24-8160-c9a8dbf03e62.jpg",
+      "link": "https://www.coupang.com/vp/products/7297813658",
       "searchKeyword": "로지텍 MX Keys Mini"
     },
     {
-      "title": "LG전자 스마트모니터 MyView 27인치",
-      "originalPrice": "₩ 379,000",
-      "discountRate": "15%",
-      "price": "₩ 319,000",
-      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/11/14/15/4/12711736-4076-474d-9159-835676343542.jpg",
-      "link": "https://www.coupang.com/vp/products/8826032761",
-      "searchKeyword": "LG 스마트 모니터 27인치"
+      "title": "LG전자 MyView 스마트모니터 32SR50F",
+      "originalPrice": "₩ 369,000",
+      "discountRate": "27%",
+      "price": "₩ 269,000",
+      "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/490x490ex/image/retail/images/2023/06/15/16/0/b06f85d2-f472-4682-8404-58532f785050.jpg",
+      "link": "https://www.coupang.com/vp/products/8266283237",
+      "searchKeyword": "LG 스마트 모니터 32SR50F"
     }
   ]
 }
