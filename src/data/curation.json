@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 높여주는 스마트 워크스테이션 구축",
+  "theme": "실시간 최고 할인율로 구성한 스마트 워크스테이션",
   "mainProduct": {
-    "title": "Apple 맥북 에어 13 M2",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "22%",
-    "price": "₩ 1,240,000",
-    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=1000",
-    "searchKeyword": "맥북 에어 13 M2 256GB"
+    "title": "Apple 2022 맥북 에어 13 M2 (8GB, 256GB)",
+    "originalPrice": "₩ 1,390,000",
+    "discountRate": "8%",
+    "price": "₩ 1,279,000",
+    "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2022/07/11/17/2/6a8d67a1-3797-40c2-b13c-e3629e469542.jpg",
+    "searchKeyword": "맥북 에어 M2 13 256GB"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
-      "originalPrice": "₩ 129,000",
-      "discountRate": "23%",
-      "price": "₩ 99,330",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
-    },
-    {
-      "title": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB",
+      "title": "삼성전자 갤럭시탭 S9 FE WiFi 128GB",
       "originalPrice": "₩ 629,200",
-      "discountRate": "27%",
-      "price": "₩ 459,200",
-      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?q=80&w=1000",
+      "discountRate": "21%",
+      "price": "₩ 494,310",
+      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/8dd8/53d4ebdc354f92bc490795c739543e8ea998b584955c42171207e40e6955.jpg",
       "searchKeyword": "갤럭시탭 S9 FE"
     },
     {
       "title": "LG전자 MyView 스마트 모니터 32SR50F",
-      "originalPrice": "₩ 420,000",
-      "discountRate": "21%",
-      "price": "₩ 331,800",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "originalPrice": "₩ 399,000",
+      "discountRate": "19%",
+      "price": "₩ 321,470",
+      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/11/14/15/4/12711736-4076-474d-9159-835676343542.jpg",
       "searchKeyword": "LG 스마트 모니터 32SR50F"
+    },
+    {
+      "title": "로지텍 무선키보드 MX Keys Mini",
+      "originalPrice": "₩ 129,000",
+      "discountRate": "16%",
+      "price": "₩ 108,100",
+      "image": "https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/11/02/11/4/960a58a9-4b8c-4444-9642-882298758814.jpg",
+      "searchKeyword": "로지텍 MX Keys Mini"
     }
   ]
 }

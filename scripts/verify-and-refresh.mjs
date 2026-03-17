@@ -4,8 +4,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { generateDailyPost } from './generate-daily-post.mjs';
 
-import { generateDailyPost } from './generate-daily-post.mjs';
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const productFilePath = path.join(__dirname, '../src/data/product.json');
 const curationFilePath = path.join(__dirname, '../src/data/curation.json');
