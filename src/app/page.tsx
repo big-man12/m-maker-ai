@@ -24,8 +24,8 @@ export default function Home() {
     fetchStats();
   }, []);
 
-  // 쿠팡 파트너스 링크 생성 (제목 대신 핵심 키워드로 검색하여 정확도 향상)
-  const buyLink = product.afLink || `https://www.coupang.com/np/search?q=${encodeURIComponent(product.searchKeyword || product.title)}`;
+  // 쿠팡 파트너스 다이렉트 링크 또는 검색 링크 생성
+  const buyLink = product.link || product.afLink || `https://www.coupang.com/np/search?q=${encodeURIComponent(product.searchKeyword || product.title)}`;
 
   const handleBuyClick = (e: React.MouseEvent) => {
     if (buyLink === "#") {
@@ -76,11 +76,12 @@ export default function Home() {
             <img 
               src={product.image} 
               alt={product.title}
+              referrerPolicy="no-referrer"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 target.src = "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000";
               }}
-              className="relative w-full h-full object-contain p-4 md:p-12 transition duration-700 group-hover:scale-105 mix-blend-multiply"
+              className="relative w-full h-full object-contain p-4 md:p-12 transition duration-700 group-hover:scale-105"
             />
           </div>
         </motion.div>
@@ -295,6 +296,7 @@ export default function Home() {
                 <img 
                   src={rec.image} 
                   alt={rec.title}
+                  referrerPolicy="no-referrer"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.src = "https://images.unsplash.com/photo-1546938362-ec72f9be7626?q=80&w=1000";
@@ -322,7 +324,7 @@ export default function Home() {
                   </div>
                 </div>
                   <a 
-                    href={`https://www.coupang.com/np/search?q=${encodeURIComponent(rec.searchKeyword || rec.title)}`}
+                    href={rec.link || rec.afLink || `https://www.coupang.com/np/search?q=${encodeURIComponent(rec.searchKeyword || rec.title)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition"
