@@ -1,37 +1,37 @@
 {
-  "theme": "실시간 최고 할인율로 구성한 스마트 워크스테이션",
+  "theme": "쿠팡 실시간 할인 대잔치! 지금 안 사면 손해인 BEST 4",
   "mainProduct": {
-    "title": "Apple 2022 맥북 에어 13 M2 (8GB, 256GB)",
-    "originalPrice": "₩ 1,390,000",
-    "discountRate": "8%",
-    "price": "₩ 1,279,000",
-    "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2022/07/11/17/2/6a8d67a1-3797-40c2-b13c-e3629e469542.jpg",
-    "searchKeyword": "맥북 에어 M2 13 256GB"
+    "title": "삼성전자 갤럭시 탭 S9 FE 5G 128GB",
+    "originalPrice": "₩ 738,100",
+    "discountRate": "36%",
+    "price": "₩ 471,700",
+    "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/10/12/11/4/3e3f73b6-7f4c-4a3b-9e2c-3f9d3f9d3f9d.jpg",
+    "searchKeyword": "갤럭시탭 S9 FE 5G 128GB"
   },
   "recommendations": [
     {
-      "title": "삼성전자 갤럭시탭 S9 FE WiFi 128GB",
-      "originalPrice": "₩ 629,200",
-      "discountRate": "21%",
-      "price": "₩ 494,310",
-      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/8dd8/53d4ebdc354f92bc490795c739543e8ea998b584955c42171207e40e6955.jpg",
-      "searchKeyword": "갤럭시탭 S9 FE"
-    },
-    {
-      "title": "LG전자 MyView 스마트 모니터 32SR50F",
-      "originalPrice": "₩ 399,000",
-      "discountRate": "19%",
-      "price": "₩ 321,470",
-      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/11/14/15/4/12711736-4076-474d-9159-835676343542.jpg",
-      "searchKeyword": "LG 스마트 모니터 32SR50F"
+      "title": "Apple 2023 맥북 에어 15 M2 (8GB, 256GB)",
+      "originalPrice": "₩ 1,890,000",
+      "discountRate": "27%",
+      "price": "₩ 1,380,000",
+      "image": "https://thumbnail7.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/06/13/10/7/2e3f73b6-7f4c-4a3b-9e2c-3f9d3f9d3f9d.jpg",
+      "searchKeyword": "맥북 에어 15 M2"
     },
     {
       "title": "로지텍 무선키보드 MX Keys Mini",
       "originalPrice": "₩ 129,000",
       "discountRate": "16%",
       "price": "₩ 108,100",
-      "image": "https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/11/02/11/4/960a58a9-4b8c-4444-9642-882298758814.jpg",
+      "image": "https://thumbnail10.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/11/08/15/8/3e3f73b6-7f4c-4a3b-9e2c-3f9d3f9d3f9d.jpg",
       "searchKeyword": "로지텍 MX Keys Mini"
+    },
+    {
+      "title": "LG전자 MyView 스마트 모니터 32SR50F",
+      "originalPrice": "₩ 399,000",
+      "discountRate": "15%",
+      "price": "₩ 339,150",
+      "image": "https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/11/15/10/2/3e3f73b6-7f4c-4a3b-9e2c-3f9d3f9d3f9d.jpg",
+      "searchKeyword": "LG 스마트 모니터 32SR50F"
     }
   ]
 }
