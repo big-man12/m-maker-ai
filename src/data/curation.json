@@ -1,41 +1,37 @@
 {
-  "theme": "오직 쿠팡에서만! 실시간 최저가 다이렉트 추천 BEST 4",
+  "theme": "작업 능률을 높여주는 갤럭시 스마트 워크 스테이션",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3 (16GB, 256GB)",
-    "originalPrice": "₩ 1,790,000",
-    "discountRate": "22%",
-    "price": "₩ 1,390,000",
-    "image": "https://thumbnail7.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2024/11/04/16/9/6ba1bc1b-e90a-4b1d-8a37-6fb844114662.jpg",
-    "link": "https://www.coupang.com/vp/products/9069218383?itemId=26633927522&vendorItemId=93606720244",
-    "searchKeyword": "맥북 에어 13 M3 16GB 256GB"
+    "title": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB",
+    "originalPrice": "₩ 629,200",
+    "discountRate": "25%",
+    "price": "₩ 471,900",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
+    "searchKeyword": "삼성전자 갤럭시탭 S9 FE"
   },
   "recommendations": [
     {
-      "title": "삼성전자 갤럭시탭 S9 FE WiFi 128GB",
-      "originalPrice": "₩ 629,200",
-      "discountRate": "25%",
-      "price": "₩ 471,700",
-      "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/490x490ex/image/retail/images/2023/12/26/11/7/8c067885-3004-4573-8f0a-42c67426359c.jpg",
-      "link": "https://www.coupang.com/vp/products/8476336682?itemId=24529575020&vendorItemId=94847374271",
-      "searchKeyword": "갤럭시탭 S9 FE"
+      "title": "삼성전자 갤럭시 버즈2 프로",
+      "originalPrice": "₩ 279,000",
+      "discountRate": "44%",
+      "price": "₩ 156,240",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=1000",
+      "searchKeyword": "삼성전자 갤럭시 버즈2 프로"
     },
     {
-      "title": "로지텍 MX KEYS MINI 블루투스 무선 키보드",
-      "originalPrice": "₩ 129,000",
+      "title": "로지텍 K380 멀티 디바이스 블루투스 키보드",
+      "originalPrice": "₩ 39,900",
       "discountRate": "12%",
-      "price": "₩ 112,600",
-      "image": "https://thumbnail10.coupangcdn.com/thumbnails/remote/490x490ex/image/retail/images/2021/11/15/16/0/9f48541c-b26a-4d24-8160-c9a8dbf03e62.jpg",
-      "link": "https://www.coupang.com/vp/products/7297813658",
-      "searchKeyword": "로지텍 MX Keys Mini"
+      "price": "₩ 34,900",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 K380"
     },
     {
-      "title": "LG전자 MyView 스마트모니터 32SR50F",
-      "originalPrice": "₩ 369,000",
-      "discountRate": "27%",
-      "price": "₩ 269,000",
-      "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/490x490ex/image/retail/images/2023/06/15/16/0/b06f85d2-f472-4682-8404-58532f785050.jpg",
-      "link": "https://www.coupang.com/vp/products/8266283237",
-      "searchKeyword": "LG 스마트 모니터 32SR50F"
+      "title": "삼성전자 45W PD 충전기 (C to C 케이블 포함)",
+      "originalPrice": "₩ 49,500",
+      "discountRate": "20%",
+      "price": "₩ 39,600",
+      "image": "https://images.unsplash.com/photo-1627389955609-702313adea73?q=80&w=1000",
+      "searchKeyword": "삼성 45W 충전기 정품"
     }
   ]
 }
