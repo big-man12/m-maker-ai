@@ -1,37 +1,37 @@
 {
-  "theme": "작업 능률을 높여주는 갤럭시 스마트 워크 스테이션",
+  "theme": "쾌적한 업무 환경을 위한 데스크테리어와 가성비 선택지",
   "mainProduct": {
-    "title": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB",
-    "originalPrice": "₩ 629,200",
-    "discountRate": "25%",
-    "price": "₩ 471,900",
-    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
-    "searchKeyword": "삼성전자 갤럭시탭 S9 FE"
+    "title": "삼성전자 갤럭시북4 프로 14 NT940XGK-KC51G",
+    "originalPrice": "₩ 1,880,000",
+    "discountRate": "34%",
+    "price": "₩ 1,240,800",
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000",
+    "searchKeyword": "갤럭시북4 프로 NT940XGK-KC51G"
   },
   "recommendations": [
     {
-      "title": "삼성전자 갤럭시 버즈2 프로",
-      "originalPrice": "₩ 279,000",
-      "discountRate": "44%",
-      "price": "₩ 156,240",
-      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=1000",
-      "searchKeyword": "삼성전자 갤럭시 버즈2 프로"
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "15%",
+      "price": "₩ 118,150",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "로지텍 K380 멀티 디바이스 블루투스 키보드",
-      "originalPrice": "₩ 39,900",
-      "discountRate": "12%",
-      "price": "₩ 34,900",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 K380"
+      "title": "삼성전자 뷰피니티 S6 S32B600 QHD 모니터",
+      "originalPrice": "₩ 450,000",
+      "discountRate": "22%",
+      "price": "₩ 351,000",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "삼성전자 뷰피니티 S6"
     },
     {
-      "title": "삼성전자 45W PD 충전기 (C to C 케이블 포함)",
-      "originalPrice": "₩ 49,500",
-      "discountRate": "20%",
-      "price": "₩ 39,600",
-      "image": "https://images.unsplash.com/photo-1627389955609-702313adea73?q=80&w=1000",
-      "searchKeyword": "삼성 45W 충전기 정품"
+      "title": "삼성전자 갤럭시북4 NT750XGK-G51A (외장그래픽 탑재)",
+      "originalPrice": "₩ 1,290,000",
+      "discountRate": "28%",
+      "price": "₩ 928,800",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
+      "searchKeyword": "갤럭시북4 NT750XGK-G51A"
     }
   ]
 }
