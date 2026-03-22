@@ -1,37 +1,37 @@
 {
-  "theme": "생산성 극대화를 위한 워크스테이션 구축",
+  "theme": "생산성을 극대화하는 미니멀리스트 데스크셋업",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3",
+    "title": "애플 2024 맥북 에어 13 M3",
     "originalPrice": "₩ 1,590,000",
-    "discountRate": "14%",
-    "price": "₩ 1,364,000",
+    "discountRate": "12%",
+    "price": "₩ 1,398,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 13 M3"
+    "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "LG전자 27인치 4K UHD 모니터 27UP850N",
-      "originalPrice": "₩ 620,000",
-      "discountRate": "21%",
-      "price": "₩ 489,000",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "LG 27UP850N"
-    },
-    {
       "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "15%",
-      "price": "₩ 118,150",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "13%",
+      "price": "₩ 138,500",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "사테치 USB-C 온더고 멀티허브 9-in-1",
-      "originalPrice": "₩ 129,000",
-      "discountRate": "10%",
-      "price": "₩ 116,100",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000",
-      "searchKeyword": "사테치 USB-C 허브"
+      "title": "앤커 737 보조배터리 파워코어 24K",
+      "originalPrice": "₩ 199,000",
+      "discountRate": "20%",
+      "price": "₩ 159,200",
+      "image": "https://images.unsplash.com/photo-1609091839697-eb211ff66573?q=80&w=1000",
+      "searchKeyword": "앤커 737 보조배터리"
+    },
+    {
+      "title": "LG 그램 16 2024 Core Ultra5",
+      "originalPrice": "₩ 2,040,000",
+      "discountRate": "27%",
+      "price": "₩ 1,489,200",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
+      "searchKeyword": "LG 그램 16 2024"
     }
   ]
 }
