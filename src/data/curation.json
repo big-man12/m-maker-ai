@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 미니멀리스트 데스크테리어",
+  "theme": "생산성을 높여주는 맥북 라이프 필수 큐레이션",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3",
+    "title": "애플 2022 맥북 에어 13 M2",
     "originalPrice": "₩ 1,590,000",
-    "discountRate": "15%",
-    "price": "₩ 1,351,500",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "discountRate": "22%",
+    "price": "₩ 1,240,000",
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?q=80&w=1000",
+    "searchKeyword": "맥북 에어 13 M2"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Anywhere 3S 무선 마우스",
-      "originalPrice": "₩ 119,000",
-      "discountRate": "16%",
-      "price": "₩ 99,900",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Anywhere 3S"
+      "title": "샌디스크 Extreme Portable SSD 외장하드 E61 1TB",
+      "originalPrice": "₩ 230,000",
+      "discountRate": "37%",
+      "price": "₩ 144,900",
+      "image": "https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?q=80&w=1000",
+      "searchKeyword": "샌디스크 익스트림 프로 E61 1TB"
     },
     {
-      "title": "사테치 USB-C 온더고 멀티포트 어댑터",
+      "title": "로지텍 MX Keys Mini 무선 키보드",
       "originalPrice": "₩ 129,000",
-      "discountRate": "23%",
-      "price": "₩ 99,330",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1000",
-      "searchKeyword": "사테치 멀티포트 허브"
+      "discountRate": "18%",
+      "price": "₩ 105,780",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys Mini"
     },
     {
-      "title": "삼성전자 T7 Shield 외장 SSD 1TB",
-      "originalPrice": "₩ 221,000",
-      "discountRate": "32%",
-      "price": "₩ 149,000",
-      "image": "https://images.unsplash.com/photo-1597733336794-12d05021d510?q=80&w=1000",
-      "searchKeyword": "삼성전자 T7 Shield 1TB"
+      "title": "베이스어스 65W GaN5 Pro 고속 충전기",
+      "originalPrice": "₩ 45,000",
+      "discountRate": "25%",
+      "price": "₩ 33,750",
+      "image": "https://images.unsplash.com/photo-1619130709081-3294709d7845?q=80&w=1000",
+      "searchKeyword": "베이스어스 65W 충전기"
     }
   ]
 }
