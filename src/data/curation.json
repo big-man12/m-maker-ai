@@ -1,37 +1,37 @@
 {
-  "theme": "쾌적한 모바일 오피스 구축을 위한 필수 조합",
+  "theme": "생산성을 높여주는 스마트 워크 데스크테리어",
   "mainProduct": {
-    "title": "삼성전자 갤럭시북4 프로 NT940XGK-K71A",
-    "originalPrice": "₩ 2,140,000",
-    "discountRate": "25%",
-    "price": "₩ 1,590,000",
-    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
-    "searchKeyword": "갤럭시북4 프로 NT940XGK-K71A"
+    "title": "Apple 맥북 에어 13 M2",
+    "originalPrice": "₩ 1,590,000",
+    "discountRate": "23%",
+    "price": "₩ 1,224,300",
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?q=80&w=1000",
+    "searchKeyword": "맥북 에어 13 M2"
   },
   "recommendations": [
     {
-      "title": "삼성전자 멀티포트 어댑터 EE-P5400",
-      "originalPrice": "₩ 99,000",
-      "discountRate": "21%",
-      "price": "₩ 78,210",
-      "image": "https://images.unsplash.com/photo-1625842268584-8f3bf9ff967e?q=80&w=1000",
-      "searchKeyword": "삼성 멀티포트 어댑터 5-in-1"
-    },
-    {
-      "title": "로지텍 MX Anywhere 3S 마우스",
-      "originalPrice": "₩ 109,000",
-      "discountRate": "13%",
-      "price": "₩ 94,830",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "title": "로지텍 MX Anywhere 3S",
+      "originalPrice": "₩ 129,000",
+      "discountRate": "15%",
+      "price": "₩ 109,650",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
       "searchKeyword": "로지텍 MX Anywhere 3S"
     },
     {
-      "title": "삼성전자 외장 SSD T7 Shield 1TB",
-      "originalPrice": "₩ 175,000",
-      "discountRate": "17%",
-      "price": "₩ 145,250",
-      "image": "https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?q=80&w=1000",
-      "searchKeyword": "삼성 T7 Shield 1TB"
+      "title": "벨킨 7-in-1 USB-C 멀티 허브",
+      "originalPrice": "₩ 99,000",
+      "discountRate": "20%",
+      "price": "₩ 79,200",
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1000",
+      "searchKeyword": "벨킨 7-in-1 허브"
+    },
+    {
+      "title": "Apple 아이패드 에어 11 M2",
+      "originalPrice": "₩ 899,000",
+      "discountRate": "11%",
+      "price": "₩ 800,110",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
+      "searchKeyword": "아이패드 에어 M2 11"
     }
   ]
 }
