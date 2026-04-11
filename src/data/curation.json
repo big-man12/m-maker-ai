@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 높여주는 효율적인 모바일 오피스 구성",
+  "theme": "쾌적한 업무 효율을 위한 데스크테리어 추천",
   "mainProduct": {
-    "title": "Apple 2022 맥북 에어 13 M2",
+    "title": "Apple 2024 맥북 에어 13 M3",
     "originalPrice": "₩ 1,590,000",
-    "discountRate": "19%",
-    "price": "₩ 1,287,900",
-    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=1000",
-    "searchKeyword": "맥북 에어 13 M2"
+    "discountRate": "12%",
+    "price": "₩ 1,399,000",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+    "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Anywhere 3S 무선 마우스",
-      "originalPrice": "₩ 129,000",
-      "discountRate": "27%",
-      "price": "₩ 94,150",
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "10%",
+      "price": "₩ 125,100",
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Anywhere 3S"
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "사테치 USB-C 온더고 멀티포트 어댑터",
-      "originalPrice": "₩ 119,000",
-      "discountRate": "16%",
-      "price": "₩ 99,960",
-      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1000",
-      "searchKeyword": "사테치 C타입 멀티허브"
+      "title": "삼성전자 T7 Shield 외장 SSD 1TB",
+      "originalPrice": "₩ 187,000",
+      "discountRate": "25%",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?q=80&w=1000",
+      "searchKeyword": "삼성 T7 실드 1TB"
     },
     {
-      "title": "베이스어스 65W GaN 초소형 고속 충전기",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "28%",
-      "price": "₩ 32,400",
-      "image": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?q=80&w=1000",
-      "searchKeyword": "베이스어스 65W GaN"
+      "title": "LG전자 27인치 4K UHD 모니터 27UP850N",
+      "originalPrice": "₩ 620,000",
+      "discountRate": "15%",
+      "price": "₩ 527,000",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "LG 27UP850N"
     }
   ]
 }
