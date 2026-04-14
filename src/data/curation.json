@@ -1,35 +1,35 @@
 {
-  "theme": "쾌적한 데스크탑 환경을 위한 업무 효율 가전",
+  "theme": "생산성을 극대화하는 데스크테리어와 작업 도구",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "11%",
-    "price": "₩ 1,412,000",
+    "title": "Apple 2022 맥북 에어 13 M2",
+    "originalPrice": "₩ 1,390,000",
+    "discountRate": "19%",
+    "price": "₩ 1,125,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "searchKeyword": "맥북 에어 13 M2 256GB"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "10%",
-      "price": "₩ 125,100",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "25%",
+      "price": "₩ 119,000",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "사테치 C타입 멀티 허브 V2",
-      "originalPrice": "₩ 119,000",
-      "discountRate": "15%",
-      "price": "₩ 101,150",
-      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=1000",
-      "searchKeyword": "사테치 멀티허브"
+      "title": "삼성전자 T7 실드 외장SSD 1TB",
+      "originalPrice": "₩ 180,000",
+      "discountRate": "22%",
+      "price": "₩ 139,800",
+      "image": "https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?q=80&w=1000",
+      "searchKeyword": "삼성전자 T7 실드 1TB"
     },
     {
-      "title": "LG전자 27UP850N 4K UHD 모니터",
+      "title": "LG전자 울트라파인 27UP850N 4K 모니터",
       "originalPrice": "₩ 629,000",
-      "discountRate": "21%",
-      "price": "₩ 498,000",
+      "discountRate": "23%",
+      "price": "₩ 484,000",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
       "searchKeyword": "LG 27UP850N"
     }
