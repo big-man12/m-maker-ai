@@ -1,37 +1,37 @@
 {
-  "theme": "어디서든 최상의 몰입을 돕는 프로의 작업 도구",
+  "theme": "생산성을 극대화하는 스마트 워크 스테이션 구축",
   "mainProduct": {
     "title": "Apple 2024 맥북 에어 13 M3",
     "originalPrice": "₩ 1,590,000",
-    "discountRate": "12%",
-    "price": "₩ 1,398,000",
+    "discountRate": "13%",
+    "price": "₩ 1,383,300",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
     "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "13%",
-      "price": "₩ 138,330",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "title": "LG전자 2024 그램 16",
+      "originalPrice": "₩ 1,990,000",
+      "discountRate": "25%",
+      "price": "₩ 1,492,000",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
+      "searchKeyword": "LG 그램 16 2024"
     },
     {
-      "title": "사테치 USB-C 온더고 멀티포트 어댑터",
-      "originalPrice": "₩ 129,000",
-      "discountRate": "15%",
-      "price": "₩ 109,650",
-      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=1000",
-      "searchKeyword": "사테치 USB-C 허브"
+      "title": "삼성전자 뷰피니티 S8 4K 모니터",
+      "originalPrice": "₩ 590,000",
+      "discountRate": "34%",
+      "price": "₩ 389,000",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "삼성 뷰피니티 S8"
     },
     {
-      "title": "누아즈 알루미늄 노트북 거치대",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "38%",
-      "price": "₩ 27,900",
-      "image": "https://images.unsplash.com/photo-1544006659-f0b21f04cb1d?q=80&w=1000",
-      "searchKeyword": "알루미늄 노트북 거치대"
+      "title": "소니 WH-1000XM5 무선 헤드셋",
+      "originalPrice": "₩ 499,000",
+      "discountRate": "24%",
+      "price": "₩ 379,000",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
+      "searchKeyword": "소니 WH-1000XM5"
     }
   ]
 }
