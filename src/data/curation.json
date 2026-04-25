@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 스마트 워크 스테이션 구축",
+  "theme": "생산성을 극대화하는 미니멀 데스크테리어 큐레이션",
   "mainProduct": {
     "title": "Apple 2024 맥북 에어 13 M3",
     "originalPrice": "₩ 1,590,000",
     "discountRate": "13%",
     "price": "₩ 1,383,300",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "searchKeyword": "맥북 에어 M3 13 8GB 256GB"
   },
   "recommendations": [
     {
-      "title": "LG전자 2024 그램 16",
-      "originalPrice": "₩ 1,990,000",
-      "discountRate": "25%",
-      "price": "₩ 1,492,000",
-      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
-      "searchKeyword": "LG 그램 16 2024"
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "18%",
+      "price": "₩ 129,900",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "삼성전자 뷰피니티 S8 4K 모니터",
-      "originalPrice": "₩ 590,000",
-      "discountRate": "34%",
-      "price": "₩ 389,000",
+      "title": "사테치 USB-C 프로 허브 슬림",
+      "originalPrice": "₩ 109,000",
+      "discountRate": "27%",
+      "price": "₩ 79,570",
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1000",
+      "searchKeyword": "사테치 맥북 허브"
+    },
+    {
+      "title": "LG전자 27인치 4K UHD 모니터 27UP850N",
+      "originalPrice": "₩ 599,000",
+      "discountRate": "21%",
+      "price": "₩ 469,000",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "삼성 뷰피니티 S8"
-    },
-    {
-      "title": "소니 WH-1000XM5 무선 헤드셋",
-      "originalPrice": "₩ 499,000",
-      "discountRate": "24%",
-      "price": "₩ 379,000",
-      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
-      "searchKeyword": "소니 WH-1000XM5"
+      "searchKeyword": "LG전자 27UP850N"
     }
   ]
 }
