@@ -1,37 +1,37 @@
 {
-  "theme": "쾌적한 모바일 오피스 구축을 위한 생산성 아이템",
+  "theme": "맥북의 잠재력을 끌어올리는 생산성 필수 아이템",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3",
+    "title": "Apple 2022 맥북 에어 13 M2",
     "originalPrice": "₩ 1,590,000",
-    "discountRate": "14%",
-    "price": "₩ 1,367,400",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "discountRate": "22%",
+    "price": "₩ 1,239,000",
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?q=80&w=1000",
+    "searchKeyword": "맥북 에어 M2 13"
   },
   "recommendations": [
     {
-      "title": "사테치 V2 C타입 멀티 허브",
-      "originalPrice": "₩ 119,000",
-      "discountRate": "10%",
-      "price": "₩ 107,100",
-      "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?q=80&w=1000",
-      "searchKeyword": "사테치 멀티허브 V2"
-    },
-    {
-      "title": "로지텍 MX Anywhere 3S",
+      "title": "로지텍 MX Anywhere 3S 무선 마우스",
       "originalPrice": "₩ 99,000",
       "discountRate": "15%",
       "price": "₩ 84,150",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Anywhere 3S"
     },
     {
-      "title": "LG전자 2024 그램 14",
-      "originalPrice": "₩ 1,450,000",
-      "discountRate": "20%",
-      "price": "₩ 1,160,000",
-      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
-      "searchKeyword": "2024 LG 그램 14"
+      "title": "베이스어스 65W GaN 초소형 고속 충전기",
+      "originalPrice": "₩ 45,000",
+      "discountRate": "30%",
+      "price": "₩ 31,500",
+      "image": "https://images.unsplash.com/photo-1622445272461-c6580cab863b?q=80&w=1000",
+      "searchKeyword": "Baseus 65W GaN 충전기"
+    },
+    {
+      "title": "사테치 USB-C 온더고 멀티포트 어댑터",
+      "originalPrice": "₩ 119,000",
+      "discountRate": "12%",
+      "price": "₩ 104,720",
+      "image": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?q=80&w=1000",
+      "searchKeyword": "사테치 C타입 허브"
     }
   ]
 }
