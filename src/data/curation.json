@@ -1,37 +1,37 @@
 {
-  "theme": "맥북의 잠재력을 끌어올리는 생산성 필수 아이템",
+  "theme": "생산성을 극대화하는 미니멀 워크스테이션 구축",
   "mainProduct": {
-    "title": "Apple 2022 맥북 에어 13 M2",
+    "title": "Apple 2024 맥북 에어 13 M3",
     "originalPrice": "₩ 1,590,000",
-    "discountRate": "22%",
-    "price": "₩ 1,239,000",
-    "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M2 13"
+    "discountRate": "13%",
+    "price": "₩ 1,385,000",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+    "searchKeyword": "맥북 에어 13 M3 8GB 256GB"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Anywhere 3S 무선 마우스",
-      "originalPrice": "₩ 99,000",
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 139,000",
       "discountRate": "15%",
-      "price": "₩ 84,150",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Anywhere 3S"
+      "price": "₩ 118,150",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "베이스어스 65W GaN 초소형 고속 충전기",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "30%",
-      "price": "₩ 31,500",
-      "image": "https://images.unsplash.com/photo-1622445272461-c6580cab863b?q=80&w=1000",
-      "searchKeyword": "Baseus 65W GaN 충전기"
+      "title": "LG전자 2024 그램 16",
+      "originalPrice": "₩ 2,090,000",
+      "discountRate": "22%",
+      "price": "₩ 1,630,000",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
+      "searchKeyword": "LG 그램 16 2024"
     },
     {
-      "title": "사테치 USB-C 온더고 멀티포트 어댑터",
-      "originalPrice": "₩ 119,000",
-      "discountRate": "12%",
-      "price": "₩ 104,720",
-      "image": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?q=80&w=1000",
-      "searchKeyword": "사테치 C타입 허브"
+      "title": "앤커 737 140W 보조배터리 24000mAh",
+      "originalPrice": "₩ 189,000",
+      "discountRate": "20%",
+      "price": "₩ 151,200",
+      "image": "https://images.unsplash.com/photo-1625842268584-8f3bf919b26d?q=80&w=1000",
+      "searchKeyword": "앤커 737 보조배터리"
     }
   ]
 }
