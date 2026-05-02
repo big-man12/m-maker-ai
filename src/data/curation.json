@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 미니멀 워크스테이션 구축",
+  "theme": "외부에서도 완벽한 생산성을 위한 데스크 셋업",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "13%",
-    "price": "₩ 1,385,000",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 13 M3 8GB 256GB"
+    "title": "LG전자 2024 그램 16 코어 울트라5",
+    "originalPrice": "₩ 2,290,000",
+    "discountRate": "24%",
+    "price": "₩ 1,740,400",
+    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000",
+    "searchKeyword": "LG 그램 16 코어울트라5"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "15%",
-      "price": "₩ 118,150",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "13%",
+      "price": "₩ 139,000",
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "LG전자 2024 그램 16",
-      "originalPrice": "₩ 2,090,000",
-      "discountRate": "22%",
-      "price": "₩ 1,630,000",
-      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
-      "searchKeyword": "LG 그램 16 2024"
+      "title": "베이스어스 65W GaN 초소형 고속 충전기",
+      "originalPrice": "₩ 45,000",
+      "discountRate": "38%",
+      "price": "₩ 27,900",
+      "image": "https://images.unsplash.com/photo-1619130730567-f541b9d48960?q=80&w=1000",
+      "searchKeyword": "베이스어스 65W 충전기"
     },
     {
-      "title": "앤커 737 140W 보조배터리 24000mAh",
-      "originalPrice": "₩ 189,000",
-      "discountRate": "20%",
-      "price": "₩ 151,200",
-      "image": "https://images.unsplash.com/photo-1625842268584-8f3bf919b26d?q=80&w=1000",
-      "searchKeyword": "앤커 737 보조배터리"
+      "title": "삼성전자 뷰피니티 S6 QHD 모니터 34인치",
+      "originalPrice": "₩ 590,000",
+      "discountRate": "33%",
+      "price": "₩ 395,000",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
+      "searchKeyword": "삼성 뷰피니티 S6 34인치"
     }
   ]
 }
