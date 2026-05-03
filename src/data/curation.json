@@ -1,37 +1,37 @@
 {
-  "theme": "외부에서도 완벽한 생산성을 위한 데스크 셋업",
+  "theme": "쾌적한 업무 환경을 위한 데스크테리어와 생산성 도구",
   "mainProduct": {
-    "title": "LG전자 2024 그램 16 코어 울트라5",
-    "originalPrice": "₩ 2,290,000",
-    "discountRate": "24%",
-    "price": "₩ 1,740,400",
-    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000",
-    "searchKeyword": "LG 그램 16 코어울트라5"
+    "title": "삼성전자 갤럭시북4 프로 14 NT940XGQ-A51A",
+    "originalPrice": "₩ 2,140,000",
+    "discountRate": "23%",
+    "price": "₩ 1,647,000",
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?q=80&w=1000",
+    "searchKeyword": "삼성전자 갤럭시북4 프로 NT940XGQ-A51A"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "13%",
-      "price": "₩ 139,000",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "10%",
+      "price": "₩ 125,100",
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "베이스어스 65W GaN 초소형 고속 충전기",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "38%",
-      "price": "₩ 27,900",
-      "image": "https://images.unsplash.com/photo-1619130730567-f541b9d48960?q=80&w=1000",
-      "searchKeyword": "베이스어스 65W 충전기"
+      "title": "삼성전자 외장 SSD T7 Shield 1TB",
+      "originalPrice": "₩ 184,000",
+      "discountRate": "24%",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1597733336794-12d05021d510?q=80&w=1000",
+      "searchKeyword": "삼성전자 T7 Shield 1TB"
     },
     {
-      "title": "삼성전자 뷰피니티 S6 QHD 모니터 34인치",
-      "originalPrice": "₩ 590,000",
-      "discountRate": "33%",
-      "price": "₩ 395,000",
-      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
-      "searchKeyword": "삼성 뷰피니티 S6 34인치"
+      "title": "아트뮤 65W GaN 접지 멀티 충전기",
+      "originalPrice": "₩ 49,900",
+      "discountRate": "15%",
+      "price": "₩ 42,410",
+      "image": "https://images.unsplash.com/photo-1619130730444-2f26487161dc?q=80&w=1000",
+      "searchKeyword": "아트뮤 65W 접지 충전기"
     }
   ]
 }
