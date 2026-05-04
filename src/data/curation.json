@@ -1,37 +1,37 @@
 {
-  "theme": "쾌적한 업무 환경을 위한 데스크테리어와 생산성 도구",
+  "theme": "생산성을 극대화하는 스마트 워크 큐레이션",
   "mainProduct": {
-    "title": "삼성전자 갤럭시북4 프로 14 NT940XGQ-A51A",
+    "title": "삼성전자 갤럭시북4 프로 NT940XGQ-A51AG",
     "originalPrice": "₩ 2,140,000",
     "discountRate": "23%",
     "price": "₩ 1,647,000",
-    "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?q=80&w=1000",
-    "searchKeyword": "삼성전자 갤럭시북4 프로 NT940XGQ-A51A"
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1000",
+    "searchKeyword": "삼성전자 갤럭시북4 프로 NT940XGQ-A51AG"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
       "originalPrice": "₩ 139,000",
-      "discountRate": "10%",
-      "price": "₩ 125,100",
+      "discountRate": "14%",
+      "price": "₩ 119,000",
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "삼성전자 외장 SSD T7 Shield 1TB",
-      "originalPrice": "₩ 184,000",
-      "discountRate": "24%",
-      "price": "₩ 139,000",
-      "image": "https://images.unsplash.com/photo-1597733336794-12d05021d510?q=80&w=1000",
-      "searchKeyword": "삼성전자 T7 Shield 1TB"
+      "title": "벨킨 USB-C 7-in-1 멀티포트 허브",
+      "originalPrice": "₩ 109,000",
+      "discountRate": "27%",
+      "price": "₩ 79,470",
+      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=1000",
+      "searchKeyword": "벨킨 USB-C 7-in-1 허브"
     },
     {
-      "title": "아트뮤 65W GaN 접지 멀티 충전기",
-      "originalPrice": "₩ 49,900",
-      "discountRate": "15%",
-      "price": "₩ 42,410",
-      "image": "https://images.unsplash.com/photo-1619130730444-2f26487161dc?q=80&w=1000",
-      "searchKeyword": "아트뮤 65W 접지 충전기"
+      "title": "애플 맥북 에어 13 M3 8GB 256GB",
+      "originalPrice": "₩ 1,590,000",
+      "discountRate": "12%",
+      "price": "₩ 1,398,000",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+      "searchKeyword": "맥북 에어 M3 13"
     }
   ]
 }
