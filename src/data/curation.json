@@ -1,37 +1,37 @@
 {
-  "theme": "쾌적한 모바일 오피스 구축을 위한 필수 아이템",
+  "theme": "프로페셔널한 생산성을 위한 데스크 셋업",
   "mainProduct": {
-    "title": "Apple 2022 맥북 에어 13 M2 8코어 GPU",
-    "originalPrice": "₩ 1,390,000",
-    "discountRate": "15%",
-    "price": "₩ 1,181,500",
+    "title": "Apple 2024 맥북 에어 13 M3",
+    "originalPrice": "₩ 1,590,000",
+    "discountRate": "13%",
+    "price": "₩ 1,383,300",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M2 13"
+    "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "삼성전자 T7 Shield 외장 SSD 1TB",
-      "originalPrice": "₩ 210,000",
-      "discountRate": "25%",
-      "price": "₩ 157,500",
-      "image": "https://images.unsplash.com/photo-1597733336794-12d05021d510?q=80&w=1000",
-      "searchKeyword": "삼성 T7 Shield 1TB"
-    },
-    {
       "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "12%",
-      "price": "₩ 139,920",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "14%",
+      "price": "₩ 119,540",
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "베이스어스 65W GaN 고속 충전기",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "30%",
-      "price": "₩ 31,500",
-      "image": "https://images.unsplash.com/photo-1619130771131-832626e2730a?q=80&w=1000",
-      "searchKeyword": "베이스어스 65W 충전기"
+      "title": "앤커 7-in-1 USB-C 허브",
+      "originalPrice": "₩ 65,000",
+      "discountRate": "23%",
+      "price": "₩ 49,900",
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1000",
+      "searchKeyword": "앤커 USB-C 허브"
+    },
+    {
+      "title": "신테크 맥북 에어 13인치 투명 하드 케이스",
+      "originalPrice": "₩ 25,000",
+      "discountRate": "32%",
+      "price": "₩ 17,000",
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?q=80&w=1000",
+      "searchKeyword": "맥북 에어 13 하드케이스"
     }
   ]
 }
