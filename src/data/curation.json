@@ -1,5 +1,5 @@
 {
-  "theme": "생산성을 높여주는 효율적인 데스크 환경 구축",
+  "theme": "쾌적한 업무 환경을 위한 데스크테리어 솔루션",
   "mainProduct": {
     "title": "Apple 2024 맥북 에어 13 M3",
     "originalPrice": "₩ 1,590,000",
@@ -10,28 +10,28 @@
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "15%",
-      "price": "₩ 118,150",
+      "title": "Apple 정품 매직 마우스",
+      "originalPrice": "₩ 89,000",
+      "discountRate": "11%",
+      "price": "₩ 79,210",
       "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "searchKeyword": "애플 매직 마우스"
     },
     {
-      "title": "LG전자 2024 그램 16",
-      "originalPrice": "₩ 1,890,000",
-      "discountRate": "21%",
-      "price": "₩ 1,493,100",
+      "title": "유그린 7-in-1 USB-C 허브",
+      "originalPrice": "₩ 45,900",
+      "discountRate": "22%",
+      "price": "₩ 35,800",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1000",
+      "searchKeyword": "유그린 C타입 허브"
+    },
+    {
+      "title": "LG전자 2024 그램 14",
+      "originalPrice": "₩ 1,640,000",
+      "discountRate": "15%",
+      "price": "₩ 1,394,000",
       "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1000",
-      "searchKeyword": "LG 그램 16 2024"
-    },
-    {
-      "title": "앤커 737 보조배터리 140W 24000mAh",
-      "originalPrice": "₩ 189,000",
-      "discountRate": "26%",
-      "price": "₩ 139,860",
-      "image": "https://images.unsplash.com/photo-1619441163152-6a75f1137021?q=80&w=1000",
-      "searchKeyword": "앤커 737 보조배터리"
+      "searchKeyword": "LG 그램 14 2024"
     }
   ]
 }
