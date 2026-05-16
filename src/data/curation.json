@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 모바일 워크스테이션 셋업",
+  "theme": "생산성을 극대화하는 프로의 작업 환경",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "11%",
-    "price": "₩ 1,414,100",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "title": "삼성전자 갤럭시 북4 프로 14",
+    "originalPrice": "₩ 2,140,000",
+    "discountRate": "25%",
+    "price": "₩ 1,598,000",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1000",
+    "searchKeyword": "삼성전자 갤럭시 북4 프로 NT940XGK-K71A"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "14%",
-      "price": "₩ 119,540",
+      "title": "삼성전자 갤럭시 버즈3 프로",
+      "originalPrice": "₩ 319,000",
+      "discountRate": "15%",
+      "price": "₩ 271,150",
+      "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=1000",
+      "searchKeyword": "삼성전자 갤럭시 버즈3 프로"
+    },
+    {
+      "title": "로지텍 MX Anywhere 3S 마우스",
+      "originalPrice": "₩ 129,000",
+      "discountRate": "23%",
+      "price": "₩ 99,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "searchKeyword": "로지텍 MX Anywhere 3S"
     },
     {
-      "title": "LG전자 2024 그램 16 스노우 화이트",
-      "originalPrice": "₩ 1,840,000",
-      "discountRate": "25%",
-      "price": "₩ 1,380,000",
-      "image": "https://images.unsplash.com/photo-1544006659-f0b21f04cb1d?q=80&w=1000",
-      "searchKeyword": "LG 그램 16 2024"
-    },
-    {
-      "title": "베이스어스 65W GaN6 Pro 고속 충전기",
-      "originalPrice": "₩ 48,900",
-      "discountRate": "32%",
-      "price": "₩ 33,250",
-      "image": "https://images.unsplash.com/photo-1619130452055-6679509b558c?q=80&w=1000",
-      "searchKeyword": "베이스어스 65W 충전기"
+      "title": "삼성전자 외장SSD T7 1TB",
+      "originalPrice": "₩ 184,000",
+      "discountRate": "27%",
+      "price": "₩ 134,320",
+      "image": "https://images.unsplash.com/photo-1597872259840-eb05e81f5798?q=80&w=1000",
+      "searchKeyword": "삼성전자 T7 외장SSD 1TB"
     }
   ]
 }
