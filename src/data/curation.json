@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 미니멀리스트의 작업 데스크",
+  "theme": "쾌적한 맥북 데스크테리어와 생산성 향상 아이템",
   "mainProduct": {
-    "title": "Apple 2022 맥북 에어 13 M2",
-    "originalPrice": "₩ 1,390,000",
-    "discountRate": "17%",
-    "price": "₩ 1,148,000",
-    "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e5237?q=80&w=1000",
-    "searchKeyword": "맥북 에어 13 M2"
+    "title": "Apple 2024 맥북 에어 13 M3",
+    "originalPrice": "₩ 1,590,000",
+    "discountRate": "13%",
+    "price": "₩ 1,383,300",
+    "image": "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?q=80&w=1000",
+    "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Anywhere 3S 무선 마우스",
-      "originalPrice": "₩ 129,000",
-      "discountRate": "23%",
-      "price": "₩ 99,000",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Anywhere 3S"
+      "title": "LG전자 27UP850N 4K 모니터",
+      "originalPrice": "₩ 620,000",
+      "discountRate": "21%",
+      "price": "₩ 489,000",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "LG 27UP850N"
     },
     {
-      "title": "유그린 USB-C 7-in-1 멀티 허브",
-      "originalPrice": "₩ 54,000",
-      "discountRate": "29%",
-      "price": "₩ 38,340",
-      "image": "https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=1000",
-      "searchKeyword": "유그린 C타입 허브"
+      "title": "로지텍 MX Keys Mini 무선 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "15%",
+      "price": "₩ 126,650",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys Mini"
     },
     {
-      "title": "삼성전자 T7 실드 외장 SSD 1TB",
-      "originalPrice": "₩ 198,000",
-      "discountRate": "29%",
-      "price": "₩ 139,500",
-      "image": "https://images.unsplash.com/photo-1597733336794-12d05021d510?q=80&w=1000",
-      "searchKeyword": "삼성전자 T7 실드 1TB"
+      "title": "삼성전자 T7 Shield 외장 SSD 1TB",
+      "originalPrice": "₩ 195,000",
+      "discountRate": "24%",
+      "price": "₩ 148,000",
+      "image": "https://images.unsplash.com/photo-1595115160170-f472629b3ccf?q=80&w=1000",
+      "searchKeyword": "삼성 T7 Shield 1TB"
     }
   ]
 }
