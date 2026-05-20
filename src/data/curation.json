@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 미니멀리즘 워크스테이션 구축",
+  "theme": "생산성을 극대화하는 미니멀 데스크테리어",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3",
+    "title": "Apple 2024 맥북 에어 13 M3 (8코어 CPU / 10코어 GPU / 16GB / 512GB)",
     "originalPrice": "₩ 1,590,000",
     "discountRate": "12%",
-    "price": "₩ 1,398,000",
-    "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "price": "₩ 1,390,000",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+    "searchKeyword": "Apple 2024 맥북 에어 13 M3 16G 512G"
   },
   "recommendations": [
     {
-      "title": "유그린 7-in-1 USB-C 멀티 허브",
-      "originalPrice": "₩ 49,900",
-      "discountRate": "30%",
-      "price": "₩ 34,900",
-      "image": "https://images.unsplash.com/photo-1625842268584-8f3bfbcff5ad?q=80&w=1000",
-      "searchKeyword": "유그린 C타입 허브 7인1"
+      "title": "로지텍 MX Keys Mini 무선 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "13%",
+      "price": "₩ 129,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys Mini 무선"
     },
     {
-      "title": "로지텍 MX Anywhere 3S 무선 마우스",
-      "originalPrice": "₩ 129,000",
-      "discountRate": "23%",
-      "price": "₩ 99,000",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Anywhere 3S"
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 169,000",
+      "discountRate": "12%",
+      "price": "₩ 149,000",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "베이스어스 GaN6 Pro 65W 고속 충전기",
-      "originalPrice": "₩ 54,000",
-      "discountRate": "31%",
-      "price": "₩ 37,000",
-      "image": "https://images.unsplash.com/photo-1616131498642-1e968641987d?q=80&w=1000",
-      "searchKeyword": "베이스어스 65W GaN 충전기"
+      "title": "삼성전자 뷰피니티 S6 S34C650 울트라와이드 모니터",
+      "originalPrice": "₩ 499,000",
+      "discountRate": "20%",
+      "price": "₩ 399,000",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "삼성전자 뷰피니티 S6 S34C650"
     }
   ]
 }
