@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 미니멀 데스크테리어",
+  "theme": "스마트한 학업과 업무를 위한 미니멀 데스크 셋업",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3 (8코어 CPU / 10코어 GPU / 16GB / 512GB)",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "12%",
-    "price": "₩ 1,390,000",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "Apple 2024 맥북 에어 13 M3 16G 512G"
+    "title": "애플 2024 아이패드 에어 11 M2 Wi-Fi 128GB",
+    "originalPrice": "₩ 899,000",
+    "discountRate": "8%",
+    "price": "₩ 821,000",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
+    "searchKeyword": "애플 2024 아이패드 에어 11 M2"
   },
   "recommendations": [
+    {
+      "title": "애플 펜슬 프로",
+      "originalPrice": "₩ 195,000",
+      "discountRate": "6%",
+      "price": "₩ 182,500",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "애플 펜슬 프로"
+    },
     {
       "title": "로지텍 MX Keys Mini 무선 키보드",
       "originalPrice": "₩ 149,000",
       "discountRate": "13%",
       "price": "₩ 129,000",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini 무선"
+      "searchKeyword": "로지텍 MX Keys Mini"
     },
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 169,000",
-      "discountRate": "12%",
-      "price": "₩ 149,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
-    },
-    {
-      "title": "삼성전자 뷰피니티 S6 S34C650 울트라와이드 모니터",
-      "originalPrice": "₩ 499,000",
-      "discountRate": "20%",
-      "price": "₩ 399,000",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "삼성전자 뷰피니티 S6 S34C650"
+      "title": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB",
+      "originalPrice": "₩ 629,200",
+      "discountRate": "15%",
+      "price": "₩ 534,800",
+      "image": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?q=80&w=1000",
+      "searchKeyword": "갤럭시탭 S9 FE"
     }
   ]
 }
