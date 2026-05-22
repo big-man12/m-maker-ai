@@ -1,37 +1,37 @@
 {
-  "theme": "스마트한 학업과 업무를 위한 미니멀 데스크 셋업",
+  "theme": "스마트한 학습과 업무를 위한 생산성 극대화 에코시스템",
   "mainProduct": {
     "title": "애플 2024 아이패드 에어 11 M2 Wi-Fi 128GB",
     "originalPrice": "₩ 899,000",
-    "discountRate": "8%",
-    "price": "₩ 821,000",
+    "discountRate": "9%",
+    "price": "₩ 818,000",
     "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
-    "searchKeyword": "애플 2024 아이패드 에어 11 M2"
+    "searchKeyword": "아이패드 에어 11 M2"
   },
   "recommendations": [
     {
-      "title": "애플 펜슬 프로",
+      "title": "애플펜슬 프로",
       "originalPrice": "₩ 195,000",
-      "discountRate": "6%",
-      "price": "₩ 182,500",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "애플 펜슬 프로"
+      "discountRate": "5%",
+      "price": "₩ 185,250",
+      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?q=80&w=1000",
+      "searchKeyword": "애플펜슬 프로"
     },
     {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "13%",
-      "price": "₩ 129,000",
+      "title": "로지텍 Keys-To-Go 2 울트라 휴대용 키보드",
+      "originalPrice": "₩ 109,000",
+      "discountRate": "10%",
+      "price": "₩ 98,100",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
+      "searchKeyword": "로지텍 Keys-To-Go 2"
     },
     {
-      "title": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB",
+      "title": "삼성전자 갤럭시 탭 S9 FE Wi-Fi 128GB",
       "originalPrice": "₩ 629,200",
-      "discountRate": "15%",
-      "price": "₩ 534,800",
+      "discountRate": "18%",
+      "price": "₩ 512,900",
       "image": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?q=80&w=1000",
-      "searchKeyword": "갤럭시탭 S9 FE"
+      "searchKeyword": "갤럭시 탭 S9 FE"
     }
   ]
 }
