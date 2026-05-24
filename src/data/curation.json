@@ -1,16 +1,24 @@
 {
-  "theme": "생산성을 극대화하는 데스크테리어 필수 아이템",
+  "theme": "생산성을 극대화하는 미니멀 맥 라이프 데스크셋업",
   "mainProduct": {
-    "title": "애플 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "13%",
-    "price": "₩ 1,375,000",
+    "title": "Apple 2024 맥북 에어 13 M3",
+    "originalPrice": "₩ 1,390,000",
+    "discountRate": "11%",
+    "price": "₩ 1,230,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "애플 2024 맥북 에어 13 M3"
+    "searchKeyword": "맥북 에어 13 M3"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 마우스",
+      "title": "로지텍 MX Keys S 무선 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "13%",
+      "price": "₩ 129,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys S"
+    },
+    {
+      "title": "로지텍 MX Master 3S 무선 마우스",
       "originalPrice": "₩ 139,000",
       "discountRate": "14%",
       "price": "₩ 119,000",
@@ -18,20 +26,12 @@
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "LG전자 32UN650 UHD 4K 모니터",
-      "originalPrice": "₩ 499,000",
-      "discountRate": "16%",
-      "price": "₩ 419,000",
+      "title": "삼성전자 뷰피니티 S6 S34C650 울트라와이드 모니터",
+      "originalPrice": "₩ 450,000",
+      "discountRate": "15%",
+      "price": "₩ 382,500",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "LG전자 32UN650"
-    },
-    {
-      "title": "앤커 프라임 67W 3포트 초소형 충전기",
-      "originalPrice": "₩ 69,900",
-      "discountRate": "20%",
-      "price": "₩ 55,900",
-      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
-      "searchKeyword": "앤커 프라임 67W 충전기"
+      "searchKeyword": "삼성전자 뷰피니티 S6 S34C650"
     }
   ]
 }
