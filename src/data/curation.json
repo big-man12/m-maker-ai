@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 한 단계 끌어올리는 고성능 무선 데스크셋업",
+  "theme": "대학생 및 직장인을 위한 효율적인 스마트 워크스테이션 구축",
   "mainProduct": {
-    "title": "로지텍 MX Keys S",
-    "originalPrice": "₩ 149,000",
-    "discountRate": "13%",
-    "price": "₩ 129,000",
-    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-    "searchKeyword": "로지텍 MX Keys S"
+    "title": "애플 아이패드 에어 11 M2 Wi-Fi 128GB",
+    "originalPrice": "₩ 899,000",
+    "discountRate": "10%",
+    "price": "₩ 809,100",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
+    "searchKeyword": "아이패드 에어 11 M2 Wi-Fi 128GB"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 169,000",
-      "discountRate": "11%",
-      "price": "₩ 149,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "title": "애플 펜슬 프로",
+      "originalPrice": "₩ 195,000",
+      "discountRate": "7%",
+      "price": "₩ 181,350",
+      "image": "https://images.unsplash.com/photo-1585076800246-44347ec38242?q=80&w=1000",
+      "searchKeyword": "애플 펜슬 프로"
     },
     {
-      "title": "삼성전자 뷰피니티 S6 S34C650 울트라와이드 모니터",
-      "originalPrice": "₩ 450,000",
+      "title": "로지텍 Keys-To-Go 2 휴대용 블루투스 키보드",
+      "originalPrice": "₩ 119,000",
+      "discountRate": "16%",
+      "price": "₩ 99,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 keys to go 2"
+    },
+    {
+      "title": "삼성전자 갤럭시 탭 S9 FE Wi-Fi 128GB",
+      "originalPrice": "₩ 658,900",
       "discountRate": "15%",
-      "price": "₩ 382,500",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "삼성전자 뷰피니티 S6 S34C650"
-    },
-    {
-      "title": "앤커 프라임 100W 3포트 초소형 고속 충전기",
-      "originalPrice": "₩ 89,000",
-      "discountRate": "20%",
-      "price": "₩ 71,200",
-      "image": "https://images.unsplash.com/photo-1622445262465-2481c4574875?q=80&w=1000",
-      "searchKeyword": "앤커 프라임 100W 충전기"
+      "price": "₩ 559,000",
+      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?q=80&w=1000",
+      "searchKeyword": "갤럭시 탭 S9 FE Wi-Fi 128GB"
     }
   ]
 }
