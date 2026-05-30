@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 미니멀 데스크테리어",
+  "theme": "생산성을 두 배로 올려주는 맥북 맞춤형 데스크셋업",
   "mainProduct": {
-    "title": "로지텍 MX Keys S 무선 키보드",
-    "originalPrice": "₩ 149,000",
-    "discountRate": "13%",
-    "price": "₩ 129,000",
-    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?q=80&w=1000",
-    "searchKeyword": "로지텍 MX Keys S"
+    "title": "Apple 2024 맥북 에어 13 M3",
+    "originalPrice": "₩ 1,590,000",
+    "discountRate": "12%",
+    "price": "₩ 1,390,000",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+    "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Anywhere 3S 무선 마우스",
-      "originalPrice": "₩ 129,000",
-      "discountRate": "15%",
-      "price": "₩ 109,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Anywhere 3S"
+      "title": "로지텍 MX Keys S 무선 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "10%",
+      "price": "₩ 134,100",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys S"
     },
     {
-      "title": "베이스어스 비대칭 무선 모니터 조명",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "33%",
-      "price": "₩ 29,800",
-      "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?q=80&w=1000",
-      "searchKeyword": "베이스어스 모니터 조명"
-    },
-    {
-      "title": "오아 양면 가죽 데스크 매트",
-      "originalPrice": "₩ 19,800",
+      "title": "베이식스 USB-C 8인치 1 멀티포트 허브",
+      "originalPrice": "₩ 49,900",
       "discountRate": "20%",
-      "price": "₩ 15,800",
-      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000",
-      "searchKeyword": "오아 가죽 데스크 매트"
+      "price": "₩ 39,920",
+      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
+      "searchKeyword": "C타입 멀티허브"
+    },
+    {
+      "title": "한성컴퓨터 27인치 4K UHD 모니터 TFX27U06F",
+      "originalPrice": "₩ 269,000",
+      "discountRate": "15%",
+      "price": "₩ 228,650",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "한성컴퓨터 4K 모니터"
     }
   ]
 }
