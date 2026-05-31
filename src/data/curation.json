@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 두 배로 올려주는 맥북 맞춤형 데스크셋업",
+  "theme": "맥북 에어와 함께 완성하는 생산성 극대화 데스크셋업",
   "mainProduct": {
     "title": "Apple 2024 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
+    "originalPrice": "₩ 1,390,000",
     "discountRate": "12%",
-    "price": "₩ 1,390,000",
+    "price": "₩ 1,219,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
     "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
+      "title": "LG전자 27UP850N (27인치 4K UHD 모니터)",
+      "originalPrice": "₩ 610,000",
+      "discountRate": "21%",
+      "price": "₩ 479,000",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "LG 27UP850N"
+    },
+    {
       "title": "로지텍 MX Keys S 무선 키보드",
       "originalPrice": "₩ 149,000",
-      "discountRate": "10%",
-      "price": "₩ 134,100",
+      "discountRate": "13%",
+      "price": "₩ 129,000",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
       "searchKeyword": "로지텍 MX Keys S"
     },
     {
-      "title": "베이식스 USB-C 8인치 1 멀티포트 허브",
-      "originalPrice": "₩ 49,900",
-      "discountRate": "20%",
-      "price": "₩ 39,920",
+      "title": "사테치 알루미늄 V2 멀티 허브",
+      "originalPrice": "₩ 109,000",
+      "discountRate": "10%",
+      "price": "₩ 98,100",
       "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
-      "searchKeyword": "C타입 멀티허브"
-    },
-    {
-      "title": "한성컴퓨터 27인치 4K UHD 모니터 TFX27U06F",
-      "originalPrice": "₩ 269,000",
-      "discountRate": "15%",
-      "price": "₩ 228,650",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "한성컴퓨터 4K 모니터"
+      "searchKeyword": "사테치 V2 멀티허브"
     }
   ]
 }
