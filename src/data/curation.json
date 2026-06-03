@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 스마트 워크 스페이스 구축",
+  "theme": "생산성을 극대화하는 미니멀 데스크테리어 추천",
   "mainProduct": {
-    "title": "Apple 아이패드 에어 11 M2 Wi-Fi 128GB",
-    "originalPrice": "₩ 899,000",
-    "discountRate": "11%",
-    "price": "₩ 798,000",
-    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
-    "searchKeyword": "아이패드 에어 11 M2 Wi-Fi 128GB"
+    "title": "애플 2024 맥북 에어 13 M3",
+    "originalPrice": "₩ 1,590,000",
+    "discountRate": "13%",
+    "price": "₩ 1,383,300",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+    "searchKeyword": "애플 2024 맥북 에어 13 M3"
   },
   "recommendations": [
     {
-      "title": "Apple 애플 펜슬 프로",
-      "originalPrice": "₩ 195,000",
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 139,000",
       "discountRate": "10%",
-      "price": "₩ 175,000",
-      "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1000",
-      "searchKeyword": "애플 펜슬 프로"
+      "price": "₩ 125,100",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S 마우스"
     },
     {
-      "title": "ESR 아이패드 에어 11 마그네틱 폴리오 케이스",
-      "originalPrice": "₩ 29,900",
+      "title": "델 UltraSharp 27인치 4K 모니터 U2723QE",
+      "originalPrice": "₩ 670,000",
+      "discountRate": "12%",
+      "price": "₩ 589,600",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "델 U2723QE 모니터"
+    },
+    {
+      "title": "앤커 프라임 67W 다포트 충전기",
+      "originalPrice": "₩ 59,900",
       "discountRate": "20%",
-      "price": "₩ 23,900",
-      "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?q=80&w=1000",
-      "searchKeyword": "ESR 아이패드 에어 11 마그네틱 케이스"
-    },
-    {
-      "title": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB",
-      "originalPrice": "₩ 629,200",
-      "discountRate": "15%",
-      "price": "₩ 534,800",
-      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?q=80&w=1000",
-      "searchKeyword": "갤럭시탭 S9 FE Wi-Fi 128GB"
+      "price": "₩ 47,900",
+      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?q=80&w=1000",
+      "searchKeyword": "앤커 프라임 67W 충전기"
     }
   ]
 }
