@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 미니멀 데스크테리어 추천",
+  "theme": "고성능 작업과 일상을 아우르는 스마트 오피스 데스크 셋업",
   "mainProduct": {
-    "title": "애플 2024 맥북 에어 13 M3",
+    "title": "Apple 2024 맥북 에어 13 M3",
     "originalPrice": "₩ 1,590,000",
-    "discountRate": "13%",
-    "price": "₩ 1,383,300",
+    "discountRate": "12%",
+    "price": "₩ 1,390,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "애플 2024 맥북 에어 13 M3"
+    "searchKeyword": "Apple 2024 맥북 에어 13 M3 8GB 256GB"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "10%",
-      "price": "₩ 125,100",
+      "originalPrice": "₩ 169,000",
+      "discountRate": "18%",
+      "price": "₩ 138,500",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S 마우스"
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "델 UltraSharp 27인치 4K 모니터 U2723QE",
-      "originalPrice": "₩ 670,000",
-      "discountRate": "12%",
-      "price": "₩ 589,600",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "델 U2723QE 모니터"
+      "title": "키크론 K3 Pro 초슬림 기계식 키보드",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "15%",
+      "price": "₩ 135,150",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "키크론 K3 Pro"
     },
     {
-      "title": "앤커 프라임 67W 다포트 충전기",
-      "originalPrice": "₩ 59,900",
-      "discountRate": "20%",
-      "price": "₩ 47,900",
-      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?q=80&w=1000",
-      "searchKeyword": "앤커 프라임 67W 충전기"
+      "title": "Apple 2024 아이패드 에어 11 M2",
+      "originalPrice": "₩ 899,000",
+      "discountRate": "9%",
+      "price": "₩ 815,000",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
+      "searchKeyword": "Apple 2024 아이패드 에어 11 M2"
     }
   ]
 }
