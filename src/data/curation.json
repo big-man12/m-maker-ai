@@ -1,37 +1,37 @@
 {
-  "theme": "쾌적한 맥 미니 데스크셋업을 위한 필수 연관 기기",
+  "theme": "합리적인 예산으로 완성하는 고성능 스마트 오피스",
   "mainProduct": {
-    "title": "Apple 2023 맥미니 (M2 칩셋, 8GB RAM, 256GB SSD)",
-    "originalPrice": "₩ 850,000",
-    "discountRate": "18%",
-    "price": "₩ 697,000",
-    "image": "https://images.unsplash.com/photo-1547119944-1525917b1531?q=80&w=1000",
-    "searchKeyword": "애플 2023 맥미니 M2 8GB 256GB"
+    "title": "삼성전자 갤럭시북4 NT750XGR-A51A",
+    "originalPrice": "₩ 1,090,000",
+    "discountRate": "35%",
+    "price": "₩ 699,000",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1000",
+    "searchKeyword": "삼성전자 갤럭시북4 NT750XGR-A51A"
   },
   "recommendations": [
     {
-      "title": "LG 27UP850N (27인치 4K UHD IPS 모니터)",
-      "originalPrice": "₩ 450,000",
-      "discountRate": "11%",
-      "price": "₩ 399,000",
+      "title": "LG전자 27MR400 IPS 모니터",
+      "originalPrice": "₩ 199,000",
+      "discountRate": "25%",
+      "price": "₩ 149,000",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "LG 27UP850N"
+      "searchKeyword": "LG전자 27MR400"
     },
     {
-      "title": "로지텍 MX Keys Mini (블루투스 무선 키보드 맥 호환)",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "16%",
-      "price": "₩ 124,000",
+      "title": "로지텍 MX Keys Mini 무선 키보드",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "14%",
+      "price": "₩ 119,000",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
       "searchKeyword": "로지텍 MX Keys Mini"
     },
     {
-      "title": "로지텍 MX Master 3S (무선 마우스)",
-      "originalPrice": "₩ 169,000",
-      "discountRate": "12%",
-      "price": "₩ 148,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "title": "홈플래닛 알루미늄 노트북 거치대",
+      "originalPrice": "₩ 25,900",
+      "discountRate": "42%",
+      "price": "₩ 14,890",
+      "image": "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?q=80&w=1000",
+      "searchKeyword": "홈플래닛 알루미늄 노트북 거치대"
     }
   ]
 }
