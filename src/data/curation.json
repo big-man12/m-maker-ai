@@ -1,37 +1,37 @@
 {
-  "theme": "합리적인 예산으로 완성하는 고성능 스마트 오피스",
+  "theme": "생산성을 극대화하는 맥북 에어 필수 액세서리 조합",
   "mainProduct": {
-    "title": "삼성전자 갤럭시북4 NT750XGR-A51A",
-    "originalPrice": "₩ 1,090,000",
-    "discountRate": "35%",
-    "price": "₩ 699,000",
-    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1000",
-    "searchKeyword": "삼성전자 갤럭시북4 NT750XGR-A51A"
+    "title": "애플 2024 맥북 에어 13 M3",
+    "originalPrice": "₩ 1,390,000",
+    "discountRate": "11%",
+    "price": "₩ 1,230,000",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+    "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "LG전자 27MR400 IPS 모니터",
-      "originalPrice": "₩ 199,000",
-      "discountRate": "25%",
-      "price": "₩ 149,000",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "LG전자 27MR400"
-    },
-    {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
+      "title": "로지텍 MX Master 3S 무선 마우스",
       "originalPrice": "₩ 139,000",
       "discountRate": "14%",
       "price": "₩ 119,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "홈플래닛 알루미늄 노트북 거치대",
-      "originalPrice": "₩ 25,900",
-      "discountRate": "42%",
-      "price": "₩ 14,890",
-      "image": "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?q=80&w=1000",
-      "searchKeyword": "홈플래닛 알루미늄 노트북 거치대"
+      "title": "삼성전자 포터블 SSD T7 1TB",
+      "originalPrice": "₩ 170,000",
+      "discountRate": "18%",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1601524909162-be87252be298?q=80&w=1000",
+      "searchKeyword": "삼성 포터블 SSD T7 1TB"
+    },
+    {
+      "title": "앤커 5-in-1 USB-C 허브",
+      "originalPrice": "₩ 49,900",
+      "discountRate": "20%",
+      "price": "₩ 39,900",
+      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
+      "searchKeyword": "앤커 5-in-1 USB-C 허브"
     }
   ]
 }
