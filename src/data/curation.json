@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 맥북 에어 필수 액세서리 조합",
+  "theme": "맥북의 생산성을 극대화하는 데스크셋업 필수품",
   "mainProduct": {
-    "title": "애플 2024 맥북 에어 13 M3",
+    "title": "Apple 맥북 에어 13 M3 (8GB, SSD 256GB)",
     "originalPrice": "₩ 1,390,000",
-    "discountRate": "11%",
-    "price": "₩ 1,230,000",
+    "discountRate": "10%",
+    "price": "₩ 1,251,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "searchKeyword": "맥북 에어 M3 13 기본형"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "14%",
-      "price": "₩ 119,000",
+      "title": "로지텍 MX Keys Mini 무선 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "13%",
+      "price": "₩ 129,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys Mini"
+    },
+    {
+      "title": "로지텍 MX Anywhere 3S 무선 마우스",
+      "originalPrice": "₩ 119,000",
+      "discountRate": "16%",
+      "price": "₩ 99,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "searchKeyword": "로지텍 MX Anywhere 3S"
     },
     {
-      "title": "삼성전자 포터블 SSD T7 1TB",
-      "originalPrice": "₩ 170,000",
-      "discountRate": "18%",
-      "price": "₩ 139,000",
-      "image": "https://images.unsplash.com/photo-1601524909162-be87252be298?q=80&w=1000",
-      "searchKeyword": "삼성 포터블 SSD T7 1TB"
-    },
-    {
-      "title": "앤커 5-in-1 USB-C 허브",
-      "originalPrice": "₩ 49,900",
+      "title": "삼성전자 스마트 모니터 M7 S32BM701 (32인치 4K)",
+      "originalPrice": "₩ 450,000",
       "discountRate": "20%",
-      "price": "₩ 39,900",
-      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
-      "searchKeyword": "앤커 5-in-1 USB-C 허브"
+      "price": "₩ 359,000",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "삼성전자 스마트 모니터 M7 S32BM701"
     }
   ]
 }
