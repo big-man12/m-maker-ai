@@ -1,37 +1,37 @@
 {
-  "theme": "맥북의 생산성을 극대화하는 데스크셋업 필수품",
+  "theme": "맥북 에어와 함께 구성하는 완벽한 모바일 오피스 데스크셋업",
   "mainProduct": {
-    "title": "Apple 맥북 에어 13 M3 (8GB, SSD 256GB)",
+    "title": "Apple 2024 맥북 에어 13 M3",
     "originalPrice": "₩ 1,390,000",
-    "discountRate": "10%",
-    "price": "₩ 1,251,000",
+    "discountRate": "11%",
+    "price": "₩ 1,237,100",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13 기본형"
+    "searchKeyword": "애플 2024 맥북 에어 13 M3"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "13%",
-      "price": "₩ 129,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
-    },
-    {
-      "title": "로지텍 MX Anywhere 3S 무선 마우스",
-      "originalPrice": "₩ 119,000",
-      "discountRate": "16%",
-      "price": "₩ 99,000",
+      "title": "로지텍 MX Master 3S 마우스",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "11%",
+      "price": "₩ 123,710",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Anywhere 3S"
+      "searchKeyword": "로지텍 MX Master 3S 무선 마우스"
     },
     {
-      "title": "삼성전자 스마트 모니터 M7 S32BM701 (32인치 4K)",
-      "originalPrice": "₩ 450,000",
-      "discountRate": "20%",
-      "price": "₩ 359,000",
+      "title": "삼성전자 뷰피니티 S6 S34A650 울트라와이드 모니터",
+      "originalPrice": "₩ 499,000",
+      "discountRate": "16%",
+      "price": "₩ 419,000",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "삼성전자 스마트 모니터 M7 S32BM701"
+      "searchKeyword": "삼성전자 뷰피니티 S6 S34A650 울트라와이드"
+    },
+    {
+      "title": "앤커 PowerExpand 8-in-1 USB-C 허브",
+      "originalPrice": "₩ 69,000",
+      "discountRate": "20%",
+      "price": "₩ 55,200",
+      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
+      "searchKeyword": "앤커 8 in 1 USB C 타입 허브"
     }
   ]
 }
