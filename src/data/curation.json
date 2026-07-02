@@ -1,37 +1,37 @@
 {
-  "theme": "스마트 워크와 창작 효율을 극대화하는 아이패드 에어 맞춤형 패키지",
+  "theme": "미니멀하고 생산적인 데스크테리어를 위한 스마트 가전과 주변기기",
   "mainProduct": {
-    "title": "Apple 2024 아이패드 에어 11 M2",
-    "originalPrice": "₩ 899,000",
-    "discountRate": "10%",
-    "price": "₩ 809,100",
-    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
-    "searchKeyword": "Apple 2024 아이패드 에어 11 M2"
+    "title": "삼성전자 32인치 UHD 스마트 모니터 M8 S32DM80",
+    "originalPrice": "₩ 850,000",
+    "discountRate": "35%",
+    "price": "₩ 549,000",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+    "searchKeyword": "삼성 스마트 모니터 M8 S32DM80"
   },
   "recommendations": [
     {
-      "title": "Apple 애플펜슬 프로",
-      "originalPrice": "₩ 195,000",
-      "discountRate": "5%",
-      "price": "₩ 185,250",
-      "image": "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?q=80&w=1000",
-      "searchKeyword": "애플펜슬 프로"
+      "title": "로지텍 MX Keys S 무선 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "13%",
+      "price": "₩ 129,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys S"
     },
     {
-      "title": "ESR 아이패드 에어 11 M2 리바운드 마그네틱 케이스",
-      "originalPrice": "₩ 32,900",
-      "discountRate": "21%",
-      "price": "₩ 25,900",
-      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=1000",
-      "searchKeyword": "ESR 아이패드 에어 11 마그네틱 케이스"
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "14%",
+      "price": "₩ 119,000",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "앤커 프라임 67W 3포트 초소형 고속 충전기",
-      "originalPrice": "₩ 59,900",
-      "discountRate": "16%",
-      "price": "₩ 49,900",
-      "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?q=80&w=1000",
-      "searchKeyword": "앤커 프라임 67W 충전기"
+      "title": "앤커 655 USB-C 8-in-1 허브",
+      "originalPrice": "₩ 79,000",
+      "discountRate": "25%",
+      "price": "₩ 59,000",
+      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
+      "searchKeyword": "앤커 655 USB-C 허브"
     }
   ]
 }
