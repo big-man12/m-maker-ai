@@ -1,37 +1,37 @@
 {
-  "theme": "맥북의 잠재력을 이끌어내는 데스크 셋업",
+  "theme": "가성비와 음질을 모두 잡은 무선 음향 기기 컬렉션",
   "mainProduct": {
-    "title": "Apple 2024 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "12%",
-    "price": "₩ 1,399,000",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "title": "삼성전자 갤럭시 버즈2 프로",
+    "originalPrice": "₩ 279,000",
+    "discountRate": "43%",
+    "price": "₩ 159,000",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=1000",
+    "searchKeyword": "삼성전자 갤럭시 버즈2 프로"
   },
   "recommendations": [
     {
-      "title": "키크론 K8 Pro RGB 핫스왑 기계식 키보드 적축",
-      "originalPrice": "₩ 169,000",
-      "discountRate": "15%",
-      "price": "₩ 143,650",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "키크론 K8 Pro 적축"
+      "title": "QCY T13 APP 무선 이어폰",
+      "originalPrice": "₩ 25,000",
+      "discountRate": "36%",
+      "price": "₩ 15,900",
+      "image": "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?q=80&w=1000",
+      "searchKeyword": "QCY T13 APP 무선 이어폰"
     },
     {
-      "title": "LG전자 MyView 스마트 모니터 32SR70U 32인치 4K",
-      "originalPrice": "₩ 419,000",
+      "title": "소니 WH-1000XM5 무선 헤드폰",
+      "originalPrice": "₩ 499,000",
       "discountRate": "18%",
-      "price": "₩ 343,580",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "LG MyView 32SR70U"
+      "price": "₩ 409,000",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1000",
+      "searchKeyword": "소니 WH-1000XM5"
     },
     {
-      "title": "사테치 알루미늄 USB-C 멀티포트 어댑터 V2",
-      "originalPrice": "₩ 119,000",
+      "title": "앤커 사운드코어 모션 X600 블루투스 스피커",
+      "originalPrice": "₩ 249,000",
       "discountRate": "20%",
-      "price": "₩ 95,200",
-      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
-      "searchKeyword": "사테치 멀티포트 어댑터 V2"
+      "price": "₩ 199,000",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=1000",
+      "searchKeyword": "앤커 사운드코어 모션 X600"
     }
   ]
 }
