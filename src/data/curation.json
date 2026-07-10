@@ -1,37 +1,37 @@
 {
-  "theme": "맥북과 함께하면 좋은 스마트 업무 환경 구축 에센셜",
+  "theme": "아이패드 에어 M2의 생산성을 두 배로 올리는 최적의 조합",
   "mainProduct": {
-    "title": "애플 2024 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "13%",
-    "price": "₩ 1,375,000",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "title": "애플 iPad Air 11 디스플레이 M2 칩셋 Wi-Fi 128GB",
+    "originalPrice": "₩ 899,000",
+    "discountRate": "9%",
+    "price": "₩ 818,000",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1000",
+    "searchKeyword": "아이패드 에어 6세대 11 M2"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys S 무선 키보드",
+      "title": "Apple Pencil Pro",
+      "originalPrice": "₩ 195,000",
+      "discountRate": "8%",
+      "price": "₩ 179,000",
+      "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1000",
+      "searchKeyword": "애플펜슬 프로"
+    },
+    {
+      "title": "ESR 아이패드 에어 11 M2 리바운드 마그네틱 케이스",
+      "originalPrice": "₩ 29,900",
+      "discountRate": "20%",
+      "price": "₩ 23,900",
+      "image": "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?q=80&w=1000",
+      "searchKeyword": "ESR 아이패드 에어 11 M2 마그네틱 케이스"
+    },
+    {
+      "title": "키크론 K3 Pro 저소음 무선 기계식 키보드",
       "originalPrice": "₩ 149,000",
       "discountRate": "10%",
       "price": "₩ 134,100",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys S"
-    },
-    {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "7%",
-      "price": "₩ 129,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
-    },
-    {
-      "title": "베이스어스 C타입 8in1 멀티허브",
-      "originalPrice": "₩ 49,900",
-      "discountRate": "20%",
-      "price": "₩ 39,900",
-      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
-      "searchKeyword": "베이스어스 C타입 멀티허브 8in1"
+      "searchKeyword": "키크론 K3 Pro"
     }
   ]
 }
