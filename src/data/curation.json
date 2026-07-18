@@ -1,37 +1,37 @@
 {
-  "theme": "스마트한 업무 효율을 극대화하는 맥북 에센셜 가이드",
+  "theme": "쾌적하고 생산적인 고성능 스마트 데스크 셋업",
   "mainProduct": {
-    "title": "애플 2024 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
+    "title": "Apple 2024 맥북 에어 13 M3",
+    "originalPrice": "₩ 1,390,000",
     "discountRate": "11%",
-    "price": "₩ 1,399,000",
+    "price": "₩ 1,237,000",
     "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
     "searchKeyword": "맥북 에어 M3 13"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "14%",
-      "price": "₩ 119,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "title": "로지텍 MX Keys S 무선 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "10%",
+      "price": "₩ 134,100",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys S"
     },
     {
-      "title": "Anker PowerExpand 8-in-1 USB-C 허브",
-      "originalPrice": "₩ 69,900",
-      "discountRate": "20%",
-      "price": "₩ 55,900",
-      "image": "https://images.unsplash.com/photo-1562973831-2d37c74efe7e?q=80&w=1000",
-      "searchKeyword": "Anker 8-in-1 C타입 허브"
-    },
-    {
-      "title": "네이비 풀 알루미늄 노트북 거치대",
-      "originalPrice": "₩ 29,900",
-      "discountRate": "33%",
-      "price": "₩ 19,900",
+      "title": "삼성전자 뷰피니티 S8 27인치 4K 모니터",
+      "originalPrice": "₩ 450,000",
+      "discountRate": "15%",
+      "price": "₩ 382,500",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "알루미늄 노트북 거치대"
+      "searchKeyword": "삼성전자 뷰피니티 S8 27인치"
+    },
+    {
+      "title": "애플 정품 듀얼 USB-C 포트 35W 전원 어댑터",
+      "originalPrice": "₩ 72,000",
+      "discountRate": "18%",
+      "price": "₩ 59,000",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
+      "searchKeyword": "애플 듀얼 35W 어댑터"
     }
   ]
 }
