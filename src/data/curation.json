@@ -1,37 +1,37 @@
 {
-  "theme": "맥북 에어의 생산성을 극대화하는 업무용 데스크셋업",
+  "theme": "생산성을 극대화하는 태블릿 데스크셋업 추천",
   "mainProduct": {
-    "title": "애플 맥북 에어 M3 13",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "13%",
-    "price": "₩ 1,375,000",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "title": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB",
+    "originalPrice": "₩ 629,200",
+    "discountRate": "18%",
+    "price": "₩ 515,900",
+    "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?q=80&w=1000",
+    "searchKeyword": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "13%",
-      "price": "₩ 129,000",
+      "title": "로지텍 Pebble Keys 2 K380s 블루투스 키보드",
+      "originalPrice": "₩ 39,900",
+      "discountRate": "12%",
+      "price": "₩ 34,900",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
+      "searchKeyword": "로지텍 Pebble Keys 2 K380s"
     },
     {
-      "title": "벨킨 7-in-1 USB-C 멀티허브",
-      "originalPrice": "₩ 99,000",
-      "discountRate": "30%",
-      "price": "₩ 69,300",
-      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=1000",
-      "searchKeyword": "벨킨 7-in-1 멀티허브"
-    },
-    {
-      "title": "삼성전자 S32B500 QHD 모니터",
-      "originalPrice": "₩ 349,000",
-      "discountRate": "15%",
-      "price": "₩ 296,000",
+      "title": "홈플래닛 알루미늄 접이식 태블릿 거치대",
+      "originalPrice": "₩ 15,900",
+      "discountRate": "37%",
+      "price": "₩ 9,900",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "삼성 32인치 QHD 모니터"
+      "searchKeyword": "홈플래닛 알루미늄 접이식 태블릿 거치대"
+    },
+    {
+      "title": "삼성전자 갤럭시탭 S9 Wi-Fi 128GB",
+      "originalPrice": "₩ 998,800",
+      "discountRate": "15%",
+      "price": "₩ 848,900",
+      "image": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?q=80&w=1000",
+      "searchKeyword": "삼성전자 갤럭시탭 S9 Wi-Fi 128GB"
     }
   ]
 }
