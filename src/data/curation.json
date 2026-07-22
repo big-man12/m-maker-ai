@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 태블릿 데스크셋업 추천",
+  "theme": "스마트한 모바일 오피스를 완성하는 필수 생산성 아이템",
   "mainProduct": {
-    "title": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB",
-    "originalPrice": "₩ 629,200",
-    "discountRate": "18%",
-    "price": "₩ 515,900",
-    "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?q=80&w=1000",
-    "searchKeyword": "삼성전자 갤럭시탭 S9 FE Wi-Fi 128GB"
+    "title": "삼성전자 갤럭시북4 프로 16인치 NT960XGK-K71A",
+    "originalPrice": "₩ 2,450,000",
+    "discountRate": "27%",
+    "price": "₩ 1,780,000",
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1000",
+    "searchKeyword": "갤럭시북4 프로 16인치 NT960XGK-K71A"
   },
   "recommendations": [
     {
-      "title": "로지텍 Pebble Keys 2 K380s 블루투스 키보드",
-      "originalPrice": "₩ 39,900",
-      "discountRate": "12%",
-      "price": "₩ 34,900",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 Pebble Keys 2 K380s"
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "21%",
+      "price": "₩ 125,000",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "홈플래닛 알루미늄 접이식 태블릿 거치대",
-      "originalPrice": "₩ 15,900",
-      "discountRate": "37%",
-      "price": "₩ 9,900",
+      "title": "앤커 737 초고속 충전 보조배터리 24000mAh 140W",
+      "originalPrice": "₩ 199,000",
+      "discountRate": "25%",
+      "price": "₩ 149,000",
+      "image": "https://images.unsplash.com/photo-1609592424109-dd9892f1b177?q=80&w=1000",
+      "searchKeyword": "앤커 737 보조배터리 140W"
+    },
+    {
+      "title": "델 울트라샤프 U2723QE 27인치 4K USB-C 허브 모니터",
+      "originalPrice": "₩ 799,000",
+      "discountRate": "18%",
+      "price": "₩ 655,000",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "홈플래닛 알루미늄 접이식 태블릿 거치대"
-    },
-    {
-      "title": "삼성전자 갤럭시탭 S9 Wi-Fi 128GB",
-      "originalPrice": "₩ 998,800",
-      "discountRate": "15%",
-      "price": "₩ 848,900",
-      "image": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?q=80&w=1000",
-      "searchKeyword": "삼성전자 갤럭시탭 S9 Wi-Fi 128GB"
+      "searchKeyword": "델 U2723QE 4K 모니터"
     }
   ]
 }
