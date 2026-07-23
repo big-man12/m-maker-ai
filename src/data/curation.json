@@ -1,37 +1,37 @@
 {
-  "theme": "스마트한 모바일 오피스를 완성하는 필수 생산성 아이템",
+  "theme": "생산성을 극대화하는 스마트 워크스페이스 추천 데스크 세팅",
   "mainProduct": {
-    "title": "삼성전자 갤럭시북4 프로 16인치 NT960XGK-K71A",
-    "originalPrice": "₩ 2,450,000",
-    "discountRate": "27%",
-    "price": "₩ 1,780,000",
-    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1000",
-    "searchKeyword": "갤럭시북4 프로 16인치 NT960XGK-K71A"
+    "title": "LG전자 2024 그램 프로 16",
+    "originalPrice": "₩ 2,490,000",
+    "discountRate": "18%",
+    "price": "₩ 2,041,800",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
+    "searchKeyword": "LG전자 2024 그램 프로 16"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
       "originalPrice": "₩ 159,000",
-      "discountRate": "21%",
-      "price": "₩ 125,000",
+      "discountRate": "12%",
+      "price": "₩ 139,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "앤커 737 초고속 충전 보조배터리 24000mAh 140W",
+      "title": "누피 Air75 V2 무선 기계식 키보드",
       "originalPrice": "₩ 199,000",
-      "discountRate": "25%",
-      "price": "₩ 149,000",
-      "image": "https://images.unsplash.com/photo-1609592424109-dd9892f1b177?q=80&w=1000",
-      "searchKeyword": "앤커 737 보조배터리 140W"
+      "discountRate": "10%",
+      "price": "₩ 179,100",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "누피 Air75 V2"
     },
     {
-      "title": "델 울트라샤프 U2723QE 27인치 4K USB-C 허브 모니터",
+      "title": "델 UltraSharp U2723QE 4K 모니터",
       "originalPrice": "₩ 799,000",
-      "discountRate": "18%",
-      "price": "₩ 655,000",
+      "discountRate": "15%",
+      "price": "₩ 679,150",
       "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "델 U2723QE 4K 모니터"
+      "searchKeyword": "델 U2723QE"
     }
   ]
 }
