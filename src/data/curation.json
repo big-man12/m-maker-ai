@@ -1,37 +1,37 @@
 {
-  "theme": "재택근무 생산성을 극대화하는 스마트 데스크 세팅",
+  "theme": "재택근무 생산성을 높여주는 데스크테리어 조합",
   "mainProduct": {
-    "title": "LG전자 34인치 울트라와이드 모니터 34WP500",
-    "originalPrice": "₩ 379,000",
-    "discountRate": "16%",
-    "price": "₩ 318,000",
+    "title": "LG전자 울트라기어 32GR75Q QHD IPS 165Hz 게이밍 모니터",
+    "originalPrice": "₩ 549,000",
+    "discountRate": "20%",
+    "price": "₩ 439,000",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG 34WP500"
+    "searchKeyword": "LG 32GR75Q"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "13%",
-      "price": "₩ 129,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
-    },
-    {
-      "title": "로지텍 MX Master 3S 무선 마우스",
+      "title": "로지텍 MX Keys S 무선 키보드",
       "originalPrice": "₩ 159,000",
       "discountRate": "12%",
       "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys S"
+    },
+    {
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "10%",
+      "price": "₩ 134,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "엘가토 스트림덱 MK.2",
-      "originalPrice": "₩ 219,000",
-      "discountRate": "18%",
-      "price": "₩ 179,000",
-      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
-      "searchKeyword": "엘가토 스트림덱 MK.2"
+      "title": "카멜마운트 대형 모니터암 PMA-2D",
+      "originalPrice": "₩ 89,000",
+      "discountRate": "22%",
+      "price": "₩ 69,000",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000",
+      "searchKeyword": "카멜마운트 PMA-2D"
     }
   ]
 }
