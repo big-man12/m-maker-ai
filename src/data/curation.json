@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 높이는 완벽한 미니멀 데스크 세팅",
+  "theme": "몰입감 높은 홈오피스를 만드는 데스크테리어 컬렉션",
   "mainProduct": {
-    "title": "LG전자 27인치 4K UHD IPS 모니터 27UP850N",
-    "originalPrice": "₩ 549,000",
-    "discountRate": "20%",
-    "price": "₩ 439,000",
+    "title": "삼성전자 80cm 4K UHD 스마트 모니터 M8 S32C801",
+    "originalPrice": "₩ 850,000",
+    "discountRate": "31%",
+    "price": "₩ 585,000",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG 27UP850N"
+    "searchKeyword": "삼성전자 스마트 모니터 M8 S32C801"
   },
   "recommendations": [
     {
+      "title": "로지텍 MX Keys S 무선 키보드",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "18%",
+      "price": "₩ 129,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys S"
+    },
+    {
       "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "14%",
-      "price": "₩ 119,000",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "15%",
+      "price": "₩ 126,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "20%",
-      "price": "₩ 119,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
-    },
-    {
-      "title": "카멜마운트 고하중 싱글 모니터암 PMA-2D",
-      "originalPrice": "₩ 89,000",
+      "title": "소니 WH-1000XM5 노이즈캔슬링 무선 헤드폰",
+      "originalPrice": "₩ 499,000",
       "discountRate": "22%",
-      "price": "₩ 69,000",
-      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000",
-      "searchKeyword": "카멜마운트 PMA-2D"
+      "price": "₩ 389,000",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
+      "searchKeyword": "소니 WH-1000XM5"
     }
   ]
 }
