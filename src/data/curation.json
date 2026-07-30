@@ -1,37 +1,37 @@
 {
-  "theme": "몰입감 높은 홈오피스를 만드는 데스크테리어 컬렉션",
+  "theme": "몰입감과 생산성을 높이는 완벽한 데스크셋업 추천",
   "mainProduct": {
-    "title": "삼성전자 80cm 4K UHD 스마트 모니터 M8 S32C801",
-    "originalPrice": "₩ 850,000",
-    "discountRate": "31%",
-    "price": "₩ 585,000",
+    "title": "LG전자 27UP850N 27인치 4K IPS C타입 모니터",
+    "originalPrice": "₩ 649,000",
+    "discountRate": "23%",
+    "price": "₩ 499,000",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "삼성전자 스마트 모니터 M8 S32C801"
+    "searchKeyword": "LG전자 27UP850N"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys S 무선 키보드",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "18%",
+      "title": "로지텍 MX Keys Mini 무선 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "13%",
       "price": "₩ 129,000",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys S"
+      "searchKeyword": "로지텍 MX Keys Mini"
     },
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "15%",
-      "price": "₩ 126,000",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "13%",
+      "price": "₩ 138,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "소니 WH-1000XM5 노이즈캔슬링 무선 헤드폰",
-      "originalPrice": "₩ 499,000",
-      "discountRate": "22%",
-      "price": "₩ 389,000",
-      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
-      "searchKeyword": "소니 WH-1000XM5"
+      "title": "카멜마운트 싱글 모니터암 CA2",
+      "originalPrice": "₩ 79,000",
+      "discountRate": "25%",
+      "price": "₩ 59,000",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000",
+      "searchKeyword": "카멜마운트 CA2"
     }
   ]
 }
