@@ -1,22 +1,14 @@
 {
-  "theme": "몰입감과 생산성을 높이는 완벽한 데스크셋업 추천",
+  "theme": "몰입감과 생산성을 높이는 스마트 워크스페이스 세팅",
   "mainProduct": {
-    "title": "LG전자 27UP850N 27인치 4K IPS C타입 모니터",
-    "originalPrice": "₩ 649,000",
-    "discountRate": "23%",
-    "price": "₩ 499,000",
+    "title": "LG전자 27UP850N 27인치 4K UHD 모니터",
+    "originalPrice": "₩ 549,000",
+    "discountRate": "22%",
+    "price": "₩ 429,000",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG전자 27UP850N"
+    "searchKeyword": "LG 27UP850N"
   },
   "recommendations": [
-    {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "13%",
-      "price": "₩ 129,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
-    },
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
       "originalPrice": "₩ 159,000",
@@ -26,12 +18,20 @@
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "카멜마운트 싱글 모니터암 CA2",
-      "originalPrice": "₩ 79,000",
-      "discountRate": "25%",
-      "price": "₩ 59,000",
-      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000",
-      "searchKeyword": "카멜마운트 CA2"
+      "title": "키크론 K3 Retro RGB 무선 기계식 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "15%",
+      "price": "₩ 126,650",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "키크론 K3"
+    },
+    {
+      "title": "엘레강트파파 C타입 멀티포트 허브 8in1",
+      "originalPrice": "₩ 49,000",
+      "discountRate": "30%",
+      "price": "₩ 34,300",
+      "image": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?q=80&w=1000",
+      "searchKeyword": "C타입 멀티포트 허브"
     }
   ]
 }
