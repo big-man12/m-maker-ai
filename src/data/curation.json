@@ -1,37 +1,37 @@
 {
-  "theme": "몰입감을 높이는 홈오피스 데스크 세팅",
+  "theme": "몰입감과 생산성을 높이는 모던 데스크테리어 컬렉션",
   "mainProduct": {
-    "title": "Apple 맥북 에어 13 M2",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "18%",
-    "price": "₩ 1,299,000",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M2 13"
+    "title": "LG전자 80cm 4K UHD 울트라기어 게이밍 모니터 32GR93U",
+    "originalPrice": "₩ 1,090,000",
+    "discountRate": "22%",
+    "price": "₩ 849,000",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+    "searchKeyword": "LG 32GR93U"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
       "originalPrice": "₩ 149,000",
-      "discountRate": "13%",
-      "price": "₩ 129,000",
+      "discountRate": "14%",
+      "price": "₩ 128,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "키크론 K3 Pro 무선 기계식 키보드",
-      "originalPrice": "₩ 169,000",
+      "title": "로지텍 MX Keys S 무선 키보드",
+      "originalPrice": "₩ 159,000",
       "discountRate": "12%",
-      "price": "₩ 148,000",
+      "price": "₩ 139,000",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "키크론 K3 Pro"
+      "searchKeyword": "로지텍 MX Keys S"
     },
     {
-      "title": "벨킨 3in1 부스트업 맥세이프 무선 충전기",
-      "originalPrice": "₩ 179,000",
-      "discountRate": "22%",
-      "price": "₩ 139,000",
-      "image": "https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?q=80&w=1000",
-      "searchKeyword": "벨킨 3in1 맥세이프 무선 충전기"
+      "title": "카멜마운트 고하중 싱글 모니터암 PMA-2D",
+      "originalPrice": "₩ 99,000",
+      "discountRate": "30%",
+      "price": "₩ 69,300",
+      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
+      "searchKeyword": "카멜마운트 PMA-2D"
     }
   ]
 }
