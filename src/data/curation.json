@@ -1,37 +1,37 @@
 {
-  "theme": "몰입감과 생산성을 높이는 모던 데스크테리어 컬렉션",
+  "theme": "생산성을 끌어올리는 극상의 모던 데스크 테리어",
   "mainProduct": {
-    "title": "LG전자 80cm 4K UHD 울트라기어 게이밍 모니터 32GR93U",
-    "originalPrice": "₩ 1,090,000",
-    "discountRate": "22%",
-    "price": "₩ 849,000",
+    "title": "LG전자 32인치 4K UHD 모니터 32UN880 에르고",
+    "originalPrice": "₩ 849,000",
+    "discountRate": "23%",
+    "price": "₩ 649,000",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG 32GR93U"
+    "searchKeyword": "LG 32UN880 4K Ergo"
   },
   "recommendations": [
     {
       "title": "로지텍 MX Master 3S 무선 마우스",
       "originalPrice": "₩ 149,000",
-      "discountRate": "14%",
-      "price": "₩ 128,000",
+      "discountRate": "13%",
+      "price": "₩ 129,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "로지텍 MX Keys S 무선 키보드",
+      "title": "키크론 K3 Pro 무선 기계식 키보드",
       "originalPrice": "₩ 159,000",
-      "discountRate": "12%",
-      "price": "₩ 139,000",
+      "discountRate": "18%",
+      "price": "₩ 129,000",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys S"
+      "searchKeyword": "키크론 K3 Pro 무선 키보드"
     },
     {
-      "title": "카멜마운트 고하중 싱글 모니터암 PMA-2D",
-      "originalPrice": "₩ 99,000",
-      "discountRate": "30%",
-      "price": "₩ 69,300",
-      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
-      "searchKeyword": "카멜마운트 PMA-2D"
+      "title": "엘가토 스팀덱 MK.2 컨트롤러",
+      "originalPrice": "₩ 219,000",
+      "discountRate": "14%",
+      "price": "₩ 189,000",
+      "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?q=80&w=1000",
+      "searchKeyword": "엘가토 스팀덱 MK2"
     }
   ]
 }
