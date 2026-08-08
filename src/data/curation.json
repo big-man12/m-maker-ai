@@ -1,37 +1,37 @@
 {
-  "theme": "생산성을 극대화하는 스마트 워크스페이스 구축 조합",
+  "theme": "생산성과 감성을 모두 잡는 홈오피스 데스크테리어",
   "mainProduct": {
-    "title": "애플 맥북 에어 13 M3",
-    "originalPrice": "₩ 1,590,000",
-    "discountRate": "14%",
-    "price": "₩ 1,360,000",
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000",
-    "searchKeyword": "맥북 에어 M3 13"
+    "title": "LG전자 울트라기어 32GP850",
+    "originalPrice": "₩ 699,000",
+    "discountRate": "18%",
+    "price": "₩ 569,000",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+    "searchKeyword": "LG 32GP850"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "13%",
-      "price": "₩ 129,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "title": "로지텍 MX Keys S 무선 키보드",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "12%",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys S"
     },
     {
-      "title": "벨킨 7in1 USB-C 멀티허브",
+      "title": "카멜마운트 PMA-2 고중량 모니터암",
       "originalPrice": "₩ 89,000",
       "discountRate": "22%",
       "price": "₩ 69,400",
-      "image": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?q=80&w=1000",
-      "searchKeyword": "벨킨 USB C 멀티허브"
+      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
+      "searchKeyword": "카멜마운트 PMA-2"
     },
     {
-      "title": "누피 Air75 V2 무선 기계식 키보드",
-      "originalPrice": "₩ 189,000",
-      "discountRate": "15%",
-      "price": "₩ 160,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "누피 Air75 V2"
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "10%",
+      "price": "₩ 134,000",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     }
   ]
 }
