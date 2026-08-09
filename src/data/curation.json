@@ -1,37 +1,37 @@
 {
-  "theme": "생산성과 감성을 모두 잡는 홈오피스 데스크테리어",
+  "theme": "생산성과 몰입감을 높이는 데스크 환경 구축",
   "mainProduct": {
-    "title": "LG전자 울트라기어 32GP850",
-    "originalPrice": "₩ 699,000",
+    "title": "LG전자 울트라기어 27GP850O QHD 게이밍 모니터",
+    "originalPrice": "₩ 549,000",
     "discountRate": "18%",
-    "price": "₩ 569,000",
+    "price": "₩ 449,000",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG 32GP850"
+    "searchKeyword": "LG 27GP850O"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys S 무선 키보드",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "12%",
-      "price": "₩ 139,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys S"
+      "title": "카멜마운트 고하중 싱글 모니터암 PMA2D",
+      "originalPrice": "₩ 99,000",
+      "discountRate": "20%",
+      "price": "₩ 79,200",
+      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=1000",
+      "searchKeyword": "카멜마운트 PMA2D"
     },
     {
-      "title": "카멜마운트 PMA-2 고중량 모니터암",
-      "originalPrice": "₩ 89,000",
-      "discountRate": "22%",
-      "price": "₩ 69,400",
-      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
-      "searchKeyword": "카멜마운트 PMA-2"
-    },
-    {
-      "title": "로지텍 MX Master 3S 무선 마우스",
+      "title": "로지텍 MX Keys Mini 무선 키보드",
       "originalPrice": "₩ 149,000",
-      "discountRate": "10%",
-      "price": "₩ 134,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "discountRate": "13%",
+      "price": "₩ 129,000",
+      "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys Mini"
+    },
+    {
+      "title": "베이스어스 i-Wok 2세대 모니터 조명",
+      "originalPrice": "₩ 45,000",
+      "discountRate": "22%",
+      "price": "₩ 35,100",
+      "image": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1000",
+      "searchKeyword": "베이스어스 모니터 조명 2세대"
     }
   ]
 }
