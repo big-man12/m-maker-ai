@@ -1,37 +1,37 @@
 {
-  "theme": "생산성과 몰입감을 높이는 데스크 환경 구축",
+  "theme": "몰입감과 생산성을 높이는 스마트 데스크 테리어",
   "mainProduct": {
-    "title": "LG전자 울트라기어 27GP850O QHD 게이밍 모니터",
-    "originalPrice": "₩ 549,000",
-    "discountRate": "18%",
-    "price": "₩ 449,000",
+    "title": "LG전자 27UQ850W Nano IPS Black 4K UHD 모니터",
+    "originalPrice": "₩ 690,000",
+    "discountRate": "16%",
+    "price": "₩ 579,000",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG 27GP850O"
+    "searchKeyword": "LG 27UQ850W"
   },
   "recommendations": [
     {
-      "title": "카멜마운트 고하중 싱글 모니터암 PMA2D",
-      "originalPrice": "₩ 99,000",
-      "discountRate": "20%",
-      "price": "₩ 79,200",
-      "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=1000",
-      "searchKeyword": "카멜마운트 PMA2D"
+      "title": "키크론 K3 Pro QMK/VIA 울트라슬림 무선 기계식 키보드",
+      "originalPrice": "₩ 169,000",
+      "discountRate": "12%",
+      "price": "₩ 148,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "키크론 K3 Pro"
     },
     {
-      "title": "로지텍 MX Keys Mini 무선 키보드",
-      "originalPrice": "₩ 149,000",
+      "title": "로지텍 MX Master 3S 최고급 무선 마우스",
+      "originalPrice": "₩ 159,000",
       "discountRate": "13%",
-      "price": "₩ 129,000",
-      "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys Mini"
+      "price": "₩ 138,000",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "베이스어스 i-Wok 2세대 모니터 조명",
-      "originalPrice": "₩ 45,000",
+      "title": "벨킨 부스트업 3in1 맥세이프 무선 충전기 WIZ017",
+      "originalPrice": "₩ 179,000",
       "discountRate": "22%",
-      "price": "₩ 35,100",
-      "image": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1000",
-      "searchKeyword": "베이스어스 모니터 조명 2세대"
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1622445268465-84a82c6d967a?q=80&w=1000",
+      "searchKeyword": "벨킨 3in1 맥세이프 충전기"
     }
   ]
 }
