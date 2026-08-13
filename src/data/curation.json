@@ -1,37 +1,37 @@
 {
-  "theme": "몰입감을 높이는 데스크테리어 리프레시",
+  "theme": "몰입감 높은 데스크테리어와 작업 효율 극대화 조합",
   "mainProduct": {
-    "title": "LG전자 울트라기어 27GS95QE OLED 게이밍 모니터 27인치",
-    "originalPrice": "₩ 1,390,000",
+    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
+    "originalPrice": "₩ 499,000",
     "discountRate": "22%",
-    "price": "₩ 1,084,200",
-    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG 27GS95QE"
+    "price": "₩ 389,000",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
+    "searchKeyword": "소니 WH-1000XM5"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 최고급 무선 마우스",
-      "originalPrice": "₩ 159,000",
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 149,000",
       "discountRate": "13%",
-      "price": "₩ 138,000",
+      "price": "₩ 129,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "카멜마운트 고중량 싱글 모니터암 PMA-2H",
-      "originalPrice": "₩ 119,000",
-      "discountRate": "25%",
-      "price": "₩ 89,000",
-      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000",
-      "searchKeyword": "카멜마운트 PMA-2H"
+      "title": "키크론 K3 Retro Slim 기계식 키보드",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "12%",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "키크론 K3 키보드"
     },
     {
-      "title": "로지텍 MX Keys S 그래파이트 무선 키보드",
-      "originalPrice": "₩ 169,000",
-      "discountRate": "11%",
-      "price": "₩ 149,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys S"
+      "title": "알루미늄 접이식 노트북 거치대",
+      "originalPrice": "₩ 39,000",
+      "discountRate": "28%",
+      "price": "₩ 27,900",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+      "searchKeyword": "알루미늄 노트북 거치대"
     }
   ]
 }
