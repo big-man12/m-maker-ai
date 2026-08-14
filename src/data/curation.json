@@ -1,37 +1,37 @@
 {
-  "theme": "몰입감 높은 데스크테리어와 작업 효율 극대화 조합",
+  "theme": "몰입형 데스크와 작업 효율을 위한 스마트 큐레이션",
   "mainProduct": {
     "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
-    "originalPrice": "₩ 499,000",
-    "discountRate": "22%",
-    "price": "₩ 389,000",
+    "originalPrice": "499,000",
+    "discountRate": "24%",
+    "price": "379,000",
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
     "searchKeyword": "소니 WH-1000XM5"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
-      "originalPrice": "₩ 149,000",
-      "discountRate": "13%",
-      "price": "₩ 129,000",
+      "title": "로지텍 MX Master 3S 무선 무소음 마우스",
+      "originalPrice": "139,000",
+      "discountRate": "21%",
+      "price": "109,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S"
+      "searchKeyword": "로지텍 MX Master 3S 정품"
     },
     {
-      "title": "키크론 K3 Retro Slim 기계식 키보드",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "12%",
-      "price": "₩ 139,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "키크론 K3 키보드"
-    },
-    {
-      "title": "알루미늄 접이식 노트북 거치대",
-      "originalPrice": "₩ 39,000",
+      "title": "벨킨 부스트차지 프로 3in1 맥세이프 무선 충전기 2세대 WIZ017",
+      "originalPrice": "209,000",
       "discountRate": "28%",
-      "price": "₩ 27,900",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "알루미늄 노트북 거치대"
+      "price": "149,900",
+      "image": "https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?q=80&w=1000",
+      "searchKeyword": "벨킨 3in1 맥세이프 WIZ017"
+    },
+    {
+      "title": "알루미늄 듀얼 헤드폰 거치대 스탠드",
+      "originalPrice": "35,000",
+      "discountRate": "37%",
+      "price": "21,900",
+      "image": "https://images.unsplash.com/photo-1584679109597-c656b19974c9?q=80&w=1000",
+      "searchKeyword": "알루미늄 헤드폰 스탠드 거치대"
     }
   ]
 }
