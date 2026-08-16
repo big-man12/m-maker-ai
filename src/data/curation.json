@@ -1,37 +1,37 @@
 {
-  "theme": "몰입형 데스크와 작업 효율을 위한 스마트 큐레이션",
+  "theme": "작업 능률과 몰입도를 극대화하는 프리미엄 데스크테리어",
   "mainProduct": {
-    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
-    "originalPrice": "499,000",
-    "discountRate": "24%",
-    "price": "379,000",
+    "title": "소니 WH-1000XM5 노이즈 캔슬링 무선 헤드폰",
+    "originalPrice": "₩ 499,000",
+    "discountRate": "16%",
+    "price": "₩ 419,000",
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
-    "searchKeyword": "소니 WH-1000XM5"
+    "searchKeyword": "소니 WH-1000XM5 헤드폰"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 무소음 마우스",
-      "originalPrice": "139,000",
-      "discountRate": "21%",
-      "price": "109,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S 정품"
+      "title": "로지텍 MX Master 3S 무소음 무선 마우스",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "18%",
+      "price": "₩ 114,000",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S 마우스"
     },
     {
-      "title": "벨킨 부스트차지 프로 3in1 맥세이프 무선 충전기 2세대 WIZ017",
-      "originalPrice": "209,000",
-      "discountRate": "28%",
-      "price": "149,900",
-      "image": "https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?q=80&w=1000",
-      "searchKeyword": "벨킨 3in1 맥세이프 WIZ017"
+      "title": "로지텍 MX KEYS S 무선 일루미네이티드 키보드",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "13%",
+      "price": "₩ 138,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX KEYS S 키보드"
     },
     {
-      "title": "알루미늄 듀얼 헤드폰 거치대 스탠드",
-      "originalPrice": "35,000",
-      "discountRate": "37%",
-      "price": "21,900",
-      "image": "https://images.unsplash.com/photo-1584679109597-c656b19974c9?q=80&w=1000",
-      "searchKeyword": "알루미늄 헤드폰 스탠드 거치대"
+      "title": "알루미늄 고급 헤드폰 거치대 스탠드",
+      "originalPrice": "₩ 35,000",
+      "discountRate": "40%",
+      "price": "₩ 21,000",
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1000",
+      "searchKeyword": "알루미늄 헤드폰 스탠드"
     }
   ]
 }
