@@ -1,37 +1,37 @@
 {
-  "theme": "작업 능률과 몰입도를 극대화하는 프리미엄 데스크테리어",
+  "theme": "작업 피로도를 낮추는 프로페셔널 데스크테리어 셋업",
   "mainProduct": {
-    "title": "소니 WH-1000XM5 노이즈 캔슬링 무선 헤드폰",
-    "originalPrice": "₩ 499,000",
-    "discountRate": "16%",
-    "price": "₩ 419,000",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
-    "searchKeyword": "소니 WH-1000XM5 헤드폰"
+    "title": "로지텍 MX Master 3S 무선 마우스",
+    "originalPrice": "₩ 139,000",
+    "discountRate": "18%",
+    "price": "₩ 114,000",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+    "searchKeyword": "로지텍 MX Master 3S"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무소음 무선 마우스",
-      "originalPrice": "₩ 139,000",
-      "discountRate": "18%",
-      "price": "₩ 114,000",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S 마우스"
-    },
-    {
-      "title": "로지텍 MX KEYS S 무선 일루미네이티드 키보드",
+      "title": "로지텍 MX Keys S 무선 키보드",
       "originalPrice": "₩ 159,000",
-      "discountRate": "13%",
-      "price": "₩ 138,000",
+      "discountRate": "15%",
+      "price": "₩ 135,000",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX KEYS S 키보드"
+      "searchKeyword": "로지텍 MX Keys S"
     },
     {
-      "title": "알루미늄 고급 헤드폰 거치대 스탠드",
-      "originalPrice": "₩ 35,000",
-      "discountRate": "40%",
-      "price": "₩ 21,000",
-      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1000",
-      "searchKeyword": "알루미늄 헤드폰 스탠드"
+      "title": "벤큐 스크린바 플러스 모니터 조명",
+      "originalPrice": "₩ 199,000",
+      "discountRate": "10%",
+      "price": "₩ 179,000",
+      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
+      "searchKeyword": "벤큐 스크린바 플러스"
+    },
+    {
+      "title": "엘라고 알루미늄 노트북 거치대 L2",
+      "originalPrice": "₩ 45,000",
+      "discountRate": "22%",
+      "price": "₩ 35,100",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "엘라고 L2 노트북 거치대"
     }
   ]
 }
