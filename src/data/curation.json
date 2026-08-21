@@ -1,37 +1,37 @@
 {
-  "theme": "작업 피로도를 낮추는 프로페셔널 데스크테리어 셋업",
+  "theme": "소음 없는 나만의 데스크탑 및 통근 환경 구축",
   "mainProduct": {
-    "title": "로지텍 MX Master 3S 무선 마우스",
-    "originalPrice": "₩ 139,000",
-    "discountRate": "18%",
-    "price": "₩ 114,000",
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-    "searchKeyword": "로지텍 MX Master 3S"
+    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
+    "originalPrice": "499,000",
+    "discountRate": "21%",
+    "price": "394,200",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
+    "searchKeyword": "소니 WH-1000XM5"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys S 무선 키보드",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "15%",
-      "price": "₩ 135,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys S"
+      "title": "벨킨 65W 듀얼 USB-C GaN 초고속 충전기",
+      "originalPrice": "59,900",
+      "discountRate": "34%",
+      "price": "39,500",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
+      "searchKeyword": "벨킨 65W GaN 충전기"
     },
     {
-      "title": "벤큐 스크린바 플러스 모니터 조명",
-      "originalPrice": "₩ 199,000",
-      "discountRate": "10%",
-      "price": "₩ 179,000",
-      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
-      "searchKeyword": "벤큐 스크린바 플러스"
+      "title": "원목 알루미늄 헤드폰 스탠드 거치대",
+      "originalPrice": "32,000",
+      "discountRate": "41%",
+      "price": "18,800",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+      "searchKeyword": "알루미늄 원목 헤드폰 거치대"
     },
     {
-      "title": "엘라고 알루미늄 노트북 거치대 L2",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "22%",
-      "price": "₩ 35,100",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "엘라고 L2 노트북 거치대"
+      "title": "앤커 사운드코어 스페이스 A40 노이즈캔슬링 무선이어폰",
+      "originalPrice": "109,000",
+      "discountRate": "28%",
+      "price": "78,400",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=1000",
+      "searchKeyword": "앤커 스페이스 A40"
     }
   ]
 }
