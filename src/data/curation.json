@@ -1,37 +1,37 @@
 {
-  "theme": "정숙한 오피스 라이프를 완성하는 데스크 오디오 셋업",
+  "theme": "작업 몰입도를 끌어올리는 미니멀 데스크테리어 셋업",
   "mainProduct": {
-    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
-    "originalPrice": "₩ 499,000",
-    "discountRate": "20%",
-    "price": "₩ 398,000",
-    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1000",
-    "searchKeyword": "소니 WH-1000XM5"
+    "title": "LG전자 27형 4K UHD 모니터 27UP850N",
+    "originalPrice": "₩ 549,000",
+    "discountRate": "24%",
+    "price": "₩ 419,000",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+    "searchKeyword": "LG 27UP850N 4K 모니터"
   },
   "recommendations": [
     {
-      "title": "앤커 프라임 67W GaN 3포트 초소형 고속 충전기",
-      "originalPrice": "₩ 69,900",
-      "discountRate": "28%",
-      "price": "₩ 49,900",
-      "image": "https://images.unsplash.com/photo-1622445268045-328fbbf1a940?q=80&w=1000",
-      "searchKeyword": "앤커 프라임 67W 충전기"
+      "title": "로지텍 MX Master 3S 최고급 무선 무소음 마우스",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "22%",
+      "price": "₩ 124,000",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S 마우스"
     },
     {
-      "title": "오슬로 알루미늄 메탈 헤드폰 스탠드 거치대",
-      "originalPrice": "₩ 29,000",
-      "discountRate": "34%",
-      "price": "₩ 18,900",
-      "image": "https://images.unsplash.com/photo-1584679109597-c656b19974c9?q=80&w=1000",
-      "searchKeyword": "알루미늄 헤드폰 스탠드"
+      "title": "벨킨 7in1 USB-C 멀티허브 100W PD 지원",
+      "originalPrice": "₩ 69,000",
+      "discountRate": "29%",
+      "price": "₩ 49,000",
+      "image": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?q=80&w=1000",
+      "searchKeyword": "벨킨 7in1 USB-C 허브"
     },
     {
-      "title": "크리에이티브 BT-W5 블루투스 5.3 오디오 트랜스미터 동글",
-      "originalPrice": "₩ 79,000",
-      "discountRate": "15%",
-      "price": "₩ 67,000",
-      "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?q=80&w=1000",
-      "searchKeyword": "크리에이티브 BT-W5"
+      "title": "루나랩 헤비듀티 싱글 알루미늄 모니터암",
+      "originalPrice": "₩ 65,000",
+      "discountRate": "32%",
+      "price": "₩ 44,200",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "루나랩 헤비듀티 싱글 모니터암"
     }
   ]
 }
