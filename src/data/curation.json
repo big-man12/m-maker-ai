@@ -1,37 +1,37 @@
 {
-  "theme": "작업 몰입도를 끌어올리는 미니멀 데스크테리어 셋업",
+  "theme": "작업 효율과 몰입감을 끌어올리는 데스크 셋업",
   "mainProduct": {
-    "title": "LG전자 27형 4K UHD 모니터 27UP850N",
-    "originalPrice": "₩ 549,000",
-    "discountRate": "24%",
-    "price": "₩ 419,000",
+    "title": "LG전자 울트라기어 27GP850 게이밍 모니터 68.5cm",
+    "originalPrice": "549,000",
+    "discountRate": "27%",
+    "price": "399,000",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG 27UP850N 4K 모니터"
+    "searchKeyword": "LG 27GP850"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 최고급 무선 무소음 마우스",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "22%",
-      "price": "₩ 124,000",
+      "title": "로지텍 MX MASTER 3S 무선 마우스",
+      "originalPrice": "139,000",
+      "discountRate": "21%",
+      "price": "109,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S 마우스"
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "벨킨 7in1 USB-C 멀티허브 100W PD 지원",
-      "originalPrice": "₩ 69,000",
-      "discountRate": "29%",
-      "price": "₩ 49,000",
-      "image": "https://images.unsplash.com/photo-1544652478-6653e09f18a2?q=80&w=1000",
-      "searchKeyword": "벨킨 7in1 USB-C 허브"
+      "title": "샤오미 미 컴퓨터 모니터 라이트바 1S",
+      "originalPrice": "49,900",
+      "discountRate": "30%",
+      "price": "34,900",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1000",
+      "searchKeyword": "샤오미 모니터 조명 라이트바"
     },
     {
-      "title": "루나랩 헤비듀티 싱글 알루미늄 모니터암",
-      "originalPrice": "₩ 65,000",
-      "discountRate": "32%",
-      "price": "₩ 44,200",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "루나랩 헤비듀티 싱글 모니터암"
+      "title": "벨킨 11-in-1 멀티 포트 USB-C 독 INC004",
+      "originalPrice": "149,000",
+      "discountRate": "26%",
+      "price": "109,000",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1000",
+      "searchKeyword": "벨킨 11 in 1 독"
     }
   ]
 }
