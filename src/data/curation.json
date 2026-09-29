@@ -1,37 +1,37 @@
 {
-  "theme": "작업 효율과 몰입감을 끌어올리는 데스크 셋업",
+  "theme": "깊은 몰입을 돕는 무소음 데스크테리어 큐레이션",
   "mainProduct": {
-    "title": "LG전자 울트라기어 27GP850 게이밍 모니터 68.5cm",
-    "originalPrice": "549,000",
-    "discountRate": "27%",
-    "price": "399,000",
-    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG 27GP850"
+    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
+    "originalPrice": "₩ 499,000",
+    "discountRate": "24%",
+    "price": "₩ 379,000",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
+    "searchKeyword": "소니 WH-1000XM5"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX MASTER 3S 무선 마우스",
-      "originalPrice": "139,000",
-      "discountRate": "21%",
-      "price": "109,000",
+      "title": "로지텍 MX Master 3S 무소음 무선 마우스",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "16%",
+      "price": "₩ 116,500",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "샤오미 미 컴퓨터 모니터 라이트바 1S",
-      "originalPrice": "49,900",
-      "discountRate": "30%",
-      "price": "34,900",
-      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=1000",
-      "searchKeyword": "샤오미 모니터 조명 라이트바"
+      "title": "앤커 737 보조배터리 파워코어 24000mAh 140W",
+      "originalPrice": "₩ 179,000",
+      "discountRate": "22%",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1609592807963-8798efb36582?q=80&w=1000",
+      "searchKeyword": "앤커 737 140W 보조배터리"
     },
     {
-      "title": "벨킨 11-in-1 멀티 포트 USB-C 독 INC004",
-      "originalPrice": "149,000",
-      "discountRate": "26%",
-      "price": "109,000",
-      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1000",
-      "searchKeyword": "벨킨 11 in 1 독"
+      "title": "오메가 원목 알루미늄 헤드폰 스탠드 거치대",
+      "originalPrice": "₩ 35,000",
+      "discountRate": "31%",
+      "price": "₩ 23,900",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+      "searchKeyword": "오메가 헤드폰 거치대"
     }
   ]
 }
