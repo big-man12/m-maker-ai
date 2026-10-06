@@ -1,37 +1,37 @@
 {
-  "theme": "깊은 몰입을 돕는 무소음 데스크테리어 큐레이션",
+  "theme": "재택근무 생산성과 게이밍 몰입도를 극대화하는 데스크 셋업",
   "mainProduct": {
-    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
-    "originalPrice": "₩ 499,000",
-    "discountRate": "24%",
-    "price": "₩ 379,000",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
-    "searchKeyword": "소니 WH-1000XM5"
+    "title": "LG전자 27인치 울트라기어 QHD 나노IPS 게이밍 모니터 27GP850",
+    "originalPrice": "₩ 549,000",
+    "discountRate": "27%",
+    "price": "₩ 399,000",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+    "searchKeyword": "LG전자 27GP850"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무소음 무선 마우스",
+      "title": "로지텍 MX Master 3S 최고급 무선 마우스",
       "originalPrice": "₩ 139,000",
-      "discountRate": "16%",
-      "price": "₩ 116,500",
+      "discountRate": "15%",
+      "price": "₩ 118,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "앤커 737 보조배터리 파워코어 24000mAh 140W",
-      "originalPrice": "₩ 179,000",
-      "discountRate": "22%",
-      "price": "₩ 139,000",
-      "image": "https://images.unsplash.com/photo-1609592807963-8798efb36582?q=80&w=1000",
-      "searchKeyword": "앤커 737 140W 보조배터리"
+      "title": "루나랩 헤비듀티 싱글 모니터암",
+      "originalPrice": "₩ 64,000",
+      "discountRate": "19%",
+      "price": "₩ 51,800",
+      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
+      "searchKeyword": "루나랩 모니터암 싱글"
     },
     {
-      "title": "오메가 원목 알루미늄 헤드폰 스탠드 거치대",
-      "originalPrice": "₩ 35,000",
-      "discountRate": "31%",
-      "price": "₩ 23,900",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "오메가 헤드폰 거치대"
+      "title": "키크론 K3 Pro 초슬림 무선 기계식 키보드",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "14%",
+      "price": "₩ 128,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "키크론 K3 Pro"
     }
   ]
 }
