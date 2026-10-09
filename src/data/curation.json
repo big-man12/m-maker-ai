@@ -1,37 +1,37 @@
 {
-  "theme": "데스크 몰입과 이동성을 완성하는 스마트 사운드 셋업",
+  "theme": "소음 없는 몰입을 위한 데스크 및 아웃도어 사운드 셋업",
   "mainProduct": {
-    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
-    "originalPrice": "499,000",
-    "discountRate": "22%",
-    "price": "389,000",
+    "title": "소니 WH-1000XM5 노이즈 캔슬링 무선 헤드폰",
+    "originalPrice": "₩ 479,000",
+    "discountRate": "19%",
+    "price": "₩ 389,000",
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
     "searchKeyword": "소니 WH-1000XM5"
   },
   "recommendations": [
     {
-      "title": "앤커 사운드코어 스페이스 Q45 무선 헤드폰",
-      "originalPrice": "149,000",
-      "discountRate": "34%",
-      "price": "98,000",
+      "title": "앤커 사운드코어 스페이스 Q45 무선 노이즈캔슬링 헤드폰",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "27%",
+      "price": "₩ 108,000",
       "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1000",
       "searchKeyword": "앤커 사운드코어 스페이스 Q45"
     },
     {
-      "title": "오메가형 원목 헤드폰 스탠드 거치대",
-      "originalPrice": "32,000",
-      "discountRate": "41%",
-      "price": "18,900",
-      "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?q=80&w=1000",
-      "searchKeyword": "원목 헤드폰 스탠드"
+      "title": "슈피겐 알루미늄 데스크 헤드폰 거치대 스탠드",
+      "originalPrice": "₩ 35,900",
+      "discountRate": "33%",
+      "price": "₩ 23,900",
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=1000",
+      "searchKeyword": "슈피겐 헤드폰 거치대"
     },
     {
-      "title": "벨킨 부스트차지 65W 듀얼 USB-C 고속 충전기",
-      "originalPrice": "49,900",
-      "discountRate": "28%",
-      "price": "35,900",
+      "title": "벨킨 65W 듀얼 USB-C GaN 초고속 충전기",
+      "originalPrice": "₩ 49,900",
+      "discountRate": "24%",
+      "price": "₩ 37,900",
       "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
-      "searchKeyword": "벨킨 65W 듀얼 충전기"
+      "searchKeyword": "벨킨 65W 듀얼 GaN 충전기"
     }
   ]
 }
