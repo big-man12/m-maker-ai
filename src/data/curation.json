@@ -1,37 +1,37 @@
 {
-  "theme": "하루 8시간 앉아있는 사람을 위한 데스크테리어",
+  "theme": "소음 없는 나만의 데스크 몰입 환경 세팅",
   "mainProduct": {
-    "title": "로지텍 MX Master 3S 무선 마우스",
-    "originalPrice": "₩ 159,000",
-    "discountRate": "22%",
-    "price": "₩ 124,000",
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-    "searchKeyword": "로지텍 MX Master 3S"
+    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
+    "originalPrice": "₩ 479,000",
+    "discountRate": "21%",
+    "price": "₩ 379,000",
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1000",
+    "searchKeyword": "소니 WH-1000XM5 헤드폰 정품"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Mechanical 무선 기계식 키보드 리니어",
-      "originalPrice": "₩ 219,000",
+      "title": "사운드판다 프리미엄 알루미늄 헤드폰 거치대 SP-H1",
+      "originalPrice": "₩ 35,000",
+      "discountRate": "35%",
+      "price": "₩ 22,750",
+      "image": "https://images.unsplash.com/photo-1584679109597-c656b19974c9?q=80&w=1000",
+      "searchKeyword": "알루미늄 헤드폰 거치대"
+    },
+    {
+      "title": "로지텍 MX Keys S 저소음 무선 키보드",
+      "originalPrice": "₩ 159,000",
       "discountRate": "18%",
-      "price": "₩ 179,000",
+      "price": "₩ 129,900",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Mechanical 리니어"
+      "searchKeyword": "로지텍 MX Keys S 키보드"
     },
     {
-      "title": "베이스어스 아이컴포트 모니터 조명 스크린바 2세대",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "31%",
-      "price": "₩ 31,000",
-      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
-      "searchKeyword": "베이스어스 모니터 조명 라이트바"
-    },
-    {
-      "title": "펠로우즈 인체공학 메모리폼 키보드 마우스 손목받침대 세트",
-      "originalPrice": "₩ 34,000",
-      "discountRate": "29%",
-      "price": "₩ 24,100",
-      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
-      "searchKeyword": "펠로우즈 메모리폼 손목받침대 세트"
+      "title": "벨킨 부스트업 프로 3in1 맥세이프 고속 무선 충전기 2세대",
+      "originalPrice": "₩ 179,000",
+      "discountRate": "22%",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1622445268048-5f08b7a70685?q=80&w=1000",
+      "searchKeyword": "벨킨 부스트업 프로 3in1 맥세이프 충전기"
     }
   ]
 }
