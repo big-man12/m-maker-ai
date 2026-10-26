@@ -1,37 +1,37 @@
 {
-  "theme": "몰입형 데스크 셋업과 오디오 라이프를 위한 추천 아이템",
+  "theme": "작업 생산성을 두 배로 올리는 무선 데스크 셋업",
   "mainProduct": {
-    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
-    "originalPrice": "₩ 499,000",
-    "discountRate": "20%",
-    "price": "₩ 399,000",
-    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1000",
-    "searchKeyword": "소니 WH-1000XM5 무선 헤드폰"
+    "title": "로지텍 MX Master 3S 무선 마우스",
+    "originalPrice": "₩ 179,000",
+    "discountRate": "22%",
+    "price": "₩ 139,000",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=1000",
+    "searchKeyword": "로지텍 MX Master 3S 정품"
   },
   "recommendations": [
     {
-      "title": "알루미늄 메탈 헤드폰 스탠드 거치대",
-      "originalPrice": "₩ 35,000",
-      "discountRate": "37%",
-      "price": "₩ 21,900",
-      "image": "https://images.unsplash.com/photo-1584679109597-c656b19974c9?q=80&w=1000",
-      "searchKeyword": "알루미늄 헤드폰 거치대 스탠드"
+      "title": "로지텍 MX Keys S 무선 키보드",
+      "originalPrice": "₩ 199,000",
+      "discountRate": "18%",
+      "price": "₩ 163,000",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Keys S 한글각인"
     },
     {
-      "title": "앤커 65W 초소형 GaN 3포트 고속 충전기",
-      "originalPrice": "₩ 49,900",
-      "discountRate": "28%",
-      "price": "₩ 35,900",
-      "image": "https://images.unsplash.com/photo-1622445268462-349711fc588c?q=80&w=1000",
-      "searchKeyword": "앤커 65W GaN 고속 충전기"
-    },
-    {
-      "title": "로지텍 MX Master 3S 무소음 무선 마우스",
-      "originalPrice": "₩ 139,000",
+      "title": "델 울트라샤프 U2724D 27인치 모니터",
+      "originalPrice": "₩ 569,000",
       "discountRate": "15%",
-      "price": "₩ 118,000",
-      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Master 3S 무선 마우스"
+      "price": "₩ 483,000",
+      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+      "searchKeyword": "델 울트라샤프 U2724D"
+    },
+    {
+      "title": "벨킨 11 in 1 USB-C 멀티 허브 독",
+      "originalPrice": "₩ 149,000",
+      "discountRate": "25%",
+      "price": "₩ 111,750",
+      "image": "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?q=80&w=1000",
+      "searchKeyword": "벨킨 11 in 1 USB-C 멀티허브"
     }
   ]
 }
