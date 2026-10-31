@@ -1,37 +1,37 @@
 {
-  "theme": "몰입과 집중을 극대화하는 무소음 데스크 셋업",
+  "theme": "작업 효율과 여가를 한 번에 끝내는 미니멀 데스크 셋업",
   "mainProduct": {
-    "title": "소니 WH-1000XM5 노이즈 캔슬링 블루투스 헤드폰",
-    "originalPrice": "₩ 479,000",
-    "discountRate": "19%",
-    "price": "₩ 388,000",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
-    "searchKeyword": "소니 WH-1000XM5"
+    "title": "LG전자 32인치 4K 마이뷰 스마트모니터 32SR83U",
+    "originalPrice": "₩ 749,000",
+    "discountRate": "24%",
+    "price": "₩ 569,000",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+    "searchKeyword": "LG 32SR83U"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무소음 무선 마우스",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "19%",
-      "price": "₩ 129,000",
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "14%",
+      "price": "₩ 119,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "키크론 K3 MAX 슬림 무선 기계식 키보드",
-      "originalPrice": "₩ 169,000",
-      "discountRate": "15%",
-      "price": "₩ 143,650",
+      "title": "키크론 K3 Pro 무선 기계식 키보드",
+      "originalPrice": "₩ 159,000",
+      "discountRate": "20%",
+      "price": "₩ 127,200",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "키크론 K3 MAX"
+      "searchKeyword": "키크론 K3 Pro"
     },
     {
-      "title": "벨킨 부스트차지 프로 3in1 무선 충전 스탠드",
-      "originalPrice": "₩ 179,000",
-      "discountRate": "22%",
-      "price": "₩ 139,000",
-      "image": "https://images.unsplash.com/photo-1622445268045-8f646ccf77e6?q=80&w=1000",
-      "searchKeyword": "벨킨 3in1 고속 무선충전기"
+      "title": "앤커 67W 3포트 GaN 초고속 멀티 충전기",
+      "originalPrice": "₩ 49,900",
+      "discountRate": "30%",
+      "price": "₩ 34,900",
+      "image": "https://images.unsplash.com/photo-1622445268462-3492582846cb?q=80&w=1000",
+      "searchKeyword": "앤커 67W GaN 충전기"
     }
   ]
 }
