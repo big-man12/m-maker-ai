@@ -1,37 +1,37 @@
 {
-  "theme": "하루 8시간 이상 몰입하는 프로페셔널 데스크 셋업",
+  "theme": "작업 효율과 몰입감을 극대화하는 스마트 데스크 셋업",
   "mainProduct": {
-    "title": "로지텍 MX Master 3S 무선 무소음 마우스",
-    "originalPrice": "₩ 139,000",
-    "discountRate": "17%",
-    "price": "₩ 115,000",
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-    "searchKeyword": "로지텍 MX Master 3S"
+    "title": "LG전자 울트라기어 27GP850P",
+    "originalPrice": "₩ 549,000",
+    "discountRate": "25%",
+    "price": "₩ 409,000",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
+    "searchKeyword": "LG전자 울트라기어 27GP850P"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys S 무선 키보드",
-      "originalPrice": "₩ 159,000",
-      "discountRate": "19%",
-      "price": "₩ 129,000",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys S"
+      "title": "로지텍 MX Master 3S 무선 마우스",
+      "originalPrice": "₩ 139,000",
+      "discountRate": "15%",
+      "price": "₩ 118,000",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
+      "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "벤큐 WiT 스크린바 모니터 조명",
-      "originalPrice": "₩ 169,000",
-      "discountRate": "18%",
-      "price": "₩ 139,000",
+      "title": "베이스어스 모니터 조명 스크린바 아이케어 2세대",
+      "originalPrice": "₩ 45,000",
+      "discountRate": "34%",
+      "price": "₩ 29,700",
       "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000",
-      "searchKeyword": "벤큐 스크린바 모니터 조명"
+      "searchKeyword": "베이스어스 모니터 조명 스크린바"
     },
     {
-      "title": "펠트 대형 데스크패드 오피스 장패드",
-      "originalPrice": "₩ 28,000",
-      "discountRate": "43%",
-      "price": "₩ 15,900",
-      "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-      "searchKeyword": "펠트 데스크패드 장패드"
+      "title": "앤커 67W 3포트 GaN 초고속 멀티 충전기",
+      "originalPrice": "₩ 49,900",
+      "discountRate": "30%",
+      "price": "₩ 34,900",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
+      "searchKeyword": "앤커 67W 3포트 충전기"
     }
   ]
 }
