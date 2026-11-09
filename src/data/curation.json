@@ -1,37 +1,37 @@
 {
-  "theme": "작업 효율과 몰입감을 극대화하는 스마트 데스크 셋업",
+  "theme": "작업 몰입도와 데스크 환경을 완성하는 스마트 워크 셋업",
   "mainProduct": {
-    "title": "LG전자 울트라기어 27GP850P",
-    "originalPrice": "₩ 549,000",
-    "discountRate": "25%",
-    "price": "₩ 409,000",
-    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1000",
-    "searchKeyword": "LG전자 울트라기어 27GP850P"
+    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
+    "originalPrice": "₩ 499,000",
+    "discountRate": "20%",
+    "price": "₩ 399,000",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
+    "searchKeyword": "소니 WH-1000XM5"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Master 3S 무선 마우스",
+      "title": "로지텍 MX Master 3S 최고급 무선 마우스",
       "originalPrice": "₩ 139,000",
-      "discountRate": "15%",
-      "price": "₩ 118,000",
+      "discountRate": "14%",
+      "price": "₩ 119,000",
       "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
       "searchKeyword": "로지텍 MX Master 3S"
     },
     {
-      "title": "베이스어스 모니터 조명 스크린바 아이케어 2세대",
-      "originalPrice": "₩ 45,000",
-      "discountRate": "34%",
-      "price": "₩ 29,700",
-      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1000",
-      "searchKeyword": "베이스어스 모니터 조명 스크린바"
+      "title": "벨킨 부스트업 프로 3in1 맥세이프 무선 충전기 스탠드",
+      "originalPrice": "₩ 179,000",
+      "discountRate": "22%",
+      "price": "₩ 139,000",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
+      "searchKeyword": "벨킨 3in1 맥세이프 충전기"
     },
     {
-      "title": "앤커 67W 3포트 GaN 초고속 멀티 충전기",
-      "originalPrice": "₩ 49,900",
-      "discountRate": "30%",
-      "price": "₩ 34,900",
-      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
-      "searchKeyword": "앤커 67W 3포트 충전기"
+      "title": "오메가형 원목 헤드폰 스탠드 거치대",
+      "originalPrice": "₩ 38,000",
+      "discountRate": "37%",
+      "price": "₩ 23,900",
+      "image": "https://images.unsplash.com/photo-1584679109597-c656b19974c9?q=80&w=1000",
+      "searchKeyword": "원목 헤드폰 거치대"
     }
   ]
 }
