@@ -1,37 +1,37 @@
 {
-  "theme": "작업 피로도를 절반으로 줄여주는 프리미엄 홈오피스 데스크 셋업",
+  "theme": "집중력을 완성하는 프리미엄 오디오와 데스크 셋업",
   "mainProduct": {
-    "title": "로지텍 MX Master 3S 무선 마우스",
-    "originalPrice": "139,000",
-    "discountRate": "14%",
-    "price": "119,000",
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=1000",
-    "searchKeyword": "로지텍 MX Master 3S"
+    "title": "소니 WH-1000XM5 무선 노이즈 캔슬링 헤드폰",
+    "originalPrice": "₩ 499,000",
+    "discountRate": "22%",
+    "price": "₩ 389,000",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
+    "searchKeyword": "소니 WH-1000XM5"
   },
   "recommendations": [
     {
-      "title": "로지텍 MX Keys S 무선 키보드",
-      "originalPrice": "159,000",
-      "discountRate": "16%",
-      "price": "133,560",
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1000",
-      "searchKeyword": "로지텍 MX Keys S 키보드"
-    },
-    {
-      "title": "베이스어스 스마트 모니터 조명 스크린바 아이케어 2세대",
-      "originalPrice": "45,000",
+      "title": "앤커 사운드코어 스페이스 Q45 무선 노이즈 캔슬링 헤드폰",
+      "originalPrice": "₩ 149,000",
       "discountRate": "28%",
-      "price": "32,400",
-      "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?q=80&w=1000",
-      "searchKeyword": "베이스어스 모니터 조명 스크린바"
+      "price": "₩ 107,000",
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=1000",
+      "searchKeyword": "앤커 사운드코어 스페이스 Q45"
     },
     {
-      "title": "벨킨 3in1 맥세이프 15W 고속 무선 충전 스탠드 (WIZ017)",
-      "originalPrice": "179,000",
-      "discountRate": "22%",
-      "price": "139,000",
-      "image": "https://images.unsplash.com/photo-1622445268048-2b8e3a246d8c?q=80&w=1000",
-      "searchKeyword": "벨킨 3in1 맥세이프 충전기 WIZ017"
+      "title": "알루미늄 유니버설 데스크 헤드폰 스탠드 거치대",
+      "originalPrice": "₩ 29,900",
+      "discountRate": "37%",
+      "price": "₩ 18,800",
+      "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?q=80&w=1000",
+      "searchKeyword": "알루미늄 헤드폰 스탠드 거치대"
+    },
+    {
+      "title": "벨킨 부스트업 65W 듀얼 USB-C GaN 초소형 고속 충전기",
+      "originalPrice": "₩ 49,900",
+      "discountRate": "30%",
+      "price": "₩ 34,900",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=1000",
+      "searchKeyword": "벨킨 65W 듀얼 충전기"
     }
   ]
 }
