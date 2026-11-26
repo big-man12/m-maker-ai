@@ -9,6 +9,55 @@ const productFilePath = path.join(__dirname, '../src/data/product.json');
 const curationFilePath = path.join(__dirname, '../src/data/curation.json');
 const promoFilePath = path.join(__dirname, '../promo_content.txt');
 
+// 쿠팡 파트너스 수익 링크 상품 목록 (2026-11-26 쿠팡 파트너스에서 생성)
+// 가격은 생성 당시 기준이며, 바뀌면 이 목록만 고치면 됩니다.
+const AFFILIATE_PRODUCTS = [
+  {
+    title: "Apple 맥북 에어 13 M5 (미드나이트)",
+    originalPrice: "2,190,000",
+    discountRate: "10%",
+    price: "1,965,510",
+    searchKeyword: "맥북 에어 13 M5",
+    link: "https://link.coupang.com/a/iZlePygiDQ"
+  },
+  {
+    title: "Apple 맥북 에어 15 M5 (실버)",
+    originalPrice: "2,490,000",
+    discountRate: "8%",
+    price: "2,290,800",
+    searchKeyword: "맥북 에어 15 M5",
+    link: "https://link.coupang.com/a/iZlkc7uJpc"
+  },
+  {
+    title: "Apple 맥북 프로 14 M5 (스페이스 블랙)",
+    originalPrice: "",
+    discountRate: "",
+    price: "3,062,990",
+    searchKeyword: "맥북 프로 14 M5",
+    link: "https://link.coupang.com/a/iZlmdlTeNw"
+  },
+  {
+    title: "Apple 맥북 네오 A18 Pro (실버)",
+    originalPrice: "1,190,000",
+    discountRate: "9%",
+    price: "1,082,900",
+    searchKeyword: "맥북 네오",
+    link: "https://link.coupang.com/a/iZln5ZTiNg"
+  }
+];
+
+const DEFAULT_IMAGE = "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000";
+const DISCLOSURE = "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
+
+// 날짜에 따라 매일 메인 상품을 바꿔가며 소개
+function pickProducts() {
+  const dayIndex = Math.floor(Date.now() / 86400000);
+  const mainIdx = dayIndex % AFFILIATE_PRODUCTS.length;
+  const main = AFFILIATE_PRODUCTS[mainIdx];
+  const others = AFFILIATE_PRODUCTS.filter((_, i) => i !== mainIdx);
+  return { main, others };
+}
+
 export async function generateDailyPost() {
   const apiKey = process.env.GOOGLE_API_KEY;
   if (!apiKey) {
@@ -18,27 +67,14 @@ export async function generateDailyPost() {
   
   console.log(`🔑 API Key Length: ${apiKey.length}`);
   const genAI = new GoogleGenerativeAI(apiKey);
-  
-  // [강력 진단] 사용 가능한 모든 모델 리스트 출력
-  try {
-    console.log("🔍 가용한 모델 목록 확인 중...");
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10000);
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`, { signal: controller.signal });
-    clearTimeout(timeoutId);
-    const data = await response.json();
-    if (data.models) {
-      console.log("✅ 가용 모델 목록:", data.models.map(m => m.name).join(", "));
-    }
-  } catch (diagError) {
-    console.log("⚠️ 진단 중 오류 발생:", diagError.message);
-  }
+
+  const { main, others } = pickProducts();
+  console.log(`🛒 오늘의 메인 상품: ${main.title}`);
 
   console.log("🚀 AI 일일 포스팅 및 큐레이션 데이터 생성 시작...");
   
   try {
-    const modelsToTry = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.5-flash-lite"];
-    let success = false;
+    const modelsToTry = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-flash-lite-latest"];
 
   for (const modelId of modelsToTry) {
     try {
@@ -46,26 +82,26 @@ export async function generateDailyPost() {
       const model = genAI.getGenerativeModel({ model: modelId });
       
       const prompt = `
-        당신은 대한민국 최고의 IT/가전 전문 리뷰어이자 SNS 마케팅 전문가입니다. 
-        오늘의 메인 추천 제품 하나와 그에 어울리는 연관 상품(액세서리 또는 대안) 3개를 선정하여 아래 JSON 형식으로 작성해 주세요.
+        당신은 대한민국 최고의 IT/가전 전문 리뷰어이자 SNS 마케팅 전문가입니다.
+        오늘의 메인 추천 제품은 "${main.title}" 입니다. (쿠팡 판매가 ${main.price}원)
+        함께 비교할 연관 상품은 다음 3개입니다:
+        1. ${others[0].title} (${others[0].price}원)
+        2. ${others[1].title} (${others[1].price}원)
+        3. ${others[2].title} (${others[2].price}원)
+
+        메인 제품의 리뷰와, 위 3개 상품을 묶은 큐레이션을 아래 JSON 형식으로 작성해 주세요.
+        상품명과 가격은 위에 적힌 그대로 사용하고, 다른 상품으로 바꾸지 마세요.
 
         [작성 가이드라인]
         1. AI가 쓴 티가 나지 않도록 자연스러운 구어체와 담백한 어조를 사용하세요.
         2. 이모지(🔔, 🚀, ★ 등)와 과도한 수식어 사용을 엄격히 금지합니다.
-        3. '오늘의 스마트 라이프 추천' 같은 테마를 정해 큐레이션 하세요.
-         4. **중요: 가격 정합성 및 할인율 우선 원칙**
-            - 반드시 현재 쿠팡에서 검색되는 실제 가격(정가, 할인가)을 바탕으로 작성하세요.
-            - 추천 상품 리스트 생성 시, 해당 카테고리에서 **최종 할인율(또는 할인 금액)이 가장 높은 매력적인 상품**을 우선적으로 선정하세요.
-            - 상품이 만약 품절이거나 가격이 불투명하다면, 검색 결과 중 가격 정보가 확실한 다음 순위 상품을 선택하세요.
-         5. **중요: 이미지 URL은 해당 제품의 카테고리에 맞는 고화질 Unsplash 이미지를 사용하세요.** 
-           - 예: 노트북이면 https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1000
-           - 예: 스마트폰이면 https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1000
-           가이드라인의 URL을 그대로 복사하지 말고, 제품 종류(가전, 의류, IT 등)에 맞는 최적의 이미지를 선정하세요.
+        3. 사실이 확실하지 않은 사양은 단정하지 말고 일반적인 표현을 쓰세요.
+        4. 이미지 URL은 맥북/노트북에 어울리는 고화질 Unsplash 이미지를 사용하세요.
+           (예: ${DEFAULT_IMAGE})
 
         [응답 JSON 형식]
         {
           "product": {
-            "title": "메인 제품명",
             "subtitle": "매력적인 부제목",
             "summary": "3줄 요약",
             "pros": ["장점1", "장점2", "장점3"],
@@ -73,51 +109,22 @@ export async function generateDailyPost() {
             "detailedReview": "200자 이상의 상세 후기",
             "targetAudience": "추천 대상",
             "conclusion": "최종 결론",
-            "originalPrice": "₩ 정가 (할인 전 가격, 예: 1,390,000)",
-            "discountRate": "할인율 % (예: 35%)",
-            "price": "₩ 할인가 (할인 후 최종 가격, 예: 890,000)",
-            "image": "제품 카테고리에 최적화된 실제 Unsplash 이미지 URL",
-            "searchKeyword": "정확한 쿠팡 검색 키워드 (예: 맥북 에어 M3 13)",
+            "image": "Unsplash 이미지 URL",
             "specs": [{"label": "항목", "value": "값"}],
             "comparison": {
-              "competitor": "경쟁 모델명",
+              "competitor": "경쟁 모델명 (위 연관 상품 중 하나)",
               "diffPoints": ["차별점 1", "차별점 2", "차별점 3"]
             },
             "faqs": [
               {
-                "question": "구체적인 기술적 질문",
+                "question": "구체적인 질문",
                 "answer": "전문적인 답변"
               }
             ]
           },
           "curation": {
             "theme": "큐레이션 테마 제목",
-            "recommendations": [
-              {
-                "title": "추천 상품 1",
-                "originalPrice": "₩ 정가",
-                "discountRate": "할인율 %",
-                "price": "₩ 할인가",
-                "image": "해당 상품에 맞는 Unsplash 이미지 URL",
-                "searchKeyword": "정확한 쿠팡 검색 키워드"
-              },
-              {
-                "title": "추천 상품 2",
-                "originalPrice": "₩ 정가",
-                "discountRate": "할인율 %",
-                "price": "₩ 할인가",
-                "image": "해당 상품에 맞는 Unsplash 이미지 URL",
-                "searchKeyword": "정확한 쿠팡 검색 키워드"
-              },
-              {
-                "title": "추천 상품 3",
-                "originalPrice": "₩ 정가",
-                "discountRate": "할인율 %",
-                "price": "₩ 할인가",
-                "image": "해당 상품에 맞는 Unsplash 이미지 URL",
-                "searchKeyword": "정확한 쿠팡 검색 키워드"
-              }
-            ]
+            "images": ["연관 상품1 이미지 URL", "연관 상품2 이미지 URL", "연관 상품3 이미지 URL"]
           },
           "promo": {
             "instagram": "캡션 (이모지 없이)",
@@ -136,30 +143,58 @@ export async function generateDailyPost() {
       const jsonStr = text.replace(/```json/g, "").replace(/```/g, "").trim();
       const fullData = JSON.parse(jsonStr);
 
+      // 상품명/가격/수익 링크는 고정 목록 값으로 덮어쓰기
+      const product = {
+        title: main.title,
+        ...fullData.product,
+        originalPrice: main.originalPrice,
+        discountRate: main.discountRate,
+        price: main.price,
+        image: fullData.product.image || DEFAULT_IMAGE,
+        searchKeyword: main.searchKeyword,
+        link: main.link
+      };
+      product.title = main.title;
+
+      const images = (fullData.curation && fullData.curation.images) || [];
+      const recommendations = others.map((p, i) => ({
+        title: p.title,
+        originalPrice: p.originalPrice,
+        discountRate: p.discountRate,
+        price: p.price,
+        image: images[i] || DEFAULT_IMAGE,
+        searchKeyword: p.searchKeyword,
+        link: p.link
+      }));
+
       // 1. 메인 제품 데이터 저장
-      fs.writeFileSync(productFilePath, JSON.stringify(fullData.product, null, 2));
+      fs.writeFileSync(productFilePath, JSON.stringify(product, null, 2));
       
       // 2. 큐레이션 데이터 저장 (메인 상품 정보 포함)
       const curationData = {
-        theme: fullData.curation.theme,
+        theme: (fullData.curation && fullData.curation.theme) || "오늘의 맥북 추천",
         mainProduct: {
-          title: fullData.product.title,
-          originalPrice: fullData.product.originalPrice,
-          discountRate: fullData.product.discountRate,
-          price: fullData.product.price,
-          image: fullData.product.image,
-          searchKeyword: fullData.product.searchKeyword
+          title: product.title,
+          originalPrice: product.originalPrice,
+          discountRate: product.discountRate,
+          price: product.price,
+          image: product.image,
+          searchKeyword: product.searchKeyword,
+          link: product.link
         },
-        recommendations: fullData.curation.recommendations
+        recommendations
       };
       fs.writeFileSync(curationFilePath, JSON.stringify(curationData, null, 2));
 
-      // 3. 홍보글 텍스트 저장
+      // 3. 홍보글 텍스트 저장 (대가성 문구를 맨 앞에 표시)
       const promoText = `
+${DISCLOSURE}
+
 [Money-Maker AI 오늘의 추천 데이터]
 
-메인 상품: ${fullData.product.title}
-테마: ${fullData.curation.theme}
+메인 상품: ${product.title}
+구매 링크: ${product.link}
+테마: ${curationData.theme}
 
 [SNS 홍보 문구]
 인스타그램: ${fullData.promo.instagram}
@@ -170,15 +205,15 @@ export async function generateDailyPost() {
       `.trim();
       
       fs.writeFileSync(promoFilePath, promoText);
-      console.log(`✅ 생성 및 큐레이션 완료 (${modelId}): ${fullData.product.title}`);
+      console.log(`✅ 생성 및 큐레이션 완료 (${modelId}): ${product.title}`);
 
-      // [추가] 디스코드 알림 발송 - 인스타그램보다 먼저/항상 실행
+      // 디스코드 알림 발송
       try {
         const discordUrl = process.env.DISCORD_WEBHOOK_URL;
         if (discordUrl) {
           console.log("🔔 디스코드 알림 발송 중...");
           const discordContent = {
-            content: `🚀 **[Money-Maker AI] 오늘의 추천 상품 업데이트**\n\n**메인 상품:** ${fullData.product.title}\n**가격:** ${fullData.product.price}\n**테마:** ${fullData.curation.theme}\n\n[홍보 문구 요약]\n${fullData.promo.instagram.substring(0, 100)}...\n\n👉 사이트 확인: https://m-maker-ai.vercel.app`
+            content: `🚀 **[Money-Maker AI] 오늘의 추천 상품 업데이트**\n\n**메인 상품:** ${product.title}\n**가격:** ${product.price}원\n**링크:** ${product.link}\n**테마:** ${curationData.theme}\n\n👉 사이트 확인: https://m-maker-ai.vercel.app`
           };
           const controller = new AbortController();
           const timeoutId = setTimeout(() => controller.abort(), 10000);
@@ -195,18 +230,18 @@ export async function generateDailyPost() {
         console.error("❌ 디스코드 알림 실패:", dsError.message);
       }
 
-      // [기존] 인스타그램 자동 포스팅 실행
+      // 인스타그램 자동 포스팅
       try {
         console.log("📸 인스타그램 자동 포스팅 시도 중...");
         const businessId = process.env.INSTAGRAM_BUSINESS_ID;
         const accessToken = process.env.INSTAGRAM_ACCESS_TOKEN;
 
         if (businessId && accessToken) {
-          const imageUrl = fullData.product.image;
-          const caption = `${fullData.promo.instagram}\n\n👉 상세 정보 및 최저가 확인: https://m-maker-ai.vercel.app\n#쿠팡파트너스 #가성비템 #추천템`;
+          const imageUrl = product.image;
+          const caption = `${DISCLOSURE}\n\n${fullData.promo.instagram}\n\n👉 상세 정보 및 최저가 확인: https://m-maker-ai.vercel.app\n#쿠팡파트너스 #맥북 #추천템`;
           
           const controller = new AbortController();
-          const timeoutId = setTimeout(() => controller.abort(), 20000); // 인스타그램은 조금 넉넉하게
+          const timeoutId = setTimeout(() => controller.abort(), 20000);
 
           const containerRes = await fetch(
             `https://graph.facebook.com/v19.0/${businessId}/media?image_url=${encodeURIComponent(imageUrl)}&caption=${encodeURIComponent(caption)}&access_token=${accessToken}`,
@@ -237,7 +272,6 @@ export async function generateDailyPost() {
         console.error("❌ 인스타그램 자동화 과정 중 오류 발생:", igError.message);
       }
 
-      success = true;
       return true;
     } catch (err) {
       console.error(`❌ ${modelId} 호출 실패:`, err.message || err);
@@ -245,11 +279,7 @@ export async function generateDailyPost() {
     }
   }
   } catch (error) {
-    console.error("❌ 생성 중 오류 발생:");
-    if (error.status === 404) {
-      console.error("👉 [404 Error] 이 API 키가 'gemini-1.5-flash' 모델에 접근할 권한이 없거나, 해당 프로젝트에 Generative Language API가 활성화되지 않았습니다.");
-      console.error("🔗 해결책: https://aistudio.google.com/app/apikey 에서 새로운 키를 발급받아 보세요!");
-    }
+    console.error("❌ 생성 중 오류 발생 (모든 모델 실패):");
     console.error("상세 에러:", error.message || error);
     process.exit(1);
   }
