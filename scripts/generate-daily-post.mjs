@@ -18,7 +18,8 @@ const AFFILIATE_PRODUCTS = [
     discountRate: "10%",
     price: "1,965,510",
     searchKeyword: "맥북 에어 13 M5",
-    link: "https://link.coupang.com/a/iZlePygiDQ"
+    link: "https://link.coupang.com/a/iZlePygiDQ",
+    image: "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000"
   },
   {
     title: "Apple 맥북 에어 15 M5 (실버)",
@@ -26,7 +27,8 @@ const AFFILIATE_PRODUCTS = [
     discountRate: "8%",
     price: "2,290,800",
     searchKeyword: "맥북 에어 15 M5",
-    link: "https://link.coupang.com/a/iZlkc7uJpc"
+    link: "https://link.coupang.com/a/iZlkc7uJpc",
+    image: "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=1000"
   },
   {
     title: "Apple 맥북 프로 14 M5 (스페이스 블랙)",
@@ -34,7 +36,8 @@ const AFFILIATE_PRODUCTS = [
     discountRate: "",
     price: "3,062,990",
     searchKeyword: "맥북 프로 14 M5",
-    link: "https://link.coupang.com/a/iZlmdlTeNw"
+    link: "https://link.coupang.com/a/iZlmdlTeNw",
+    image: "https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?q=80&w=1000"
   },
   {
     title: "Apple 맥북 네오 A18 Pro (실버)",
@@ -42,7 +45,8 @@ const AFFILIATE_PRODUCTS = [
     discountRate: "9%",
     price: "1,082,900",
     searchKeyword: "맥북 네오",
-    link: "https://link.coupang.com/a/iZln5ZTiNg"
+    link: "https://link.coupang.com/a/iZln5ZTiNg",
+    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000"
   }
 ];
 
@@ -64,7 +68,7 @@ export async function generateDailyPost() {
     console.error("❌ GOOGLE_API_KEY가 설정되지 않았습니다. GitHub Secrets를 확인해 주세요.");
     return false;
   }
-  
+
   console.log(`🔑 API Key Length: ${apiKey.length}`);
   const genAI = new GoogleGenerativeAI(apiKey);
 
@@ -72,7 +76,7 @@ export async function generateDailyPost() {
   console.log(`🛒 오늘의 메인 상품: ${main.title}`);
 
   console.log("🚀 AI 일일 포스팅 및 큐레이션 데이터 생성 시작...");
-  
+
   try {
     const modelsToTry = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-flash-lite-latest"];
 
@@ -80,7 +84,7 @@ export async function generateDailyPost() {
     try {
       console.log(`📡 모델 호출 시도 중: ${modelId}...`);
       const model = genAI.getGenerativeModel({ model: modelId });
-      
+
       const prompt = `
         당신은 대한민국 최고의 IT/가전 전문 리뷰어이자 SNS 마케팅 전문가입니다.
         오늘의 메인 추천 제품은 "${main.title}" 입니다. (쿠팡 판매가 ${main.price}원)
@@ -96,8 +100,6 @@ export async function generateDailyPost() {
         1. AI가 쓴 티가 나지 않도록 자연스러운 구어체와 담백한 어조를 사용하세요.
         2. 이모지(🔔, 🚀, ★ 등)와 과도한 수식어 사용을 엄격히 금지합니다.
         3. 사실이 확실하지 않은 사양은 단정하지 말고 일반적인 표현을 쓰세요.
-        4. 이미지 URL은 맥북/노트북에 어울리는 고화질 Unsplash 이미지를 사용하세요.
-           (예: ${DEFAULT_IMAGE})
 
         [응답 JSON 형식]
         {
@@ -109,7 +111,6 @@ export async function generateDailyPost() {
             "detailedReview": "200자 이상의 상세 후기",
             "targetAudience": "추천 대상",
             "conclusion": "최종 결론",
-            "image": "Unsplash 이미지 URL",
             "specs": [{"label": "항목", "value": "값"}],
             "comparison": {
               "competitor": "경쟁 모델명 (위 연관 상품 중 하나)",
@@ -123,8 +124,7 @@ export async function generateDailyPost() {
             ]
           },
           "curation": {
-            "theme": "큐레이션 테마 제목",
-            "images": ["연관 상품1 이미지 URL", "연관 상품2 이미지 URL", "연관 상품3 이미지 URL"]
+            "theme": "큐레이션 테마 제목"
           },
           "promo": {
             "instagram": "캡션 (이모지 없이)",
@@ -139,37 +139,36 @@ export async function generateDailyPost() {
       const result = await model.generateContent(prompt);
       const response = await result.response;
       const text = response.text();
-      
+
       const jsonStr = text.replace(/```json/g, "").replace(/```/g, "").trim();
       const fullData = JSON.parse(jsonStr);
 
-      // 상품명/가격/수익 링크는 고정 목록 값으로 덮어쓰기
+      // 상품명/가격/수익 링크/이미지는 고정 목록 값으로 덮어쓰기 (AI가 지어낸 이미지 주소 방지)
       const product = {
         title: main.title,
         ...fullData.product,
         originalPrice: main.originalPrice,
         discountRate: main.discountRate,
         price: main.price,
-        image: fullData.product.image || DEFAULT_IMAGE,
+        image: main.image || DEFAULT_IMAGE,
         searchKeyword: main.searchKeyword,
         link: main.link
       };
       product.title = main.title;
 
-      const images = (fullData.curation && fullData.curation.images) || [];
-      const recommendations = others.map((p, i) => ({
+      const recommendations = others.map((p) => ({
         title: p.title,
         originalPrice: p.originalPrice,
         discountRate: p.discountRate,
         price: p.price,
-        image: images[i] || DEFAULT_IMAGE,
+        image: p.image || DEFAULT_IMAGE,
         searchKeyword: p.searchKeyword,
         link: p.link
       }));
 
       // 1. 메인 제품 데이터 저장
       fs.writeFileSync(productFilePath, JSON.stringify(product, null, 2));
-      
+
       // 2. 큐레이션 데이터 저장 (메인 상품 정보 포함)
       const curationData = {
         theme: (fullData.curation && fullData.curation.theme) || "오늘의 맥북 추천",
@@ -203,7 +202,7 @@ ${DISCLOSURE}
 
 상세 정보 확인: https://m-maker-ai.vercel.app
       `.trim();
-      
+
       fs.writeFileSync(promoFilePath, promoText);
       console.log(`✅ 생성 및 큐레이션 완료 (${modelId}): ${product.title}`);
 
@@ -239,7 +238,7 @@ ${DISCLOSURE}
         if (businessId && accessToken) {
           const imageUrl = product.image;
           const caption = `${DISCLOSURE}\n\n${fullData.promo.instagram}\n\n👉 상세 정보 및 최저가 확인: https://m-maker-ai.vercel.app\n#쿠팡파트너스 #맥북 #추천템`;
-          
+
           const controller = new AbortController();
           const timeoutId = setTimeout(() => controller.abort(), 20000);
 
@@ -248,7 +247,7 @@ ${DISCLOSURE}
             { method: 'POST', signal: controller.signal }
           );
           const containerData = await containerRes.json();
-          
+
           if (containerData.id) {
             const publishRes = await fetch(
               `https://graph.facebook.com/v19.0/${businessId}/media_publish?creation_id=${containerData.id}&access_token=${accessToken}`,
