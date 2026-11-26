@@ -37,7 +37,7 @@ export async function generateDailyPost() {
   console.log("🚀 AI 일일 포스팅 및 큐레이션 데이터 생성 시작...");
   
   try {
-    const modelsToTry = ["gemini-flash-latest", "gemini-pro-latest", "gemini-2.0-flash-exp"];
+    const modelsToTry = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.5-flash-lite"];
     let success = false;
 
   for (const modelId of modelsToTry) {
