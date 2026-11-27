@@ -1,24 +1,15 @@
 {
-  "theme": "예산과 용도에 맞춰 선택하는 나만의 맥북",
+  "theme": "나에게 딱 맞는 맥북 찾기: 에어, 프로, 네오 완벽 비교",
   "mainProduct": {
-    "title": "Apple 맥북 네오 A18 Pro (실버)",
-    "originalPrice": "1,190,000",
-    "discountRate": "9%",
-    "price": "1,082,900",
-    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
-    "searchKeyword": "맥북 네오",
-    "link": "https://link.coupang.com/a/iZln5ZTiNg"
+    "title": "Apple 맥북 에어 13 M5 (미드나이트)",
+    "originalPrice": "2,190,000",
+    "discountRate": "10%",
+    "price": "1,965,510",
+    "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000",
+    "searchKeyword": "맥북 에어 13 M5",
+    "link": "https://link.coupang.com/a/iZlePygiDQ"
   },
   "recommendations": [
-    {
-      "title": "Apple 맥북 에어 13 M5 (미드나이트)",
-      "originalPrice": "2,190,000",
-      "discountRate": "10%",
-      "price": "1,965,510",
-      "image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1000",
-      "searchKeyword": "맥북 에어 13 M5",
-      "link": "https://link.coupang.com/a/iZlePygiDQ"
-    },
     {
       "title": "Apple 맥북 에어 15 M5 (실버)",
       "originalPrice": "2,490,000",
@@ -36,6 +27,15 @@
       "image": "https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?q=80&w=1000",
       "searchKeyword": "맥북 프로 14 M5",
       "link": "https://link.coupang.com/a/iZlmdlTeNw"
+    },
+    {
+      "title": "Apple 맥북 네오 A18 Pro (실버)",
+      "originalPrice": "1,190,000",
+      "discountRate": "9%",
+      "price": "1,082,900",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1000",
+      "searchKeyword": "맥북 네오",
+      "link": "https://link.coupang.com/a/iZln5ZTiNg"
     }
   ]
 }
